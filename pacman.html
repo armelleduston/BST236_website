@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Pac-Man game styles */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        canvas {
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="pacman" width="500" height="500"></canvas>
+    <script>
+        // Pac-Man game script
+        const canvas = document.getElementById('pacman');
+        const ctx = canvas.getContext('2d');
+
+        const pacman = {
+            x: 50,
+            y: 50,
+            size: 20,
+            dx: 5,
+            dy: 0
+        };
+
+        function drawPacman() {
+            ctx.fillStyle = 'yellow';
+            ctx.beginPath();
+            ctx.arc(pacman.x, pacman.y, pacman.size, 0.2 * Math.PI, 1.8 * Math.PI);
+            ctx.lineTo(pacman.x, pacman.y);
+            ctx.fill();
+        }
+
+        function clear() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function update() {
+            clear();
+            drawPacman();
+
+            pacman.x += pacman.dx;
+            pacman.y += pacman.dy;
+
+            if (pacman.x + pacman.size > canvas.width || pacman.x - pacman.size < 0) {
+                pacman.dx *= -1;
+            }
+
+            if (pacman.y + pacman.size > canvas.height || pacman.y - pacman.size < 0) {
+                pacman.dy *= -1;
+            }
+
+            requestAnimationFrame(update);
+        }
+
+        update();
+    </script>
+</body>
+</html>

@@ -1,21 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
-    background: #4CAF50;
+    background: #8B4513;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 nav {
+    background: #A0522D;
+}
+
+nav .container {
     display: flex;
     justify-content: center;
-    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
 }
 
 nav a {
@@ -26,29 +47,25 @@ nav a {
 }
 
 nav a:hover {
-    background: #ddd;
+    background: #DEB887;
     color: black;
 }
 
-.welcome {
-    padding: 20px;
-    text-align: center;
+.recent-posts {
+    padding: 20px 0;
 }
 
-.recent-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.recent-posts h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .post {
-    background: #f4f4f4;
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 15px;
-    width: calc(30% - 40px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,14 +74,14 @@ nav a:hover {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #333;
+    background: #8B4513;
     color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
 footer a {
-    color: #4CAF50;
+    color: #DEB887;
     text-decoration: none;
 }
 
@@ -73,7 +90,8 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .post {
-        width: calc(100% - 40px);
+    .container {
+        width: 100%;
+        padding: 0 20px;
     }
 }

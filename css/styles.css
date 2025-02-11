@@ -13,14 +13,14 @@ body {
 }
 
 header {
-    background: #8B4513;
+    background: linear-gradient(135deg, #4CAF50, #2196F3);
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 nav {
-    background: #A0522D;
+    background: #4CAF50;
 }
 
 nav .container {
@@ -47,25 +47,35 @@ nav a {
 }
 
 nav a:hover {
-    background: #DEB887;
-    color: black;
+    background: #2196F3;
+    color: white;
+}
+
+.welcome {
+    padding: 20px;
+    text-align: center;
 }
 
 .recent-posts {
     padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .recent-posts h2 {
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .post {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 10px;
     padding: 15px;
+    width: calc(30% - 40px);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,14 +84,14 @@ nav a:hover {
 }
 
 footer {
-    background: #8B4513;
+    background: linear-gradient(135deg, #2196F3, #4CAF50);
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
 footer a {
-    color: #DEB887;
+    color: #FFEB3B;
     text-decoration: none;
 }
 
@@ -93,5 +103,9 @@ footer a:hover {
     .container {
         width: 100%;
         padding: 0 20px;
+    }
+
+    .post {
+        width: calc(100% - 40px);
     }
 }

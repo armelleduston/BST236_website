@@ -45,8 +45,10 @@
     </nav>
     <main>
         <div class="container">
-            <canvas id="pacman" width="500" height="500"></canvas>
-            <a href="index.html" class="back-link">Back to Home</a>
+            <section id="pacman-game" class="pacman-game">
+                <canvas id="pacman" width="500" height="220"></canvas>
+                <a href="index.html" class="back-link">Back to Home</a>
+            </section>
         </div>
     </main>
     <footer>
@@ -63,8 +65,8 @@
             x: 40,
             y: 40,
             size: 20,
-            speed: 5,
-            dx: 5,
+            speed: 2,
+            dx: 2,
             dy: 0
         };
 
@@ -83,6 +85,17 @@
         ];
 
         const tileSize = 20;
+        const dots = [];
+
+        function initDots() {
+            for (let row = 0; row < maze.length; row++) {
+                for (let col = 0; col < maze[row].length; col++) {
+                    if (maze[row][col] === 0) {
+                        dots.push({ x: col * tileSize + tileSize / 2, y: row * tileSize + tileSize / 2 });
+                    }
+                }
+            }
+        }
 
         function drawMaze() {
             for (let row = 0; row < maze.length; row++) {
@@ -93,6 +106,15 @@
                     }
                 }
             }
+        }
+
+        function drawDots() {
+            ctx.fillStyle = 'white';
+            dots.forEach(dot => {
+                ctx.beginPath();
+                ctx.arc(dot.x, dot.y, 3, 0, Math.PI * 2);
+                ctx.fill();
+            });
         }
 
         function drawPacman() {
@@ -110,6 +132,7 @@
         function update() {
             clear();
             drawMaze();
+            drawDots();
             drawPacman();
 
             pacman.x += pacman.dx;
@@ -124,6 +147,15 @@
                 pacman.y -= pacman.dy;
                 pacman.dx = 0;
                 pacman.dy = 0;
+            }
+
+            // Check for dot collisions
+            for (let i = 0; i < dots.length; i++) {
+                const dot = dots[i];
+                if (Math.hypot(pacman.x - dot.x, pacman.y - dot.y) < pacman.size) {
+                    dots.splice(i, 1);
+                    break;
+                }
             }
 
             requestAnimationFrame(update);
@@ -147,6 +179,7 @@
 
         document.addEventListener('keydown', changeDirection);
 
+        initDots();
         update();
     </script>
 </body>

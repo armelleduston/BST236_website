@@ -31,12 +31,26 @@
             <h1>Pac-Man Game</h1>
         </div>
     </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
     <main>
         <div class="container">
             <canvas id="pacman" width="500" height="500"></canvas>
             <a href="index.html" class="back-link">Back to Home</a>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <p>Check out my GitHub repository: <a href="https://github.com/armelleduston/">GitHub</a></p>
+        </div>
+    </footer>
     <script>
         // Pac-Man game script
         const canvas = document.getElementById('pacman');
@@ -118,6 +132,17 @@
 
             if (pacman.y + pacman.size > canvas.height || pacman.y - pacman.size < 0) {
                 pacman.dy *= -1;
+            }
+
+            // Check for wall collisions
+            const row = Math.floor(pacman.y / tileSize);
+            const col = Math.floor(pacman.x / tileSize);
+
+            if (maze[row][col] === 1) {
+                pacman.x -= pacman.dx;
+                pacman.y -= pacman.dy;
+                pacman.dx = 0;
+                pacman.dy = 0;
             }
 
             requestAnimationFrame(update);

@@ -26,6 +26,17 @@
             color: #fff;
             text-decoration: none;
         }
+        .start-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .start-button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +58,7 @@
         <div class="container">
             <section id="pacman-game" class="pacman-game">
                 <canvas id="pacman" width="500" height="220"></canvas>
+                <button class="start-button" onclick="startGame()">Start Game</button>
                 <a href="index.html" class="back-link">Back to Home</a>
             </section>
         </div>
@@ -66,7 +78,7 @@
             y: 40,
             size: 20,
             speed: 2,
-            dx: 2,
+            dx: 0,
             dy: 0
         };
 
@@ -177,10 +189,15 @@
             }
         }
 
+        function startGame() {
+            pacman.dx = pacman.speed;
+            pacman.dy = 0;
+            update();
+        }
+
         document.addEventListener('keydown', changeDirection);
 
         initDots();
-        update();
     </script>
 </body>
 </html>

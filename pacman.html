@@ -160,11 +160,12 @@
             pacman.x += pacman.dx;
             pacman.y += pacman.dy;
 
-            // Check for wall collisions
-            const left = pacman.x - pacman.size;
-            const right = pacman.x + pacman.size;
-            const top = pacman.y - pacman.size;
-            const bottom = pacman.y + pacman.size;
+            // Check for wall collisions with a smaller collision zone
+            const collisionOffset = 3; // Adjust this value to make the collision zone smaller
+            const left = pacman.x - pacman.size + collisionOffset;
+            const right = pacman.x + pacman.size - collisionOffset;
+            const top = pacman.y - pacman.size + collisionOffset;
+            const bottom = pacman.y + pacman.size - collisionOffset;
 
             const rowTop = Math.floor(top / tileSize);
             const rowBottom = Math.floor(bottom / tileSize);

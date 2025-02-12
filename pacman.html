@@ -22,11 +22,6 @@
             border: 1px solid #000;
             background-color: #000;
         }
-        .back-link {
-            margin-top: 20px;
-            color: #000;
-            text-decoration: none;
-        }
         .start-button {
             margin-top: 20px;
             padding: 10px 20px;
@@ -87,7 +82,7 @@
         const maze = [
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
             [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-            [1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1],
+            [1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1],
             [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1],
             [1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1],
             [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
@@ -166,10 +161,17 @@
             pacman.y += pacman.dy;
 
             // Check for wall collisions
-            const row = Math.floor(pacman.y / tileSize);
-            const col = Math.floor(pacman.x / tileSize);
+            const left = pacman.x - pacman.size;
+            const right = pacman.x + pacman.size;
+            const top = pacman.y - pacman.size;
+            const bottom = pacman.y + pacman.size;
 
-            if (maze[row][col] === 1) {
+            const rowTop = Math.floor(top / tileSize);
+            const rowBottom = Math.floor(bottom / tileSize);
+            const colLeft = Math.floor(left / tileSize);
+            const colRight = Math.floor(right / tileSize);
+
+            if (maze[rowTop][colLeft] === 1 || maze[rowTop][colRight] === 1 || maze[rowBottom][colLeft] === 1 || maze[rowBottom][colRight] === 1) {
                 pacman.x -= pacman.dx;
                 pacman.y -= pacman.dy;
                 pacman.dx = 0;

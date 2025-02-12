@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Papers from arXiv</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <style>
+        .paper-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .paper-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .paper-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .paper-authors {
+            font-style: italic;
+        }
+        .paper-abstract {
+            margin-top: 10px;
+        }
+        .paper-link {
+            margin-top: 10px;
+            display: block;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .paper-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Latest Papers from arXiv</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#blog">Projects</a></li>
+                <li><a href="arxiv.html">Latest Papers</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="papers">
+                <h2>Recent Papers</h2>
+                <ul class="paper-list" id="paper-list"></ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Check out my GitHub repository: <a href="https://github.com/armelleduston/">GitHub</a></p>
+        </div>
+    </footer>
+    <script>
+        async function fetchPapers() {
+            const keywords = 'machine learning'; // Change this to your desired keywords
+            const response = await fetch(`http://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`);
+            const text = await response.text();
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(text, 'application/xml');
+            const entries = xml.querySelectorAll('entry');
+            const paperList = document.getElementById('paper-list');
+            paperList.innerHTML = '';
+
+            entries.forEach(entry => {
+                const title = entry.querySelector('title').textContent;
+                const authors = Array.from(entry.querySelectorAll('author > name')).map(author => author.textContent).join(', ');
+                const summary = entry.querySelector('summary').textContent;
+                const link = entry.querySelector('link[title="pdf"]').getAttribute('href');
+
+                const paperItem = document.createElement('li');
+                paperItem.classList.add('paper-item');
+
+                const paperTitle = document.createElement('div');
+                paperTitle.classList.add('paper-title');
+                paperTitle.textContent = title;
+
+                const paperAuthors = document.createElement('div');
+                paperAuthors.classList.add('paper-authors');
+                paperAuthors.textContent = `Authors: ${authors}`;
+
+                const paperAbstract = document.createElement('div');
+                paperAbstract.classList.add('paper-abstract');
+                paperAbstract.textContent = summary;
+
+                const paperLink = document.createElement('a');
+                paperLink.classList.add('paper-link');
+                paperLink.href = link;
+                paperLink.textContent = 'Read PDF';
+
+                paperItem.appendChild(paperTitle);
+                paperItem.appendChild(paperAuthors);
+                paperItem.appendChild(paperAbstract);
+                paperItem.appendChild(paperLink);
+
+                paperList.appendChild(paperItem);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchPapers);
+    </script>
+</body>
+</html>

@@ -58,7 +58,7 @@
     <main>
         <div class="container">
             <section id="papers">
-                <h2>Recent Papers</h2>
+                <h2>Recent Papers in Spatial Statistics and Environmental Health</h2>
                 <ul class="paper-list" id="paper-list"></ul>
             </section>
         </div>
@@ -70,23 +70,14 @@
     </footer>
     <script>
         async function fetchPapers() {
-            const keywords = 'machine learning'; // Change this to your desired keywords
+            const keywords = 'spatial statistics OR environmental health'; 
             const response = await fetch(`http://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`);
-            if (!response.ok) {
-                console.error('Failed to fetch papers:', response.statusText);
-                return;
-            }
             const text = await response.text();
             const parser = new DOMParser();
             const xml = parser.parseFromString(text, 'application/xml');
             const entries = xml.querySelectorAll('entry');
             const paperList = document.getElementById('paper-list');
             paperList.innerHTML = '';
-
-            if (entries.length === 0) {
-                console.log('No papers found.');
-                return;
-            }
 
             entries.forEach(entry => {
                 const title = entry.querySelector('title').textContent;

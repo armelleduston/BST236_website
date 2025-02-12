@@ -72,7 +72,7 @@
         const pacman = {
             x: tileSize * 1.5,
             y: tileSize * 1.5,
-            size: (tileSize / 2) - 2, // Reduced size by 2 pixels
+            size: (tileSize / 2), // Increased size by 2 pixels
             speed: 2,
             dx: 0,
             dy: 0,
@@ -161,7 +161,7 @@
             pacman.y += pacman.dy;
 
             // Check for wall collisions with a smaller collision zone
-            const collisionOffset = 3; // Adjust this value to make the collision zone smaller
+            const collisionOffset = 2; // Adjust this value to make the collision zone smaller
             const left = pacman.x - pacman.size + collisionOffset;
             const right = pacman.x + pacman.size - collisionOffset;
             const top = pacman.y - pacman.size + collisionOffset;

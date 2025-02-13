@@ -71,7 +71,8 @@
     <script>
         async function fetchPapers() {
             const keywords = 'biostatistics AND environmental health'; 
-            const apiUrl = `http://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`;
+            // Use HTTPS for the API URL to prevent mixed content issues
+            const apiUrl = `https://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`;
             const response = await fetch(apiUrl);
             const text = await response.text();
             const parser = new DOMParser();

@@ -71,12 +71,11 @@
     <script>
         async function fetchPapers() {
             const keywords = 'spatial statistics AND environmental health'; 
-            const corsProxy = 'https://cors-anywhere.herokuapp.com/';
             const apiUrl = `http://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`;
-            const response = await fetch(corsProxy + apiUrl);
-            const text = await response.text();
+            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`);
+            const data = await response.json();
             const parser = new DOMParser();
-            const xml = parser.parseFromString(text, 'application/xml');
+            const xml = parser.parseFromString(data.contents, 'application/xml');
             const entries = xml.querySelectorAll('entry');
             const paperList = document.getElementById('paper-list');
             paperList.innerHTML = '';

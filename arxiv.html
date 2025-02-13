@@ -69,9 +69,30 @@
         </div>
     </footer>
     <script>
+        async function checkAndUpdatePapers() {
+            const now = new Date();
+            const lastUpdate = localStorage.getItem('lastPapersUpdate');
+            const papers = localStorage.getItem('cachedPapers');
+
+            // Check if it's a new day or no cached papers exist
+            if (!lastUpdate || !papers || isNewDay(new Date(lastUpdate), now)) {
+                await fetchPapers();
+                localStorage.setItem('lastPapersUpdate', now.toISOString());
+            } else {
+                // Use cached papers
+                const paperList = document.getElementById('paper-list');
+                paperList.innerHTML = papers;
+            }
+        }
+
+        function isNewDay(lastUpdate, now) {
+            return lastUpdate.getDate() !== now.getDate() ||
+                   lastUpdate.getMonth() !== now.getMonth() ||
+                   lastUpdate.getFullYear() !== now.getFullYear();
+        }
+
         async function fetchPapers() {
             const keywords = 'biostatistics AND environmental health'; 
-            // Use HTTPS for the API URL to prevent mixed content issues
             const apiUrl = `https://export.arxiv.org/api/query?search_query=all:${keywords}&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending`;
             const response = await fetch(apiUrl);
             const text = await response.text();
@@ -114,9 +135,12 @@
 
                 paperList.appendChild(paperItem);
             });
+
+            // Cache the generated HTML
+            localStorage.setItem('cachedPapers', paperList.innerHTML);
         }
 
-        document.addEventListener('DOMContentLoaded', fetchPapers);
+        document.addEventListener('DOMContentLoaded', checkAndUpdatePapers);
     </script>
 </body>
 </html>

@@ -27,6 +27,18 @@
         .start-button:hover {
             background-color: #45a049;
         }
+        .game-over {
+            display: none;
+            text-align: center;
+            font-size: 2em;
+            color: red;
+        }
+        .you-won {
+            display: none;
+            text-align: center;
+            font-size: 2em;
+            color: #00ff00; /* Bright green */
+        }
     </style>
 </head>
 <body>
@@ -49,6 +61,8 @@
             <section id="pacman-game" class="pacman-game">
                 <canvas id="pacman" width="500" height="220"></canvas>
                 <button class="start-button" onclick="startGame()">Start Game</button>
+                <div class="game-over">GAME OVER</div>
+                <div class="you-won">YOU WON!</div>
             </section>
         </div>
     </main>
@@ -66,12 +80,18 @@
         const pacman = {
             x: tileSize * 1.5,
             y: tileSize * 1.5,
-            size: (tileSize / 2), // Increased size by 2 pixels
+            size: tileSize / 2,
             speed: 2,
             dx: 0,
             dy: 0,
             direction: 'right'
         };
+
+        // Update the ghosts array with slower speed (reduce dx values from 2 to 1)
+        const ghosts = [
+            { x: tileSize * 10.5, y: tileSize * 5.5, size: tileSize / 2.5, color: '#00ff00', dx: 1, dy: 0, direction: 'right' },
+            { x: tileSize * 15.5, y: tileSize * 5.5, size: tileSize / 2.5, color: 'magenta', dx: -1, dy: 0, direction: 'left' }
+        ];
 
         const maze = [
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -98,7 +118,6 @@
                 }
             }
         }
-
 
         // Helper to draw rounded rectangles.
         function drawRoundedRect(ctx, x, y, width, height, radius) {
@@ -161,6 +180,15 @@
             ctx.fill();
         }
 
+        function drawGhosts() {
+            ghosts.forEach(ghost => {
+                ctx.fillStyle = ghost.color;
+                ctx.beginPath();
+                ctx.arc(ghost.x, ghost.y, ghost.size, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
         function clear() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
         }
@@ -170,9 +198,46 @@
             drawMaze();
             drawDots();
             drawPacman();
+            drawGhosts();
 
             pacman.x += pacman.dx;
             pacman.y += pacman.dy;
+
+            // Replace the ghost movement code in the update function with this:
+            ghosts.forEach(ghost => {
+                ghost.x += ghost.dx;
+                ghost.y += ghost.dy;
+
+                // Check for wall collisions
+                const left = Math.floor((ghost.x - ghost.size) / tileSize);
+                const right = Math.floor((ghost.x + ghost.size) / tileSize);
+                const top = Math.floor((ghost.y - ghost.size) / tileSize);
+                const bottom = Math.floor((ghost.y + ghost.size) / tileSize);
+
+                if (maze[top][left] === 1 || maze[top][right] === 1 || 
+                    maze[bottom][left] === 1 || maze[bottom][right] === 1) {
+                    // If hitting a wall, reverse direction
+                    ghost.dx = -ghost.dx;
+                    ghost.dy = -ghost.dy;
+                    ghost.x += ghost.dx * 2;
+                    ghost.y += ghost.dy * 2;
+                    
+                    // Randomly decide to change between horizontal and vertical movement
+                    if (Math.random() < 0.5) {
+                        if (ghost.dx !== 0) {
+                            ghost.dx = 0;
+                            ghost.dy = (Math.random() < 0.5 ? 1 : -1);  // Changed from 2 to 1
+                        } else {
+                            ghost.dy = 0;
+                            ghost.dx = (Math.random() < 0.5 ? 1 : -1);  // Changed from 2 to 1
+                        }
+                    }
+                }
+
+                // Keep ghosts within bounds
+                ghost.x = Math.max(ghost.size, Math.min(canvas.width - ghost.size, ghost.x));
+                ghost.y = Math.max(ghost.size, Math.min(canvas.height - ghost.size, ghost.y));
+            });
 
             // Check for wall collisions with a smaller collision zone
             const collisionOffset = 6; // Adjust this value to make the collision zone smaller
@@ -198,7 +263,21 @@
                 const dot = dots[i];
                 if (Math.hypot(pacman.x - dot.x, pacman.y - dot.y) < pacman.size) {
                     dots.splice(i, 1);
+                    // Add this check for winning condition
+                    if (dots.length === 0) {
+                        youWon();
+                        return;
+                    }
                     break;
+                }
+            }
+
+            // Check for ghost collisions
+            for (let i = 0; i < ghosts.length; i++) {
+                const ghost = ghosts[i];
+                if (Math.hypot(pacman.x - ghost.x, pacman.y - ghost.y) < pacman.size) {
+                    gameOver();
+                    return;
                 }
             }
 
@@ -225,6 +304,21 @@
             }
         }
 
+        function gameOver() {
+            const gameOverBanner = document.querySelector('.game-over');
+            gameOverBanner.style.display = 'block';
+            gameStarted = false;
+        }
+
+        // Add this new function after gameOver()
+        function youWon() {
+            const wonBanner = document.querySelector('.you-won');
+            const gameOverBanner = document.querySelector('.game-over');
+            gameOverBanner.style.display = 'none'; // Hide game over banner if it's showing
+            wonBanner.style.display = 'block';
+            gameStarted = false;
+        }
+ 
         let gameStarted = false;
 
         function resetGame() {
@@ -234,6 +328,15 @@
             pacman.dx = pacman.speed;
             pacman.dy = 0;
             pacman.direction = 'right';
+            // Reset ghosts position and movement.
+            ghosts[0].x = tileSize * 10.5;
+            ghosts[0].y = tileSize * 5.5;
+            ghosts[0].dx = 1;  // Changed from 2 to 1
+            ghosts[0].dy = 0;
+            ghosts[1].x = tileSize * 15.5;
+            ghosts[1].y = tileSize * 5.5;
+            ghosts[1].dx = -1;  // Changed from -2 to -1
+            ghosts[1].dy = 0;
             // Reset dots.
             dots.length = 0; // Clear the dots array.
             initDots();
@@ -241,6 +344,12 @@
             drawMaze();
             drawDots();
             drawPacman();
+            drawGhosts();
+            // Hide game over and win banners
+            const gameOverBanner = document.querySelector('.game-over');
+            const wonBanner = document.querySelector('.you-won');
+            gameOverBanner.style.display = 'none';
+            wonBanner.style.display = 'none';
         }
 
         function startGame() {

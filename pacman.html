@@ -9,18 +9,12 @@
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
     <style>
-        /* Pac-Man game styles */
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #fff;
-        }
+        /* Retain only game-specific styles; remove the flex centering and 100vh body rules */
         canvas {
             border: 1px solid #000;
             background-color: #000;
+            display: block;
+            margin: 0 auto;
         }
         .start-button {
             margin-top: 20px;
@@ -60,7 +54,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>Check out my GitHub repository: <a href="https://github.com/armelleduston/">GitHub</a></p>
+            <p>Check out my GitHub: <a href="https://github.com/armelleduston/">GitHub</a></p>
         </div>
     </footer>
     <script>
@@ -105,12 +99,32 @@
             }
         }
 
+
+        // Helper to draw rounded rectangles.
+        function drawRoundedRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        // Modified drawMaze to use rounded rectangles for walls.
         function drawMaze() {
             for (let row = 0; row < maze.length; row++) {
                 for (let col = 0; col < maze[row].length; col++) {
                     if (maze[row][col] === 1) {
                         ctx.fillStyle = 'blue';
-                        ctx.fillRect(col * tileSize, row * tileSize, tileSize, tileSize);
+                        // Draw a rounded rectangle for each wall block.
+                        // Adjust the radius value to achieve your desired rounding effect.
+                        drawRoundedRect(ctx, col * tileSize, row * tileSize, tileSize, tileSize, 4);
                     }
                 }
             }
@@ -211,11 +225,36 @@
             }
         }
 
-        function startGame() {
+        let gameStarted = false;
+
+        function resetGame() {
+            // Reset pacman position and movement.
+            pacman.x = tileSize * 1.5;
+            pacman.y = tileSize * 1.5;
             pacman.dx = pacman.speed;
             pacman.dy = 0;
             pacman.direction = 'right';
-            update();
+            // Reset dots.
+            dots.length = 0; // Clear the dots array.
+            initDots();
+            clear(); // Clear the canvas.
+            drawMaze();
+            drawDots();
+            drawPacman();
+        }
+
+        function startGame() {
+            const startButton = document.querySelector('.start-button');
+            if (!gameStarted) {
+                gameStarted = true;
+                startButton.textContent = 'Restart';
+                // Initialize game state and start the game loop.
+                resetGame();
+                update();
+            } else {
+                // If game is already running, reset it.
+                resetGame();
+            }
         }
 
         document.addEventListener('keydown', changeDirection);

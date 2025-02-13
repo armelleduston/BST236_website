@@ -161,7 +161,7 @@
             pacman.y += pacman.dy;
 
             // Check for wall collisions with a smaller collision zone
-            const collisionOffset = 2; // Adjust this value to make the collision zone smaller
+            const collisionOffset = 6; // Adjust this value to make the collision zone smaller
             const left = pacman.x - pacman.size + collisionOffset;
             const right = pacman.x + pacman.size - collisionOffset;
             const top = pacman.y - pacman.size + collisionOffset;

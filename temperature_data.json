@@ -1,0 +1,3306 @@
+[
+  {
+    "station": "Abha",
+    "median": "18.0",
+    "std": 10.0,
+    "sample_size": 2420371,
+    "min_temp": "-40.5",
+    "max_temp": "65.9"
+  },
+  {
+    "station": "Abidjan",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2421026,
+    "min_temp": "-22.4",
+    "max_temp": "78.9"
+  },
+  {
+    "station": "Ab\u00e9ch\u00e9",
+    "median": "29.4",
+    "std": 10.0,
+    "sample_size": 2420776,
+    "min_temp": "-24.0",
+    "max_temp": "82.2"
+  },
+  {
+    "station": "Accra",
+    "median": "26.4",
+    "std": 10.0,
+    "sample_size": 2422260,
+    "min_temp": "-23.9",
+    "max_temp": "72.6"
+  },
+  {
+    "station": "Addis Ababa",
+    "median": "16.0",
+    "std": 10.0,
+    "sample_size": 2422372,
+    "min_temp": "-32.9",
+    "max_temp": "66.0"
+  },
+  {
+    "station": "Adelaide",
+    "median": "17.3",
+    "std": 10.0,
+    "sample_size": 2422545,
+    "min_temp": "-31.3",
+    "max_temp": "68.4"
+  },
+  {
+    "station": "Aden",
+    "median": "29.1",
+    "std": 10.0,
+    "sample_size": 2424214,
+    "min_temp": "-22.8",
+    "max_temp": "79.1"
+  },
+  {
+    "station": "Ahvaz",
+    "median": "25.4",
+    "std": 10.0,
+    "sample_size": 2419384,
+    "min_temp": "-25.5",
+    "max_temp": "74.3"
+  },
+  {
+    "station": "Albuquerque",
+    "median": "14.0",
+    "std": 10.0,
+    "sample_size": 2424832,
+    "min_temp": "-38.2",
+    "max_temp": "61.6"
+  },
+  {
+    "station": "Alexandra",
+    "median": "11.0",
+    "std": 10.0,
+    "sample_size": 2421279,
+    "min_temp": "-37.6",
+    "max_temp": "62.2"
+  },
+  {
+    "station": "Alexandria",
+    "median": "20.0",
+    "std": 10.0,
+    "sample_size": 2419453,
+    "min_temp": "-30.6",
+    "max_temp": "68.6"
+  },
+  {
+    "station": "Algiers",
+    "median": "18.2",
+    "std": 10.0,
+    "sample_size": 2422038,
+    "min_temp": "-31.6",
+    "max_temp": "66.9"
+  },
+  {
+    "station": "Alice Springs",
+    "median": "21.0",
+    "std": 10.0,
+    "sample_size": 2422068,
+    "min_temp": "-30.0",
+    "max_temp": "74.3"
+  },
+  {
+    "station": "Almaty",
+    "median": "10.0",
+    "std": 10.0,
+    "sample_size": 2422139,
+    "min_temp": "-36.6",
+    "max_temp": "59.9"
+  },
+  {
+    "station": "Amsterdam",
+    "median": "10.2",
+    "std": 10.0,
+    "sample_size": 2422256,
+    "min_temp": "-38.3",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Anadyr",
+    "median": "-6.9",
+    "std": 10.0,
+    "sample_size": 2421360,
+    "min_temp": "-54.3",
+    "max_temp": "43.1"
+  },
+  {
+    "station": "Anchorage",
+    "median": "2.8",
+    "std": 10.0,
+    "sample_size": 2421878,
+    "min_temp": "-46.8",
+    "max_temp": "49.8"
+  },
+  {
+    "station": "Andorra la Vella",
+    "median": "9.8",
+    "std": 10.0,
+    "sample_size": 2417354,
+    "min_temp": "-43.0",
+    "max_temp": "60.8"
+  },
+  {
+    "station": "Ankara",
+    "median": "12.0",
+    "std": 10.0,
+    "sample_size": 2424473,
+    "min_temp": "-40.2",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Antananarivo",
+    "median": "17.9",
+    "std": 10.0,
+    "sample_size": 2420787,
+    "min_temp": "-30.5",
+    "max_temp": "69.8"
+  },
+  {
+    "station": "Antsiranana",
+    "median": "25.2",
+    "std": 10.0,
+    "sample_size": 2421034,
+    "min_temp": "-24.1",
+    "max_temp": "73.7"
+  },
+  {
+    "station": "Arkhangelsk",
+    "median": "1.3",
+    "std": 10.0,
+    "sample_size": 2419434,
+    "min_temp": "-50.5",
+    "max_temp": "52.7"
+  },
+  {
+    "station": "Ashgabat",
+    "median": "17.1",
+    "std": 10.0,
+    "sample_size": 2421085,
+    "min_temp": "-30.5",
+    "max_temp": "68.5"
+  },
+  {
+    "station": "Asmara",
+    "median": "15.6",
+    "std": 10.0,
+    "sample_size": 2420892,
+    "min_temp": "-34.0",
+    "max_temp": "63.0"
+  },
+  {
+    "station": "Assab",
+    "median": "30.5",
+    "std": 10.0,
+    "sample_size": 2421007,
+    "min_temp": "-20.7",
+    "max_temp": "80.4"
+  },
+  {
+    "station": "Astana",
+    "median": "3.5",
+    "std": 10.0,
+    "sample_size": 2422565,
+    "min_temp": "-44.9",
+    "max_temp": "56.8"
+  },
+  {
+    "station": "Athens",
+    "median": "19.2",
+    "std": 10.0,
+    "sample_size": 2420643,
+    "min_temp": "-31.1",
+    "max_temp": "75.9"
+  },
+  {
+    "station": "Atlanta",
+    "median": "17.0",
+    "std": 10.0,
+    "sample_size": 2419997,
+    "min_temp": "-35.4",
+    "max_temp": "74.0"
+  },
+  {
+    "station": "Auckland",
+    "median": "15.2",
+    "std": 10.0,
+    "sample_size": 2421810,
+    "min_temp": "-35.6",
+    "max_temp": "65.2"
+  },
+  {
+    "station": "Austin",
+    "median": "20.7",
+    "std": 10.0,
+    "sample_size": 2422589,
+    "min_temp": "-28.2",
+    "max_temp": "69.5"
+  },
+  {
+    "station": "Baghdad",
+    "median": "22.8",
+    "std": 10.0,
+    "sample_size": 2419910,
+    "min_temp": "-27.9",
+    "max_temp": "72.8"
+  },
+  {
+    "station": "Baguio",
+    "median": "19.5",
+    "std": 10.0,
+    "sample_size": 2419347,
+    "min_temp": "-28.7",
+    "max_temp": "68.6"
+  },
+  {
+    "station": "Baku",
+    "median": "15.1",
+    "std": 10.0,
+    "sample_size": 2420981,
+    "min_temp": "-33.1",
+    "max_temp": "64.9"
+  },
+  {
+    "station": "Baltimore",
+    "median": "13.1",
+    "std": 10.0,
+    "sample_size": 2421904,
+    "min_temp": "-40.4",
+    "max_temp": "65.4"
+  },
+  {
+    "station": "Bamako",
+    "median": "27.8",
+    "std": 10.0,
+    "sample_size": 2421298,
+    "min_temp": "-29.4",
+    "max_temp": "80.9"
+  },
+  {
+    "station": "Bangkok",
+    "median": "28.6",
+    "std": 10.0,
+    "sample_size": 2423387,
+    "min_temp": "-19.9",
+    "max_temp": "82.3"
+  },
+  {
+    "station": "Bangui",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2419261,
+    "min_temp": "-24.2",
+    "max_temp": "72.9"
+  },
+  {
+    "station": "Banjul",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2422346,
+    "min_temp": "-23.4",
+    "max_temp": "74.9"
+  },
+  {
+    "station": "Barcelona",
+    "median": "18.2",
+    "std": 10.0,
+    "sample_size": 2418763,
+    "min_temp": "-35.3",
+    "max_temp": "65.2"
+  },
+  {
+    "station": "Bata",
+    "median": "25.1",
+    "std": 10.0,
+    "sample_size": 2422801,
+    "min_temp": "-23.5",
+    "max_temp": "76.6"
+  },
+  {
+    "station": "Batumi",
+    "median": "14.0",
+    "std": 10.0,
+    "sample_size": 2423829,
+    "min_temp": "-42.4",
+    "max_temp": "65.9"
+  },
+  {
+    "station": "Beijing",
+    "median": "12.9",
+    "std": 10.0,
+    "sample_size": 2421441,
+    "min_temp": "-35.4",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Beirut",
+    "median": "20.9",
+    "std": 10.0,
+    "sample_size": 2422621,
+    "min_temp": "-28.5",
+    "max_temp": "73.1"
+  },
+  {
+    "station": "Belgrade",
+    "median": "12.5",
+    "std": 10.0,
+    "sample_size": 2421407,
+    "min_temp": "-40.0",
+    "max_temp": "61.5"
+  },
+  {
+    "station": "Belize City",
+    "median": "26.7",
+    "std": 10.0,
+    "sample_size": 2422006,
+    "min_temp": "-23.9",
+    "max_temp": "77.7"
+  },
+  {
+    "station": "Benghazi",
+    "median": "19.9",
+    "std": 10.0,
+    "sample_size": 2423366,
+    "min_temp": "-32.2",
+    "max_temp": "67.7"
+  },
+  {
+    "station": "Bergen",
+    "median": "7.7",
+    "std": 10.0,
+    "sample_size": 2419977,
+    "min_temp": "-44.6",
+    "max_temp": "56.7"
+  },
+  {
+    "station": "Berlin",
+    "median": "10.3",
+    "std": 10.0,
+    "sample_size": 2422175,
+    "min_temp": "-39.9",
+    "max_temp": "65.0"
+  },
+  {
+    "station": "Bilbao",
+    "median": "14.7",
+    "std": 10.0,
+    "sample_size": 2423626,
+    "min_temp": "-36.5",
+    "max_temp": "64.5"
+  },
+  {
+    "station": "Birao",
+    "median": "26.5",
+    "std": 10.0,
+    "sample_size": 2420097,
+    "min_temp": "-22.1",
+    "max_temp": "73.4"
+  },
+  {
+    "station": "Bishkek",
+    "median": "11.3",
+    "std": 10.0,
+    "sample_size": 2421464,
+    "min_temp": "-40.0",
+    "max_temp": "61.9"
+  },
+  {
+    "station": "Bissau",
+    "median": "27.0",
+    "std": 10.0,
+    "sample_size": 2419335,
+    "min_temp": "-23.4",
+    "max_temp": "78.6"
+  },
+  {
+    "station": "Blantyre",
+    "median": "22.2",
+    "std": 10.0,
+    "sample_size": 2421761,
+    "min_temp": "-28.4",
+    "max_temp": "72.1"
+  },
+  {
+    "station": "Bloemfontein",
+    "median": "15.6",
+    "std": 10.0,
+    "sample_size": 2421558,
+    "min_temp": "-32.3",
+    "max_temp": "67.2"
+  },
+  {
+    "station": "Boise",
+    "median": "11.4",
+    "std": 10.0,
+    "sample_size": 2420403,
+    "min_temp": "-39.2",
+    "max_temp": "63.3"
+  },
+  {
+    "station": "Bordeaux",
+    "median": "14.2",
+    "std": 10.0,
+    "sample_size": 2424703,
+    "min_temp": "-36.2",
+    "max_temp": "65.4"
+  },
+  {
+    "station": "Bosaso",
+    "median": "30.0",
+    "std": 10.0,
+    "sample_size": 2418985,
+    "min_temp": "-20.2",
+    "max_temp": "80.4"
+  },
+  {
+    "station": "Boston",
+    "median": "10.9",
+    "std": 10.0,
+    "sample_size": 2422026,
+    "min_temp": "-39.9",
+    "max_temp": "63.8"
+  },
+  {
+    "station": "Bouak\u00e9",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2418136,
+    "min_temp": "-24.4",
+    "max_temp": "73.1"
+  },
+  {
+    "station": "Bratislava",
+    "median": "10.5",
+    "std": 10.0,
+    "sample_size": 2421730,
+    "min_temp": "-37.0",
+    "max_temp": "61.3"
+  },
+  {
+    "station": "Brazzaville",
+    "median": "25.0",
+    "std": 10.0,
+    "sample_size": 2421469,
+    "min_temp": "-24.9",
+    "max_temp": "78.7"
+  },
+  {
+    "station": "Bridgetown",
+    "median": "27.0",
+    "std": 10.0,
+    "sample_size": 2419153,
+    "min_temp": "-24.4",
+    "max_temp": "75.8"
+  },
+  {
+    "station": "Brisbane",
+    "median": "21.4",
+    "std": 10.0,
+    "sample_size": 2422509,
+    "min_temp": "-27.5",
+    "max_temp": "73.6"
+  },
+  {
+    "station": "Brussels",
+    "median": "10.5",
+    "std": 10.0,
+    "sample_size": 2421283,
+    "min_temp": "-40.3",
+    "max_temp": "57.8"
+  },
+  {
+    "station": "Bucharest",
+    "median": "10.8",
+    "std": 10.0,
+    "sample_size": 2421667,
+    "min_temp": "-41.7",
+    "max_temp": "60.2"
+  },
+  {
+    "station": "Budapest",
+    "median": "11.3",
+    "std": 10.0,
+    "sample_size": 2421670,
+    "min_temp": "-36.6",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Bujumbura",
+    "median": "23.8",
+    "std": 10.0,
+    "sample_size": 2419847,
+    "min_temp": "-26.7",
+    "max_temp": "76.3"
+  },
+  {
+    "station": "Bulawayo",
+    "median": "18.9",
+    "std": 10.0,
+    "sample_size": 2418983,
+    "min_temp": "-31.9",
+    "max_temp": "70.7"
+  },
+  {
+    "station": "Burnie",
+    "median": "13.1",
+    "std": 10.0,
+    "sample_size": 2420532,
+    "min_temp": "-39.7",
+    "max_temp": "62.1"
+  },
+  {
+    "station": "Busan",
+    "median": "15.0",
+    "std": 10.0,
+    "sample_size": 2423201,
+    "min_temp": "-37.0",
+    "max_temp": "68.2"
+  },
+  {
+    "station": "Cabo San Lucas",
+    "median": "23.9",
+    "std": 10.0,
+    "sample_size": 2422415,
+    "min_temp": "-25.2",
+    "max_temp": "74.4"
+  },
+  {
+    "station": "Cairns",
+    "median": "25.0",
+    "std": 10.0,
+    "sample_size": 2419343,
+    "min_temp": "-29.8",
+    "max_temp": "74.9"
+  },
+  {
+    "station": "Cairo",
+    "median": "21.4",
+    "std": 10.0,
+    "sample_size": 2423851,
+    "min_temp": "-28.5",
+    "max_temp": "71.5"
+  },
+  {
+    "station": "Calgary",
+    "median": "4.4",
+    "std": 10.0,
+    "sample_size": 2420331,
+    "min_temp": "-45.5",
+    "max_temp": "52.2"
+  },
+  {
+    "station": "Canberra",
+    "median": "13.1",
+    "std": 10.0,
+    "sample_size": 2421449,
+    "min_temp": "-36.6",
+    "max_temp": "66.1"
+  },
+  {
+    "station": "Cape Town",
+    "median": "16.2",
+    "std": 10.0,
+    "sample_size": 2421604,
+    "min_temp": "-33.4",
+    "max_temp": "68.4"
+  },
+  {
+    "station": "Changsha",
+    "median": "17.4",
+    "std": 10.0,
+    "sample_size": 2421716,
+    "min_temp": "-30.3",
+    "max_temp": "65.4"
+  },
+  {
+    "station": "Charlotte",
+    "median": "16.1",
+    "std": 10.0,
+    "sample_size": 2420332,
+    "min_temp": "-33.8",
+    "max_temp": "66.1"
+  },
+  {
+    "station": "Chiang Mai",
+    "median": "25.8",
+    "std": 10.0,
+    "sample_size": 2422715,
+    "min_temp": "-23.4",
+    "max_temp": "76.9"
+  },
+  {
+    "station": "Chicago",
+    "median": "9.8",
+    "std": 10.0,
+    "sample_size": 2423624,
+    "min_temp": "-42.1",
+    "max_temp": "65.8"
+  },
+  {
+    "station": "Chihuahua",
+    "median": "18.6",
+    "std": 10.0,
+    "sample_size": 2421527,
+    "min_temp": "-31.0",
+    "max_temp": "67.2"
+  },
+  {
+    "station": "Chittagong",
+    "median": "25.9",
+    "std": 10.0,
+    "sample_size": 2419331,
+    "min_temp": "-22.6",
+    "max_temp": "73.8"
+  },
+  {
+    "station": "Chi\u0219in\u0103u",
+    "median": "10.2",
+    "std": 10.0,
+    "sample_size": 2420598,
+    "min_temp": "-42.7",
+    "max_temp": "61.0"
+  },
+  {
+    "station": "Chongqing",
+    "median": "18.6",
+    "std": 10.0,
+    "sample_size": 2421131,
+    "min_temp": "-35.4",
+    "max_temp": "66.8"
+  },
+  {
+    "station": "Christchurch",
+    "median": "12.2",
+    "std": 10.0,
+    "sample_size": 2421107,
+    "min_temp": "-35.3",
+    "max_temp": "59.6"
+  },
+  {
+    "station": "City of San Marino",
+    "median": "11.8",
+    "std": 10.0,
+    "sample_size": 2423491,
+    "min_temp": "-35.3",
+    "max_temp": "58.8"
+  },
+  {
+    "station": "Colombo",
+    "median": "27.4",
+    "std": 10.0,
+    "sample_size": 2420752,
+    "min_temp": "-22.5",
+    "max_temp": "81.4"
+  },
+  {
+    "station": "Columbus",
+    "median": "11.7",
+    "std": 10.0,
+    "sample_size": 2421129,
+    "min_temp": "-38.9",
+    "max_temp": "63.0"
+  },
+  {
+    "station": "Conakry",
+    "median": "26.4",
+    "std": 10.0,
+    "sample_size": 2423649,
+    "min_temp": "-23.9",
+    "max_temp": "78.0"
+  },
+  {
+    "station": "Copenhagen",
+    "median": "9.1",
+    "std": 10.0,
+    "sample_size": 2421841,
+    "min_temp": "-39.6",
+    "max_temp": "57.2"
+  },
+  {
+    "station": "Cotonou",
+    "median": "27.2",
+    "std": 10.0,
+    "sample_size": 2420800,
+    "min_temp": "-22.8",
+    "max_temp": "79.6"
+  },
+  {
+    "station": "Cracow",
+    "median": "9.3",
+    "std": 10.0,
+    "sample_size": 2420872,
+    "min_temp": "-46.8",
+    "max_temp": "60.5"
+  },
+  {
+    "station": "Da Lat",
+    "median": "17.9",
+    "std": 10.0,
+    "sample_size": 2420313,
+    "min_temp": "-34.9",
+    "max_temp": "73.0"
+  },
+  {
+    "station": "Da Nang",
+    "median": "25.8",
+    "std": 10.0,
+    "sample_size": 2420632,
+    "min_temp": "-23.0",
+    "max_temp": "73.9"
+  },
+  {
+    "station": "Dakar",
+    "median": "24.0",
+    "std": 10.0,
+    "sample_size": 2421667,
+    "min_temp": "-24.3",
+    "max_temp": "77.7"
+  },
+  {
+    "station": "Dallas",
+    "median": "19.0",
+    "std": 10.0,
+    "sample_size": 2420584,
+    "min_temp": "-31.0",
+    "max_temp": "68.4"
+  },
+  {
+    "station": "Damascus",
+    "median": "17.0",
+    "std": 10.0,
+    "sample_size": 2423147,
+    "min_temp": "-33.9",
+    "max_temp": "71.4"
+  },
+  {
+    "station": "Dampier",
+    "median": "26.4",
+    "std": 10.0,
+    "sample_size": 2421640,
+    "min_temp": "-22.9",
+    "max_temp": "74.5"
+  },
+  {
+    "station": "Dar es Salaam",
+    "median": "25.8",
+    "std": 10.0,
+    "sample_size": 2421331,
+    "min_temp": "-23.9",
+    "max_temp": "78.5"
+  },
+  {
+    "station": "Darwin",
+    "median": "27.6",
+    "std": 10.0,
+    "sample_size": 2424216,
+    "min_temp": "-26.1",
+    "max_temp": "77.6"
+  },
+  {
+    "station": "Denpasar",
+    "median": "23.7",
+    "std": 10.0,
+    "sample_size": 2424292,
+    "min_temp": "-24.1",
+    "max_temp": "76.7"
+  },
+  {
+    "station": "Denver",
+    "median": "10.4",
+    "std": 10.0,
+    "sample_size": 2419714,
+    "min_temp": "-39.9",
+    "max_temp": "61.6"
+  },
+  {
+    "station": "Detroit",
+    "median": "10.0",
+    "std": 10.0,
+    "sample_size": 2419210,
+    "min_temp": "-42.6",
+    "max_temp": "63.3"
+  },
+  {
+    "station": "Dhaka",
+    "median": "25.9",
+    "std": 10.0,
+    "sample_size": 2420238,
+    "min_temp": "-25.3",
+    "max_temp": "74.2"
+  },
+  {
+    "station": "Dikson",
+    "median": "-11.1",
+    "std": 10.0,
+    "sample_size": 2418684,
+    "min_temp": "-61.1",
+    "max_temp": "37.1"
+  },
+  {
+    "station": "Dili",
+    "median": "26.6",
+    "std": 10.0,
+    "sample_size": 2420107,
+    "min_temp": "-21.9",
+    "max_temp": "73.3"
+  },
+  {
+    "station": "Djibouti",
+    "median": "29.9",
+    "std": 10.0,
+    "sample_size": 2421617,
+    "min_temp": "-23.6",
+    "max_temp": "81.5"
+  },
+  {
+    "station": "Dodoma",
+    "median": "22.7",
+    "std": 10.0,
+    "sample_size": 2422349,
+    "min_temp": "-28.2",
+    "max_temp": "72.1"
+  },
+  {
+    "station": "Dolisie",
+    "median": "24.0",
+    "std": 10.0,
+    "sample_size": 2421735,
+    "min_temp": "-32.2",
+    "max_temp": "74.0"
+  },
+  {
+    "station": "Douala",
+    "median": "26.7",
+    "std": 10.0,
+    "sample_size": 2419429,
+    "min_temp": "-21.0",
+    "max_temp": "75.8"
+  },
+  {
+    "station": "Dubai",
+    "median": "26.9",
+    "std": 10.0,
+    "sample_size": 2418144,
+    "min_temp": "-28.2",
+    "max_temp": "82.0"
+  },
+  {
+    "station": "Dublin",
+    "median": "9.8",
+    "std": 10.0,
+    "sample_size": 2419791,
+    "min_temp": "-43.4",
+    "max_temp": "59.7"
+  },
+  {
+    "station": "Dunedin",
+    "median": "11.1",
+    "std": 10.0,
+    "sample_size": 2420885,
+    "min_temp": "-36.1",
+    "max_temp": "59.3"
+  },
+  {
+    "station": "Durban",
+    "median": "20.6",
+    "std": 10.0,
+    "sample_size": 2423308,
+    "min_temp": "-28.3",
+    "max_temp": "72.3"
+  },
+  {
+    "station": "Dushanbe",
+    "median": "14.7",
+    "std": 10.0,
+    "sample_size": 2422370,
+    "min_temp": "-32.7",
+    "max_temp": "62.6"
+  },
+  {
+    "station": "Edinburgh",
+    "median": "9.3",
+    "std": 10.0,
+    "sample_size": 2421950,
+    "min_temp": "-37.6",
+    "max_temp": "59.3"
+  },
+  {
+    "station": "Edmonton",
+    "median": "4.2",
+    "std": 10.0,
+    "sample_size": 2421985,
+    "min_temp": "-48.6",
+    "max_temp": "54.4"
+  },
+  {
+    "station": "El Paso",
+    "median": "18.1",
+    "std": 10.0,
+    "sample_size": 2420387,
+    "min_temp": "-31.2",
+    "max_temp": "67.7"
+  },
+  {
+    "station": "Entebbe",
+    "median": "21.0",
+    "std": 10.0,
+    "sample_size": 2420088,
+    "min_temp": "-27.8",
+    "max_temp": "68.2"
+  },
+  {
+    "station": "Erbil",
+    "median": "19.5",
+    "std": 10.0,
+    "sample_size": 2421322,
+    "min_temp": "-33.1",
+    "max_temp": "69.5"
+  },
+  {
+    "station": "Erzurum",
+    "median": "5.1",
+    "std": 10.0,
+    "sample_size": 2423338,
+    "min_temp": "-45.7",
+    "max_temp": "55.3"
+  },
+  {
+    "station": "Fairbanks",
+    "median": "-2.3",
+    "std": 10.0,
+    "sample_size": 2418651,
+    "min_temp": "-50.9",
+    "max_temp": "51.3"
+  },
+  {
+    "station": "Fianarantsoa",
+    "median": "17.9",
+    "std": 10.0,
+    "sample_size": 2421292,
+    "min_temp": "-32.5",
+    "max_temp": "67.0"
+  },
+  {
+    "station": "Flores,  Pet\u00e9n",
+    "median": "26.4",
+    "std": 10.0,
+    "sample_size": 2421393,
+    "min_temp": "-28.3",
+    "max_temp": "75.0"
+  },
+  {
+    "station": "Frankfurt",
+    "median": "10.6",
+    "std": 10.0,
+    "sample_size": 2419005,
+    "min_temp": "-37.2",
+    "max_temp": "61.1"
+  },
+  {
+    "station": "Fresno",
+    "median": "17.9",
+    "std": 10.0,
+    "sample_size": 2421744,
+    "min_temp": "-32.9",
+    "max_temp": "68.3"
+  },
+  {
+    "station": "Fukuoka",
+    "median": "17.0",
+    "std": 10.0,
+    "sample_size": 2422775,
+    "min_temp": "-31.4",
+    "max_temp": "66.6"
+  },
+  {
+    "station": "Gaborone",
+    "median": "21.0",
+    "std": 10.0,
+    "sample_size": 2420435,
+    "min_temp": "-27.7",
+    "max_temp": "75.9"
+  },
+  {
+    "station": "Gab\u00e8s",
+    "median": "19.5",
+    "std": 10.0,
+    "sample_size": 2423122,
+    "min_temp": "-31.1",
+    "max_temp": "70.5"
+  },
+  {
+    "station": "Gagnoa",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2420915,
+    "min_temp": "-25.7",
+    "max_temp": "75.2"
+  },
+  {
+    "station": "Gangtok",
+    "median": "15.2",
+    "std": 10.0,
+    "sample_size": 2420107,
+    "min_temp": "-37.6",
+    "max_temp": "63.9"
+  },
+  {
+    "station": "Garissa",
+    "median": "29.3",
+    "std": 10.0,
+    "sample_size": 2419564,
+    "min_temp": "-20.8",
+    "max_temp": "79.2"
+  },
+  {
+    "station": "Garoua",
+    "median": "28.3",
+    "std": 10.0,
+    "sample_size": 2421755,
+    "min_temp": "-22.7",
+    "max_temp": "78.2"
+  },
+  {
+    "station": "George Town",
+    "median": "27.9",
+    "std": 10.0,
+    "sample_size": 2421305,
+    "min_temp": "-20.8",
+    "max_temp": "77.9"
+  },
+  {
+    "station": "Ghanzi",
+    "median": "21.4",
+    "std": 10.0,
+    "sample_size": 2421477,
+    "min_temp": "-26.7",
+    "max_temp": "70.5"
+  },
+  {
+    "station": "Gjoa Haven",
+    "median": "-14.4",
+    "std": 10.0,
+    "sample_size": 2425166,
+    "min_temp": "-64.0",
+    "max_temp": "36.5"
+  },
+  {
+    "station": "Guadalajara",
+    "median": "20.9",
+    "std": 10.0,
+    "sample_size": 2420177,
+    "min_temp": "-27.3",
+    "max_temp": "73.5"
+  },
+  {
+    "station": "Guangzhou",
+    "median": "22.4",
+    "std": 10.0,
+    "sample_size": 2421740,
+    "min_temp": "-28.8",
+    "max_temp": "72.0"
+  },
+  {
+    "station": "Guatemala City",
+    "median": "20.4",
+    "std": 10.0,
+    "sample_size": 2422606,
+    "min_temp": "-30.5",
+    "max_temp": "70.3"
+  },
+  {
+    "station": "Halifax",
+    "median": "7.5",
+    "std": 10.0,
+    "sample_size": 2420917,
+    "min_temp": "-42.7",
+    "max_temp": "63.2"
+  },
+  {
+    "station": "Hamburg",
+    "median": "9.7",
+    "std": 10.0,
+    "sample_size": 2421024,
+    "min_temp": "-42.8",
+    "max_temp": "59.8"
+  },
+  {
+    "station": "Hamilton",
+    "median": "13.8",
+    "std": 10.0,
+    "sample_size": 2425096,
+    "min_temp": "-39.4",
+    "max_temp": "62.7"
+  },
+  {
+    "station": "Hanga Roa",
+    "median": "20.5",
+    "std": 10.0,
+    "sample_size": 2423671,
+    "min_temp": "-30.3",
+    "max_temp": "71.0"
+  },
+  {
+    "station": "Hanoi",
+    "median": "23.6",
+    "std": 10.0,
+    "sample_size": 2421520,
+    "min_temp": "-25.1",
+    "max_temp": "72.6"
+  },
+  {
+    "station": "Harare",
+    "median": "18.4",
+    "std": 10.0,
+    "sample_size": 2419593,
+    "min_temp": "-33.0",
+    "max_temp": "67.8"
+  },
+  {
+    "station": "Harbin",
+    "median": "5.0",
+    "std": 10.0,
+    "sample_size": 2421675,
+    "min_temp": "-45.6",
+    "max_temp": "57.6"
+  },
+  {
+    "station": "Hargeisa",
+    "median": "21.7",
+    "std": 10.0,
+    "sample_size": 2424094,
+    "min_temp": "-23.8",
+    "max_temp": "68.3"
+  },
+  {
+    "station": "Hat Yai",
+    "median": "27.0",
+    "std": 10.0,
+    "sample_size": 2423244,
+    "min_temp": "-19.6",
+    "max_temp": "79.4"
+  },
+  {
+    "station": "Havana",
+    "median": "25.2",
+    "std": 10.0,
+    "sample_size": 2422419,
+    "min_temp": "-24.2",
+    "max_temp": "75.0"
+  },
+  {
+    "station": "Helsinki",
+    "median": "5.9",
+    "std": 10.0,
+    "sample_size": 2418203,
+    "min_temp": "-44.3",
+    "max_temp": "55.3"
+  },
+  {
+    "station": "Heraklion",
+    "median": "18.9",
+    "std": 10.0,
+    "sample_size": 2422447,
+    "min_temp": "-31.9",
+    "max_temp": "65.8"
+  },
+  {
+    "station": "Hiroshima",
+    "median": "16.3",
+    "std": 10.0,
+    "sample_size": 2424358,
+    "min_temp": "-34.4",
+    "max_temp": "63.8"
+  },
+  {
+    "station": "Ho Chi Minh City",
+    "median": "27.4",
+    "std": 10.0,
+    "sample_size": 2422047,
+    "min_temp": "-28.2",
+    "max_temp": "78.5"
+  },
+  {
+    "station": "Hobart",
+    "median": "12.7",
+    "std": 10.0,
+    "sample_size": 2422456,
+    "min_temp": "-35.4",
+    "max_temp": "61.1"
+  },
+  {
+    "station": "Hong Kong",
+    "median": "23.3",
+    "std": 10.0,
+    "sample_size": 2422430,
+    "min_temp": "-26.7",
+    "max_temp": "75.9"
+  },
+  {
+    "station": "Honiara",
+    "median": "26.5",
+    "std": 10.0,
+    "sample_size": 2418974,
+    "min_temp": "-27.1",
+    "max_temp": "77.1"
+  },
+  {
+    "station": "Honolulu",
+    "median": "25.4",
+    "std": 10.0,
+    "sample_size": 2418657,
+    "min_temp": "-24.3",
+    "max_temp": "72.1"
+  },
+  {
+    "station": "Houston",
+    "median": "20.8",
+    "std": 10.0,
+    "sample_size": 2420401,
+    "min_temp": "-28.5",
+    "max_temp": "72.8"
+  },
+  {
+    "station": "Ifrane",
+    "median": "11.4",
+    "std": 10.0,
+    "sample_size": 2417253,
+    "min_temp": "-40.8",
+    "max_temp": "62.7"
+  },
+  {
+    "station": "Indianapolis",
+    "median": "11.8",
+    "std": 10.0,
+    "sample_size": 2422276,
+    "min_temp": "-38.4",
+    "max_temp": "64.6"
+  },
+  {
+    "station": "Iqaluit",
+    "median": "-9.3",
+    "std": 10.0,
+    "sample_size": 2421189,
+    "min_temp": "-58.0",
+    "max_temp": "37.7"
+  },
+  {
+    "station": "Irkutsk",
+    "median": "1.0",
+    "std": 10.0,
+    "sample_size": 2421800,
+    "min_temp": "-47.1",
+    "max_temp": "51.7"
+  },
+  {
+    "station": "Istanbul",
+    "median": "13.9",
+    "std": 10.0,
+    "sample_size": 2421093,
+    "min_temp": "-34.3",
+    "max_temp": "62.8"
+  },
+  {
+    "station": "Jacksonville",
+    "median": "20.3",
+    "std": 10.0,
+    "sample_size": 2421144,
+    "min_temp": "-29.5",
+    "max_temp": "72.0"
+  },
+  {
+    "station": "Jakarta",
+    "median": "26.7",
+    "std": 10.0,
+    "sample_size": 2424012,
+    "min_temp": "-23.5",
+    "max_temp": "78.8"
+  },
+  {
+    "station": "Jayapura",
+    "median": "27.0",
+    "std": 10.0,
+    "sample_size": 2420240,
+    "min_temp": "-21.1",
+    "max_temp": "79.1"
+  },
+  {
+    "station": "Jerusalem",
+    "median": "18.3",
+    "std": 10.0,
+    "sample_size": 2421598,
+    "min_temp": "-28.6",
+    "max_temp": "66.1"
+  },
+  {
+    "station": "Johannesburg",
+    "median": "15.5",
+    "std": 10.0,
+    "sample_size": 2419922,
+    "min_temp": "-34.3",
+    "max_temp": "64.0"
+  },
+  {
+    "station": "Jos",
+    "median": "22.8",
+    "std": 10.0,
+    "sample_size": 2420444,
+    "min_temp": "-25.7",
+    "max_temp": "70.9"
+  },
+  {
+    "station": "Juba",
+    "median": "27.8",
+    "std": 10.0,
+    "sample_size": 2420979,
+    "min_temp": "-19.3",
+    "max_temp": "75.6"
+  },
+  {
+    "station": "Kabul",
+    "median": "12.1",
+    "std": 10.0,
+    "sample_size": 2423018,
+    "min_temp": "-39.4",
+    "max_temp": "62.8"
+  },
+  {
+    "station": "Kampala",
+    "median": "20.0",
+    "std": 10.0,
+    "sample_size": 2421189,
+    "min_temp": "-30.8",
+    "max_temp": "67.7"
+  },
+  {
+    "station": "Kandi",
+    "median": "27.7",
+    "std": 10.0,
+    "sample_size": 2420267,
+    "min_temp": "-25.9",
+    "max_temp": "76.2"
+  },
+  {
+    "station": "Kankan",
+    "median": "26.5",
+    "std": 10.0,
+    "sample_size": 2422879,
+    "min_temp": "-28.0",
+    "max_temp": "76.6"
+  },
+  {
+    "station": "Kano",
+    "median": "26.4",
+    "std": 10.0,
+    "sample_size": 2422541,
+    "min_temp": "-32.5",
+    "max_temp": "75.3"
+  },
+  {
+    "station": "Kansas City",
+    "median": "12.5",
+    "std": 10.0,
+    "sample_size": 2420156,
+    "min_temp": "-38.7",
+    "max_temp": "63.8"
+  },
+  {
+    "station": "Karachi",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2423731,
+    "min_temp": "-22.8",
+    "max_temp": "78.6"
+  },
+  {
+    "station": "Karonga",
+    "median": "24.4",
+    "std": 10.0,
+    "sample_size": 2420461,
+    "min_temp": "-24.4",
+    "max_temp": "72.6"
+  },
+  {
+    "station": "Kathmandu",
+    "median": "18.3",
+    "std": 10.0,
+    "sample_size": 2422700,
+    "min_temp": "-30.6",
+    "max_temp": "65.6"
+  },
+  {
+    "station": "Khartoum",
+    "median": "29.9",
+    "std": 10.0,
+    "sample_size": 2421347,
+    "min_temp": "-21.2",
+    "max_temp": "80.1"
+  },
+  {
+    "station": "Kingston",
+    "median": "27.4",
+    "std": 10.0,
+    "sample_size": 2422446,
+    "min_temp": "-23.3",
+    "max_temp": "77.9"
+  },
+  {
+    "station": "Kinshasa",
+    "median": "25.3",
+    "std": 10.0,
+    "sample_size": 2420604,
+    "min_temp": "-27.5",
+    "max_temp": "72.6"
+  },
+  {
+    "station": "Kolkata",
+    "median": "26.7",
+    "std": 10.0,
+    "sample_size": 2423630,
+    "min_temp": "-20.9",
+    "max_temp": "77.5"
+  },
+  {
+    "station": "Kuala Lumpur",
+    "median": "27.3",
+    "std": 10.0,
+    "sample_size": 2420752,
+    "min_temp": "-22.9",
+    "max_temp": "77.4"
+  },
+  {
+    "station": "Kumasi",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2421619,
+    "min_temp": "-25.3",
+    "max_temp": "77.5"
+  },
+  {
+    "station": "Kunming",
+    "median": "15.7",
+    "std": 10.0,
+    "sample_size": 2420745,
+    "min_temp": "-32.2",
+    "max_temp": "65.3"
+  },
+  {
+    "station": "Kuopio",
+    "median": "3.4",
+    "std": 10.0,
+    "sample_size": 2420629,
+    "min_temp": "-45.0",
+    "max_temp": "60.5"
+  },
+  {
+    "station": "Kuwait City",
+    "median": "25.7",
+    "std": 10.0,
+    "sample_size": 2421760,
+    "min_temp": "-26.7",
+    "max_temp": "73.5"
+  },
+  {
+    "station": "Kyiv",
+    "median": "8.4",
+    "std": 10.0,
+    "sample_size": 2422326,
+    "min_temp": "-41.8",
+    "max_temp": "57.0"
+  },
+  {
+    "station": "Kyoto",
+    "median": "15.8",
+    "std": 10.0,
+    "sample_size": 2420926,
+    "min_temp": "-37.4",
+    "max_temp": "64.7"
+  },
+  {
+    "station": "La Ceiba",
+    "median": "26.2",
+    "std": 10.0,
+    "sample_size": 2421703,
+    "min_temp": "-23.4",
+    "max_temp": "78.1"
+  },
+  {
+    "station": "La Paz",
+    "median": "23.7",
+    "std": 10.0,
+    "sample_size": 2419479,
+    "min_temp": "-27.2",
+    "max_temp": "75.4"
+  },
+  {
+    "station": "Lagos",
+    "median": "26.8",
+    "std": 10.0,
+    "sample_size": 2419546,
+    "min_temp": "-25.8",
+    "max_temp": "77.9"
+  },
+  {
+    "station": "Lahore",
+    "median": "24.3",
+    "std": 10.0,
+    "sample_size": 2419141,
+    "min_temp": "-24.9",
+    "max_temp": "72.4"
+  },
+  {
+    "station": "Lake Havasu City",
+    "median": "23.7",
+    "std": 10.0,
+    "sample_size": 2423256,
+    "min_temp": "-31.5",
+    "max_temp": "75.1"
+  },
+  {
+    "station": "Lake Tekapo",
+    "median": "8.7",
+    "std": 10.0,
+    "sample_size": 2419571,
+    "min_temp": "-39.5",
+    "max_temp": "56.6"
+  },
+  {
+    "station": "Las Palmas de Gran Canaria",
+    "median": "21.2",
+    "std": 10.0,
+    "sample_size": 2420599,
+    "min_temp": "-27.0",
+    "max_temp": "73.0"
+  },
+  {
+    "station": "Las Vegas",
+    "median": "20.3",
+    "std": 10.0,
+    "sample_size": 2422847,
+    "min_temp": "-28.7",
+    "max_temp": "69.7"
+  },
+  {
+    "station": "Launceston",
+    "median": "13.1",
+    "std": 10.0,
+    "sample_size": 2419481,
+    "min_temp": "-36.8",
+    "max_temp": "61.9"
+  },
+  {
+    "station": "Lhasa",
+    "median": "7.6",
+    "std": 10.0,
+    "sample_size": 2421707,
+    "min_temp": "-42.1",
+    "max_temp": "61.6"
+  },
+  {
+    "station": "Libreville",
+    "median": "25.9",
+    "std": 10.0,
+    "sample_size": 2422825,
+    "min_temp": "-28.2",
+    "max_temp": "75.0"
+  },
+  {
+    "station": "Lisbon",
+    "median": "17.5",
+    "std": 10.0,
+    "sample_size": 2420963,
+    "min_temp": "-29.6",
+    "max_temp": "70.6"
+  },
+  {
+    "station": "Livingstone",
+    "median": "21.8",
+    "std": 10.0,
+    "sample_size": 2421864,
+    "min_temp": "-32.9",
+    "max_temp": "70.0"
+  },
+  {
+    "station": "Ljubljana",
+    "median": "10.9",
+    "std": 10.0,
+    "sample_size": 2421967,
+    "min_temp": "-38.5",
+    "max_temp": "62.4"
+  },
+  {
+    "station": "Lodwar",
+    "median": "29.3",
+    "std": 10.0,
+    "sample_size": 2420105,
+    "min_temp": "-18.4",
+    "max_temp": "83.7"
+  },
+  {
+    "station": "Lom\u00e9",
+    "median": "26.9",
+    "std": 10.0,
+    "sample_size": 2421235,
+    "min_temp": "-24.3",
+    "max_temp": "75.3"
+  },
+  {
+    "station": "London",
+    "median": "11.3",
+    "std": 10.0,
+    "sample_size": 2422568,
+    "min_temp": "-38.1",
+    "max_temp": "60.8"
+  },
+  {
+    "station": "Los Angeles",
+    "median": "18.6",
+    "std": 10.0,
+    "sample_size": 2420756,
+    "min_temp": "-26.7",
+    "max_temp": "66.8"
+  },
+  {
+    "station": "Louisville",
+    "median": "13.9",
+    "std": 10.0,
+    "sample_size": 2422077,
+    "min_temp": "-34.2",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Luanda",
+    "median": "25.8",
+    "std": 10.0,
+    "sample_size": 2420767,
+    "min_temp": "-25.9",
+    "max_temp": "81.4"
+  },
+  {
+    "station": "Lubumbashi",
+    "median": "20.8",
+    "std": 10.0,
+    "sample_size": 2421253,
+    "min_temp": "-29.5",
+    "max_temp": "69.1"
+  },
+  {
+    "station": "Lusaka",
+    "median": "19.9",
+    "std": 10.0,
+    "sample_size": 2421282,
+    "min_temp": "-28.7",
+    "max_temp": "69.0"
+  },
+  {
+    "station": "Luxembourg City",
+    "median": "9.3",
+    "std": 10.0,
+    "sample_size": 2422612,
+    "min_temp": "-41.9",
+    "max_temp": "60.9"
+  },
+  {
+    "station": "Lviv",
+    "median": "7.8",
+    "std": 10.0,
+    "sample_size": 2424266,
+    "min_temp": "-44.8",
+    "max_temp": "57.1"
+  },
+  {
+    "station": "Lyon",
+    "median": "12.5",
+    "std": 10.0,
+    "sample_size": 2421379,
+    "min_temp": "-35.2",
+    "max_temp": "59.8"
+  },
+  {
+    "station": "Madrid",
+    "median": "15.0",
+    "std": 10.0,
+    "sample_size": 2419963,
+    "min_temp": "-33.4",
+    "max_temp": "63.6"
+  },
+  {
+    "station": "Mahajanga",
+    "median": "26.3",
+    "std": 10.0,
+    "sample_size": 2421996,
+    "min_temp": "-23.1",
+    "max_temp": "76.3"
+  },
+  {
+    "station": "Makassar",
+    "median": "26.7",
+    "std": 10.0,
+    "sample_size": 2420512,
+    "min_temp": "-22.0",
+    "max_temp": "85.6"
+  },
+  {
+    "station": "Makurdi",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2418667,
+    "min_temp": "-26.9",
+    "max_temp": "82.2"
+  },
+  {
+    "station": "Malabo",
+    "median": "26.3",
+    "std": 10.0,
+    "sample_size": 2420206,
+    "min_temp": "-29.5",
+    "max_temp": "74.6"
+  },
+  {
+    "station": "Mal\u00e9",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2420568,
+    "min_temp": "-26.1",
+    "max_temp": "79.9"
+  },
+  {
+    "station": "Managua",
+    "median": "27.3",
+    "std": 10.0,
+    "sample_size": 2418673,
+    "min_temp": "-20.0",
+    "max_temp": "78.0"
+  },
+  {
+    "station": "Manama",
+    "median": "26.5",
+    "std": 10.0,
+    "sample_size": 2420774,
+    "min_temp": "-26.5",
+    "max_temp": "73.6"
+  },
+  {
+    "station": "Mandalay",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2421325,
+    "min_temp": "-22.4",
+    "max_temp": "74.6"
+  },
+  {
+    "station": "Mango",
+    "median": "28.1",
+    "std": 10.0,
+    "sample_size": 2419816,
+    "min_temp": "-21.8",
+    "max_temp": "77.7"
+  },
+  {
+    "station": "Manila",
+    "median": "28.4",
+    "std": 10.0,
+    "sample_size": 2420920,
+    "min_temp": "-23.4",
+    "max_temp": "80.4"
+  },
+  {
+    "station": "Maputo",
+    "median": "22.8",
+    "std": 10.0,
+    "sample_size": 2420456,
+    "min_temp": "-33.5",
+    "max_temp": "72.9"
+  },
+  {
+    "station": "Marrakesh",
+    "median": "19.6",
+    "std": 10.0,
+    "sample_size": 2419522,
+    "min_temp": "-28.7",
+    "max_temp": "68.9"
+  },
+  {
+    "station": "Marseille",
+    "median": "15.8",
+    "std": 10.0,
+    "sample_size": 2420044,
+    "min_temp": "-35.5",
+    "max_temp": "62.9"
+  },
+  {
+    "station": "Maun",
+    "median": "22.4",
+    "std": 10.0,
+    "sample_size": 2420793,
+    "min_temp": "-27.2",
+    "max_temp": "75.0"
+  },
+  {
+    "station": "Medan",
+    "median": "26.5",
+    "std": 10.0,
+    "sample_size": 2418195,
+    "min_temp": "-23.3",
+    "max_temp": "76.7"
+  },
+  {
+    "station": "Mek'ele",
+    "median": "22.7",
+    "std": 10.0,
+    "sample_size": 2420893,
+    "min_temp": "-28.2",
+    "max_temp": "72.8"
+  },
+  {
+    "station": "Melbourne",
+    "median": "15.1",
+    "std": 10.0,
+    "sample_size": 2424812,
+    "min_temp": "-35.0",
+    "max_temp": "65.8"
+  },
+  {
+    "station": "Memphis",
+    "median": "17.2",
+    "std": 10.0,
+    "sample_size": 2423967,
+    "min_temp": "-35.5",
+    "max_temp": "64.7"
+  },
+  {
+    "station": "Mexicali",
+    "median": "23.1",
+    "std": 10.0,
+    "sample_size": 2418218,
+    "min_temp": "-24.7",
+    "max_temp": "78.7"
+  },
+  {
+    "station": "Mexico City",
+    "median": "17.5",
+    "std": 10.0,
+    "sample_size": 2418276,
+    "min_temp": "-33.1",
+    "max_temp": "68.6"
+  },
+  {
+    "station": "Miami",
+    "median": "24.9",
+    "std": 10.0,
+    "sample_size": 2420210,
+    "min_temp": "-27.3",
+    "max_temp": "72.8"
+  },
+  {
+    "station": "Milan",
+    "median": "13.0",
+    "std": 10.0,
+    "sample_size": 2418620,
+    "min_temp": "-36.6",
+    "max_temp": "62.4"
+  },
+  {
+    "station": "Milwaukee",
+    "median": "8.9",
+    "std": 10.0,
+    "sample_size": 2421472,
+    "min_temp": "-41.8",
+    "max_temp": "58.9"
+  },
+  {
+    "station": "Minneapolis",
+    "median": "7.8",
+    "std": 10.0,
+    "sample_size": 2417210,
+    "min_temp": "-39.0",
+    "max_temp": "55.7"
+  },
+  {
+    "station": "Minsk",
+    "median": "6.7",
+    "std": 10.0,
+    "sample_size": 2423817,
+    "min_temp": "-43.9",
+    "max_temp": "54.0"
+  },
+  {
+    "station": "Mogadishu",
+    "median": "27.1",
+    "std": 10.0,
+    "sample_size": 2421831,
+    "min_temp": "-24.8",
+    "max_temp": "77.8"
+  },
+  {
+    "station": "Mombasa",
+    "median": "26.3",
+    "std": 10.0,
+    "sample_size": 2420872,
+    "min_temp": "-22.3",
+    "max_temp": "75.1"
+  },
+  {
+    "station": "Monaco",
+    "median": "16.4",
+    "std": 10.0,
+    "sample_size": 2420453,
+    "min_temp": "-32.3",
+    "max_temp": "65.2"
+  },
+  {
+    "station": "Moncton",
+    "median": "6.1",
+    "std": 10.0,
+    "sample_size": 2419765,
+    "min_temp": "-48.5",
+    "max_temp": "53.7"
+  },
+  {
+    "station": "Monterrey",
+    "median": "22.3",
+    "std": 10.0,
+    "sample_size": 2419558,
+    "min_temp": "-32.8",
+    "max_temp": "75.2"
+  },
+  {
+    "station": "Montreal",
+    "median": "6.8",
+    "std": 10.0,
+    "sample_size": 2421423,
+    "min_temp": "-42.8",
+    "max_temp": "56.0"
+  },
+  {
+    "station": "Moscow",
+    "median": "5.8",
+    "std": 10.0,
+    "sample_size": 2421166,
+    "min_temp": "-43.6",
+    "max_temp": "54.6"
+  },
+  {
+    "station": "Mumbai",
+    "median": "27.1",
+    "std": 10.0,
+    "sample_size": 2422561,
+    "min_temp": "-24.0",
+    "max_temp": "79.3"
+  },
+  {
+    "station": "Murmansk",
+    "median": "0.6",
+    "std": 10.0,
+    "sample_size": 2421382,
+    "min_temp": "-48.4",
+    "max_temp": "48.0"
+  },
+  {
+    "station": "Muscat",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2419799,
+    "min_temp": "-22.8",
+    "max_temp": "77.9"
+  },
+  {
+    "station": "Mzuzu",
+    "median": "17.7",
+    "std": 10.0,
+    "sample_size": 2423085,
+    "min_temp": "-32.1",
+    "max_temp": "66.6"
+  },
+  {
+    "station": "N'Djamena",
+    "median": "28.3",
+    "std": 10.0,
+    "sample_size": 2420755,
+    "min_temp": "-20.3",
+    "max_temp": "78.9"
+  },
+  {
+    "station": "Naha",
+    "median": "23.1",
+    "std": 10.0,
+    "sample_size": 2421519,
+    "min_temp": "-25.6",
+    "max_temp": "73.9"
+  },
+  {
+    "station": "Nairobi",
+    "median": "17.8",
+    "std": 10.0,
+    "sample_size": 2420567,
+    "min_temp": "-33.6",
+    "max_temp": "68.6"
+  },
+  {
+    "station": "Nakhon Ratchasima",
+    "median": "27.3",
+    "std": 10.0,
+    "sample_size": 2420244,
+    "min_temp": "-23.3",
+    "max_temp": "77.4"
+  },
+  {
+    "station": "Napier",
+    "median": "14.6",
+    "std": 10.0,
+    "sample_size": 2424117,
+    "min_temp": "-34.7",
+    "max_temp": "63.7"
+  },
+  {
+    "station": "Napoli",
+    "median": "15.9",
+    "std": 10.0,
+    "sample_size": 2421327,
+    "min_temp": "-34.3",
+    "max_temp": "71.0"
+  },
+  {
+    "station": "Nashville",
+    "median": "15.4",
+    "std": 10.0,
+    "sample_size": 2421089,
+    "min_temp": "-31.3",
+    "max_temp": "65.9"
+  },
+  {
+    "station": "Nassau",
+    "median": "24.6",
+    "std": 10.0,
+    "sample_size": 2418713,
+    "min_temp": "-23.5",
+    "max_temp": "72.5"
+  },
+  {
+    "station": "Ndola",
+    "median": "20.3",
+    "std": 10.0,
+    "sample_size": 2420829,
+    "min_temp": "-27.8",
+    "max_temp": "70.5"
+  },
+  {
+    "station": "New Delhi",
+    "median": "25.0",
+    "std": 10.0,
+    "sample_size": 2422739,
+    "min_temp": "-22.2",
+    "max_temp": "75.3"
+  },
+  {
+    "station": "New Orleans",
+    "median": "20.7",
+    "std": 10.0,
+    "sample_size": 2420450,
+    "min_temp": "-30.6",
+    "max_temp": "71.0"
+  },
+  {
+    "station": "New York City",
+    "median": "12.9",
+    "std": 10.0,
+    "sample_size": 2421430,
+    "min_temp": "-35.0",
+    "max_temp": "62.2"
+  },
+  {
+    "station": "Ngaound\u00e9r\u00e9",
+    "median": "22.0",
+    "std": 10.0,
+    "sample_size": 2419955,
+    "min_temp": "-26.4",
+    "max_temp": "73.0"
+  },
+  {
+    "station": "Niamey",
+    "median": "29.3",
+    "std": 10.0,
+    "sample_size": 2419910,
+    "min_temp": "-19.6",
+    "max_temp": "78.8"
+  },
+  {
+    "station": "Nicosia",
+    "median": "19.7",
+    "std": 10.0,
+    "sample_size": 2424170,
+    "min_temp": "-30.3",
+    "max_temp": "67.8"
+  },
+  {
+    "station": "Niigata",
+    "median": "13.9",
+    "std": 10.0,
+    "sample_size": 2420577,
+    "min_temp": "-35.3",
+    "max_temp": "63.5"
+  },
+  {
+    "station": "Nouadhibou",
+    "median": "21.3",
+    "std": 10.0,
+    "sample_size": 2421489,
+    "min_temp": "-29.6",
+    "max_temp": "68.3"
+  },
+  {
+    "station": "Nouakchott",
+    "median": "25.7",
+    "std": 10.0,
+    "sample_size": 2420473,
+    "min_temp": "-25.8",
+    "max_temp": "74.4"
+  },
+  {
+    "station": "Novosibirsk",
+    "median": "1.7",
+    "std": 10.0,
+    "sample_size": 2420244,
+    "min_temp": "-50.7",
+    "max_temp": "50.5"
+  },
+  {
+    "station": "Nuuk",
+    "median": "-1.4",
+    "std": 10.0,
+    "sample_size": 2422573,
+    "min_temp": "-51.3",
+    "max_temp": "46.5"
+  },
+  {
+    "station": "Odesa",
+    "median": "10.7",
+    "std": 10.0,
+    "sample_size": 2420915,
+    "min_temp": "-40.6",
+    "max_temp": "61.7"
+  },
+  {
+    "station": "Odienn\u00e9",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2419704,
+    "min_temp": "-24.5",
+    "max_temp": "73.8"
+  },
+  {
+    "station": "Oklahoma City",
+    "median": "15.9",
+    "std": 10.0,
+    "sample_size": 2421911,
+    "min_temp": "-36.9",
+    "max_temp": "64.9"
+  },
+  {
+    "station": "Omaha",
+    "median": "10.6",
+    "std": 10.0,
+    "sample_size": 2420887,
+    "min_temp": "-37.5",
+    "max_temp": "59.0"
+  },
+  {
+    "station": "Oranjestad",
+    "median": "28.1",
+    "std": 10.0,
+    "sample_size": 2422109,
+    "min_temp": "-21.4",
+    "max_temp": "74.4"
+  },
+  {
+    "station": "Oslo",
+    "median": "5.7",
+    "std": 10.0,
+    "sample_size": 2420935,
+    "min_temp": "-48.7",
+    "max_temp": "55.4"
+  },
+  {
+    "station": "Ottawa",
+    "median": "6.6",
+    "std": 10.0,
+    "sample_size": 2421483,
+    "min_temp": "-44.7",
+    "max_temp": "56.9"
+  },
+  {
+    "station": "Ouagadougou",
+    "median": "28.3",
+    "std": 10.0,
+    "sample_size": 2421430,
+    "min_temp": "-20.0",
+    "max_temp": "80.6"
+  },
+  {
+    "station": "Ouahigouya",
+    "median": "28.6",
+    "std": 10.0,
+    "sample_size": 2420880,
+    "min_temp": "-26.3",
+    "max_temp": "75.8"
+  },
+  {
+    "station": "Ouarzazate",
+    "median": "18.9",
+    "std": 10.0,
+    "sample_size": 2419820,
+    "min_temp": "-30.4",
+    "max_temp": "66.3"
+  },
+  {
+    "station": "Oulu",
+    "median": "2.7",
+    "std": 10.0,
+    "sample_size": 2425961,
+    "min_temp": "-49.0",
+    "max_temp": "53.1"
+  },
+  {
+    "station": "Palembang",
+    "median": "27.3",
+    "std": 10.0,
+    "sample_size": 2421311,
+    "min_temp": "-21.4",
+    "max_temp": "75.9"
+  },
+  {
+    "station": "Palermo",
+    "median": "18.5",
+    "std": 10.0,
+    "sample_size": 2422127,
+    "min_temp": "-29.7",
+    "max_temp": "68.7"
+  },
+  {
+    "station": "Palm Springs",
+    "median": "24.5",
+    "std": 10.0,
+    "sample_size": 2417664,
+    "min_temp": "-29.6",
+    "max_temp": "75.4"
+  },
+  {
+    "station": "Palmerston North",
+    "median": "13.2",
+    "std": 10.0,
+    "sample_size": 2422290,
+    "min_temp": "-35.4",
+    "max_temp": "61.7"
+  },
+  {
+    "station": "Panama City",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2421842,
+    "min_temp": "-20.9",
+    "max_temp": "82.5"
+  },
+  {
+    "station": "Parakou",
+    "median": "26.8",
+    "std": 10.0,
+    "sample_size": 2420497,
+    "min_temp": "-20.4",
+    "max_temp": "79.0"
+  },
+  {
+    "station": "Paris",
+    "median": "12.3",
+    "std": 10.0,
+    "sample_size": 2418192,
+    "min_temp": "-37.6",
+    "max_temp": "63.7"
+  },
+  {
+    "station": "Perth",
+    "median": "18.7",
+    "std": 10.0,
+    "sample_size": 2423523,
+    "min_temp": "-33.5",
+    "max_temp": "68.6"
+  },
+  {
+    "station": "Petropavlovsk-Kamchatsky",
+    "median": "1.9",
+    "std": 10.0,
+    "sample_size": 2422648,
+    "min_temp": "-47.6",
+    "max_temp": "53.5"
+  },
+  {
+    "station": "Philadelphia",
+    "median": "13.2",
+    "std": 10.0,
+    "sample_size": 2419963,
+    "min_temp": "-38.0",
+    "max_temp": "68.1"
+  },
+  {
+    "station": "Phnom Penh",
+    "median": "28.3",
+    "std": 10.0,
+    "sample_size": 2422240,
+    "min_temp": "-23.4",
+    "max_temp": "76.4"
+  },
+  {
+    "station": "Phoenix",
+    "median": "23.9",
+    "std": 10.0,
+    "sample_size": 2419499,
+    "min_temp": "-26.5",
+    "max_temp": "73.1"
+  },
+  {
+    "station": "Pittsburgh",
+    "median": "10.8",
+    "std": 10.0,
+    "sample_size": 2419671,
+    "min_temp": "-40.9",
+    "max_temp": "58.8"
+  },
+  {
+    "station": "Podgorica",
+    "median": "15.3",
+    "std": 10.0,
+    "sample_size": 2419292,
+    "min_temp": "-36.0",
+    "max_temp": "66.6"
+  },
+  {
+    "station": "Pointe-Noire",
+    "median": "26.1",
+    "std": 10.0,
+    "sample_size": 2424548,
+    "min_temp": "-25.2",
+    "max_temp": "75.4"
+  },
+  {
+    "station": "Pontianak",
+    "median": "27.7",
+    "std": 10.0,
+    "sample_size": 2421805,
+    "min_temp": "-23.3",
+    "max_temp": "76.0"
+  },
+  {
+    "station": "Port Moresby",
+    "median": "26.9",
+    "std": 10.0,
+    "sample_size": 2421385,
+    "min_temp": "-20.6",
+    "max_temp": "76.4"
+  },
+  {
+    "station": "Port Sudan",
+    "median": "28.4",
+    "std": 10.0,
+    "sample_size": 2416883,
+    "min_temp": "-20.0",
+    "max_temp": "79.0"
+  },
+  {
+    "station": "Port Vila",
+    "median": "24.3",
+    "std": 10.0,
+    "sample_size": 2422708,
+    "min_temp": "-25.4",
+    "max_temp": "73.8"
+  },
+  {
+    "station": "Port-Gentil",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2421234,
+    "min_temp": "-24.8",
+    "max_temp": "77.1"
+  },
+  {
+    "station": "Portland (OR)",
+    "median": "12.4",
+    "std": 10.0,
+    "sample_size": 2422992,
+    "min_temp": "-36.9",
+    "max_temp": "61.4"
+  },
+  {
+    "station": "Porto",
+    "median": "15.7",
+    "std": 10.0,
+    "sample_size": 2417405,
+    "min_temp": "-32.1",
+    "max_temp": "67.9"
+  },
+  {
+    "station": "Prague",
+    "median": "8.4",
+    "std": 10.0,
+    "sample_size": 2422708,
+    "min_temp": "-44.0",
+    "max_temp": "59.5"
+  },
+  {
+    "station": "Praia",
+    "median": "24.4",
+    "std": 10.0,
+    "sample_size": 2421205,
+    "min_temp": "-26.1",
+    "max_temp": "72.9"
+  },
+  {
+    "station": "Pretoria",
+    "median": "18.2",
+    "std": 10.0,
+    "sample_size": 2421262,
+    "min_temp": "-30.0",
+    "max_temp": "69.2"
+  },
+  {
+    "station": "Pyongyang",
+    "median": "10.8",
+    "std": 10.0,
+    "sample_size": 2420838,
+    "min_temp": "-39.4",
+    "max_temp": "59.4"
+  },
+  {
+    "station": "Rabat",
+    "median": "17.2",
+    "std": 10.0,
+    "sample_size": 2419705,
+    "min_temp": "-32.2",
+    "max_temp": "71.9"
+  },
+  {
+    "station": "Rangpur",
+    "median": "24.4",
+    "std": 10.0,
+    "sample_size": 2422898,
+    "min_temp": "-30.2",
+    "max_temp": "73.5"
+  },
+  {
+    "station": "Reggane",
+    "median": "28.3",
+    "std": 10.0,
+    "sample_size": 2423661,
+    "min_temp": "-20.0",
+    "max_temp": "81.7"
+  },
+  {
+    "station": "Reykjav\u00edk",
+    "median": "4.3",
+    "std": 10.0,
+    "sample_size": 2420010,
+    "min_temp": "-47.7",
+    "max_temp": "54.0"
+  },
+  {
+    "station": "Riga",
+    "median": "6.2",
+    "std": 10.0,
+    "sample_size": 2418649,
+    "min_temp": "-42.8",
+    "max_temp": "55.3"
+  },
+  {
+    "station": "Riyadh",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2425326,
+    "min_temp": "-21.0",
+    "max_temp": "80.4"
+  },
+  {
+    "station": "Rome",
+    "median": "15.2",
+    "std": 10.0,
+    "sample_size": 2421446,
+    "min_temp": "-33.1",
+    "max_temp": "64.6"
+  },
+  {
+    "station": "Roseau",
+    "median": "26.2",
+    "std": 10.0,
+    "sample_size": 2420126,
+    "min_temp": "-20.8",
+    "max_temp": "75.4"
+  },
+  {
+    "station": "Rostov-on-Don",
+    "median": "9.9",
+    "std": 10.0,
+    "sample_size": 2422922,
+    "min_temp": "-36.5",
+    "max_temp": "64.2"
+  },
+  {
+    "station": "Sacramento",
+    "median": "16.3",
+    "std": 10.0,
+    "sample_size": 2420267,
+    "min_temp": "-34.3",
+    "max_temp": "65.5"
+  },
+  {
+    "station": "Saint Petersburg",
+    "median": "5.8",
+    "std": 10.0,
+    "sample_size": 2422168,
+    "min_temp": "-46.0",
+    "max_temp": "58.3"
+  },
+  {
+    "station": "Saint-Pierre",
+    "median": "5.7",
+    "std": 10.0,
+    "sample_size": 2421889,
+    "min_temp": "-47.3",
+    "max_temp": "54.5"
+  },
+  {
+    "station": "Salt Lake City",
+    "median": "11.6",
+    "std": 10.0,
+    "sample_size": 2421262,
+    "min_temp": "-37.1",
+    "max_temp": "61.5"
+  },
+  {
+    "station": "San Antonio",
+    "median": "20.8",
+    "std": 10.0,
+    "sample_size": 2421455,
+    "min_temp": "-28.3",
+    "max_temp": "71.3"
+  },
+  {
+    "station": "San Diego",
+    "median": "17.8",
+    "std": 10.0,
+    "sample_size": 2422887,
+    "min_temp": "-34.3",
+    "max_temp": "67.8"
+  },
+  {
+    "station": "San Francisco",
+    "median": "14.6",
+    "std": 10.0,
+    "sample_size": 2421294,
+    "min_temp": "-38.6",
+    "max_temp": "63.2"
+  },
+  {
+    "station": "San Jose",
+    "median": "16.4",
+    "std": 10.0,
+    "sample_size": 2422898,
+    "min_temp": "-34.1",
+    "max_temp": "68.5"
+  },
+  {
+    "station": "San Jos\u00e9",
+    "median": "22.6",
+    "std": 10.0,
+    "sample_size": 2420075,
+    "min_temp": "-31.1",
+    "max_temp": "71.8"
+  },
+  {
+    "station": "San Juan",
+    "median": "27.2",
+    "std": 10.0,
+    "sample_size": 2425026,
+    "min_temp": "-24.8",
+    "max_temp": "73.2"
+  },
+  {
+    "station": "San Salvador",
+    "median": "23.1",
+    "std": 10.0,
+    "sample_size": 2423796,
+    "min_temp": "-24.7",
+    "max_temp": "71.3"
+  },
+  {
+    "station": "Sana'a",
+    "median": "20.0",
+    "std": 10.0,
+    "sample_size": 2421892,
+    "min_temp": "-29.4",
+    "max_temp": "70.6"
+  },
+  {
+    "station": "Santo Domingo",
+    "median": "25.9",
+    "std": 10.0,
+    "sample_size": 2422126,
+    "min_temp": "-24.5",
+    "max_temp": "72.0"
+  },
+  {
+    "station": "Sapporo",
+    "median": "8.9",
+    "std": 10.0,
+    "sample_size": 2421952,
+    "min_temp": "-42.3",
+    "max_temp": "58.0"
+  },
+  {
+    "station": "Sarajevo",
+    "median": "10.1",
+    "std": 10.0,
+    "sample_size": 2423276,
+    "min_temp": "-38.8",
+    "max_temp": "59.8"
+  },
+  {
+    "station": "Saskatoon",
+    "median": "3.3",
+    "std": 10.0,
+    "sample_size": 2419266,
+    "min_temp": "-50.0",
+    "max_temp": "54.2"
+  },
+  {
+    "station": "Seattle",
+    "median": "11.3",
+    "std": 10.0,
+    "sample_size": 2419834,
+    "min_temp": "-38.6",
+    "max_temp": "60.2"
+  },
+  {
+    "station": "Seoul",
+    "median": "12.5",
+    "std": 10.0,
+    "sample_size": 2421650,
+    "min_temp": "-37.1",
+    "max_temp": "61.0"
+  },
+  {
+    "station": "Seville",
+    "median": "19.2",
+    "std": 10.0,
+    "sample_size": 2420055,
+    "min_temp": "-32.5",
+    "max_temp": "72.9"
+  },
+  {
+    "station": "Shanghai",
+    "median": "16.7",
+    "std": 10.0,
+    "sample_size": 2418925,
+    "min_temp": "-35.3",
+    "max_temp": "68.1"
+  },
+  {
+    "station": "Singapore",
+    "median": "27.0",
+    "std": 10.0,
+    "sample_size": 2422859,
+    "min_temp": "-23.6",
+    "max_temp": "73.8"
+  },
+  {
+    "station": "Skopje",
+    "median": "12.4",
+    "std": 10.0,
+    "sample_size": 2421269,
+    "min_temp": "-35.2",
+    "max_temp": "64.4"
+  },
+  {
+    "station": "Sochi",
+    "median": "14.2",
+    "std": 10.0,
+    "sample_size": 2420825,
+    "min_temp": "-38.8",
+    "max_temp": "62.3"
+  },
+  {
+    "station": "Sofia",
+    "median": "10.6",
+    "std": 10.0,
+    "sample_size": 2421839,
+    "min_temp": "-38.5",
+    "max_temp": "58.9"
+  },
+  {
+    "station": "Sokoto",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2418062,
+    "min_temp": "-26.3",
+    "max_temp": "81.6"
+  },
+  {
+    "station": "Split",
+    "median": "16.1",
+    "std": 10.0,
+    "sample_size": 2419729,
+    "min_temp": "-31.6",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "St. John's",
+    "median": "5.0",
+    "std": 10.0,
+    "sample_size": 2420758,
+    "min_temp": "-46.0",
+    "max_temp": "54.5"
+  },
+  {
+    "station": "St. Louis",
+    "median": "13.9",
+    "std": 10.0,
+    "sample_size": 2420647,
+    "min_temp": "-33.5",
+    "max_temp": "62.3"
+  },
+  {
+    "station": "Stockholm",
+    "median": "6.6",
+    "std": 10.0,
+    "sample_size": 2420224,
+    "min_temp": "-43.6",
+    "max_temp": "57.5"
+  },
+  {
+    "station": "Surabaya",
+    "median": "27.1",
+    "std": 10.0,
+    "sample_size": 2422716,
+    "min_temp": "-22.0",
+    "max_temp": "73.6"
+  },
+  {
+    "station": "Suva",
+    "median": "25.6",
+    "std": 10.0,
+    "sample_size": 2416854,
+    "min_temp": "-25.5",
+    "max_temp": "74.3"
+  },
+  {
+    "station": "Suwa\u0142ki",
+    "median": "7.2",
+    "std": 10.0,
+    "sample_size": 2420714,
+    "min_temp": "-41.3",
+    "max_temp": "55.9"
+  },
+  {
+    "station": "Sydney",
+    "median": "17.7",
+    "std": 10.0,
+    "sample_size": 2419813,
+    "min_temp": "-31.2",
+    "max_temp": "67.8"
+  },
+  {
+    "station": "S\u00e9gou",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2418070,
+    "min_temp": "-22.6",
+    "max_temp": "77.0"
+  },
+  {
+    "station": "Tabora",
+    "median": "23.0",
+    "std": 10.0,
+    "sample_size": 2421198,
+    "min_temp": "-28.3",
+    "max_temp": "73.2"
+  },
+  {
+    "station": "Tabriz",
+    "median": "12.6",
+    "std": 10.0,
+    "sample_size": 2421245,
+    "min_temp": "-36.4",
+    "max_temp": "61.6"
+  },
+  {
+    "station": "Taipei",
+    "median": "23.0",
+    "std": 10.0,
+    "sample_size": 2422613,
+    "min_temp": "-27.5",
+    "max_temp": "75.8"
+  },
+  {
+    "station": "Tallinn",
+    "median": "6.4",
+    "std": 10.0,
+    "sample_size": 2422569,
+    "min_temp": "-46.6",
+    "max_temp": "54.8"
+  },
+  {
+    "station": "Tamale",
+    "median": "27.9",
+    "std": 10.0,
+    "sample_size": 2420204,
+    "min_temp": "-26.1",
+    "max_temp": "78.7"
+  },
+  {
+    "station": "Tamanrasset",
+    "median": "21.7",
+    "std": 10.0,
+    "sample_size": 2418604,
+    "min_temp": "-27.4",
+    "max_temp": "69.6"
+  },
+  {
+    "station": "Tampa",
+    "median": "22.9",
+    "std": 10.0,
+    "sample_size": 2419991,
+    "min_temp": "-28.1",
+    "max_temp": "72.6"
+  },
+  {
+    "station": "Tashkent",
+    "median": "14.8",
+    "std": 10.0,
+    "sample_size": 2423198,
+    "min_temp": "-36.1",
+    "max_temp": "61.8"
+  },
+  {
+    "station": "Tauranga",
+    "median": "14.8",
+    "std": 10.0,
+    "sample_size": 2422823,
+    "min_temp": "-35.4",
+    "max_temp": "63.4"
+  },
+  {
+    "station": "Tbilisi",
+    "median": "12.9",
+    "std": 10.0,
+    "sample_size": 2422449,
+    "min_temp": "-39.7",
+    "max_temp": "59.7"
+  },
+  {
+    "station": "Tegucigalpa",
+    "median": "21.7",
+    "std": 10.0,
+    "sample_size": 2421533,
+    "min_temp": "-27.2",
+    "max_temp": "70.6"
+  },
+  {
+    "station": "Tehran",
+    "median": "17.0",
+    "std": 10.0,
+    "sample_size": 2421346,
+    "min_temp": "-36.9",
+    "max_temp": "64.9"
+  },
+  {
+    "station": "Tel Aviv",
+    "median": "20.0",
+    "std": 10.0,
+    "sample_size": 2422468,
+    "min_temp": "-30.9",
+    "max_temp": "68.1"
+  },
+  {
+    "station": "Thessaloniki",
+    "median": "16.0",
+    "std": 10.0,
+    "sample_size": 2419097,
+    "min_temp": "-34.4",
+    "max_temp": "65.3"
+  },
+  {
+    "station": "Thi\u00e8s",
+    "median": "24.0",
+    "std": 10.0,
+    "sample_size": 2422506,
+    "min_temp": "-25.0",
+    "max_temp": "76.4"
+  },
+  {
+    "station": "Tijuana",
+    "median": "17.8",
+    "std": 10.0,
+    "sample_size": 2422744,
+    "min_temp": "-31.0",
+    "max_temp": "70.4"
+  },
+  {
+    "station": "Timbuktu",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2424145,
+    "min_temp": "-21.7",
+    "max_temp": "77.3"
+  },
+  {
+    "station": "Tirana",
+    "median": "15.2",
+    "std": 10.0,
+    "sample_size": 2421661,
+    "min_temp": "-32.4",
+    "max_temp": "69.3"
+  },
+  {
+    "station": "Toamasina",
+    "median": "23.4",
+    "std": 10.0,
+    "sample_size": 2420537,
+    "min_temp": "-29.7",
+    "max_temp": "71.5"
+  },
+  {
+    "station": "Tokyo",
+    "median": "15.4",
+    "std": 10.0,
+    "sample_size": 2422816,
+    "min_temp": "-40.4",
+    "max_temp": "63.1"
+  },
+  {
+    "station": "Toliara",
+    "median": "24.1",
+    "std": 10.0,
+    "sample_size": 2418353,
+    "min_temp": "-25.8",
+    "max_temp": "79.3"
+  },
+  {
+    "station": "Toluca",
+    "median": "12.4",
+    "std": 10.0,
+    "sample_size": 2419993,
+    "min_temp": "-37.9",
+    "max_temp": "64.8"
+  },
+  {
+    "station": "Toronto",
+    "median": "9.4",
+    "std": 10.0,
+    "sample_size": 2422483,
+    "min_temp": "-40.7",
+    "max_temp": "60.5"
+  },
+  {
+    "station": "Tripoli",
+    "median": "20.0",
+    "std": 10.0,
+    "sample_size": 2422051,
+    "min_temp": "-30.8",
+    "max_temp": "68.9"
+  },
+  {
+    "station": "Troms\u00f8",
+    "median": "2.9",
+    "std": 10.0,
+    "sample_size": 2422231,
+    "min_temp": "-45.6",
+    "max_temp": "49.9"
+  },
+  {
+    "station": "Tucson",
+    "median": "20.9",
+    "std": 10.0,
+    "sample_size": 2420128,
+    "min_temp": "-26.9",
+    "max_temp": "69.9"
+  },
+  {
+    "station": "Tunis",
+    "median": "18.4",
+    "std": 10.0,
+    "sample_size": 2418672,
+    "min_temp": "-31.7",
+    "max_temp": "71.1"
+  },
+  {
+    "station": "Ulaanbaatar",
+    "median": "-0.4",
+    "std": 10.0,
+    "sample_size": 2423476,
+    "min_temp": "-52.9",
+    "max_temp": "54.1"
+  },
+  {
+    "station": "Upington",
+    "median": "20.4",
+    "std": 10.0,
+    "sample_size": 2423203,
+    "min_temp": "-28.2",
+    "max_temp": "69.3"
+  },
+  {
+    "station": "Vaduz",
+    "median": "10.1",
+    "std": 10.0,
+    "sample_size": 2423928,
+    "min_temp": "-39.5",
+    "max_temp": "62.5"
+  },
+  {
+    "station": "Valencia",
+    "median": "18.3",
+    "std": 10.0,
+    "sample_size": 2421517,
+    "min_temp": "-33.7",
+    "max_temp": "68.5"
+  },
+  {
+    "station": "Valletta",
+    "median": "18.8",
+    "std": 10.0,
+    "sample_size": 2416624,
+    "min_temp": "-31.6",
+    "max_temp": "67.7"
+  },
+  {
+    "station": "Vancouver",
+    "median": "10.4",
+    "std": 10.0,
+    "sample_size": 2422543,
+    "min_temp": "-41.8",
+    "max_temp": "61.4"
+  },
+  {
+    "station": "Veracruz",
+    "median": "25.4",
+    "std": 10.0,
+    "sample_size": 2419374,
+    "min_temp": "-23.1",
+    "max_temp": "73.1"
+  },
+  {
+    "station": "Vienna",
+    "median": "10.4",
+    "std": 10.0,
+    "sample_size": 2420916,
+    "min_temp": "-37.5",
+    "max_temp": "64.1"
+  },
+  {
+    "station": "Vientiane",
+    "median": "25.9",
+    "std": 10.0,
+    "sample_size": 2422424,
+    "min_temp": "-28.2",
+    "max_temp": "73.4"
+  },
+  {
+    "station": "Villahermosa",
+    "median": "27.1",
+    "std": 10.0,
+    "sample_size": 2422433,
+    "min_temp": "-21.7",
+    "max_temp": "77.6"
+  },
+  {
+    "station": "Vilnius",
+    "median": "6.0",
+    "std": 10.0,
+    "sample_size": 2423644,
+    "min_temp": "-43.1",
+    "max_temp": "55.5"
+  },
+  {
+    "station": "Virginia Beach",
+    "median": "15.8",
+    "std": 10.0,
+    "sample_size": 2421286,
+    "min_temp": "-37.8",
+    "max_temp": "66.1"
+  },
+  {
+    "station": "Vladivostok",
+    "median": "4.9",
+    "std": 10.0,
+    "sample_size": 2420890,
+    "min_temp": "-46.8",
+    "max_temp": "52.4"
+  },
+  {
+    "station": "Warsaw",
+    "median": "8.5",
+    "std": 10.0,
+    "sample_size": 2421940,
+    "min_temp": "-40.4",
+    "max_temp": "56.6"
+  },
+  {
+    "station": "Washington, D.C.",
+    "median": "14.6",
+    "std": 10.0,
+    "sample_size": 2421494,
+    "min_temp": "-42.3",
+    "max_temp": "64.0"
+  },
+  {
+    "station": "Wau",
+    "median": "27.8",
+    "std": 10.0,
+    "sample_size": 2423946,
+    "min_temp": "-23.6",
+    "max_temp": "84.4"
+  },
+  {
+    "station": "Wellington",
+    "median": "12.9",
+    "std": 10.0,
+    "sample_size": 2424706,
+    "min_temp": "-34.6",
+    "max_temp": "65.9"
+  },
+  {
+    "station": "Whitehorse",
+    "median": "-0.1",
+    "std": 10.0,
+    "sample_size": 2422755,
+    "min_temp": "-49.7",
+    "max_temp": "50.0"
+  },
+  {
+    "station": "Wichita",
+    "median": "13.9",
+    "std": 10.0,
+    "sample_size": 2423041,
+    "min_temp": "-43.2",
+    "max_temp": "64.1"
+  },
+  {
+    "station": "Willemstad",
+    "median": "28.0",
+    "std": 10.0,
+    "sample_size": 2424207,
+    "min_temp": "-22.8",
+    "max_temp": "75.2"
+  },
+  {
+    "station": "Winnipeg",
+    "median": "3.0",
+    "std": 10.0,
+    "sample_size": 2421152,
+    "min_temp": "-45.5",
+    "max_temp": "54.0"
+  },
+  {
+    "station": "Wroc\u0142aw",
+    "median": "9.6",
+    "std": 10.0,
+    "sample_size": 2419600,
+    "min_temp": "-43.2",
+    "max_temp": "61.9"
+  },
+  {
+    "station": "Xi'an",
+    "median": "14.1",
+    "std": 10.0,
+    "sample_size": 2422383,
+    "min_temp": "-33.9",
+    "max_temp": "62.4"
+  },
+  {
+    "station": "Yakutsk",
+    "median": "-8.8",
+    "std": 10.0,
+    "sample_size": 2421008,
+    "min_temp": "-57.2",
+    "max_temp": "40.0"
+  },
+  {
+    "station": "Yangon",
+    "median": "27.5",
+    "std": 10.0,
+    "sample_size": 2420185,
+    "min_temp": "-20.0",
+    "max_temp": "73.7"
+  },
+  {
+    "station": "Yaound\u00e9",
+    "median": "23.8",
+    "std": 10.0,
+    "sample_size": 2421163,
+    "min_temp": "-23.9",
+    "max_temp": "70.3"
+  },
+  {
+    "station": "Yellowknife",
+    "median": "-4.3",
+    "std": 10.0,
+    "sample_size": 2425988,
+    "min_temp": "-53.0",
+    "max_temp": "47.4"
+  },
+  {
+    "station": "Yerevan",
+    "median": "12.4",
+    "std": 10.0,
+    "sample_size": 2418713,
+    "min_temp": "-35.4",
+    "max_temp": "62.0"
+  },
+  {
+    "station": "Yinchuan",
+    "median": "9.0",
+    "std": 10.0,
+    "sample_size": 2421512,
+    "min_temp": "-39.5",
+    "max_temp": "62.6"
+  },
+  {
+    "station": "Zagreb",
+    "median": "10.7",
+    "std": 10.0,
+    "sample_size": 2424421,
+    "min_temp": "-42.1",
+    "max_temp": "60.1"
+  },
+  {
+    "station": "Zanzibar City",
+    "median": "26.0",
+    "std": 10.0,
+    "sample_size": 2420940,
+    "min_temp": "-25.1",
+    "max_temp": "73.7"
+  },
+  {
+    "station": "Z\u00fcrich",
+    "median": "9.3",
+    "std": 10.0,
+    "sample_size": 2421324,
+    "min_temp": "-39.9",
+    "max_temp": "61.9"
+  },
+  {
+    "station": "\u00dcr\u00fcmqi",
+    "median": "7.4",
+    "std": 10.0,
+    "sample_size": 2420159,
+    "min_temp": "-42.8",
+    "max_temp": "58.7"
+  },
+  {
+    "station": "\u0130zmir",
+    "median": "17.9",
+    "std": 10.0,
+    "sample_size": 2423235,
+    "min_temp": "-33.5",
+    "max_temp": "69.1"
+  }
+]

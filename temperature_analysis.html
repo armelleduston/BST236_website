@@ -4,127 +4,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Station Data Visualization</title>
-    <link href="https://fonts.googleapis.com/css2?family=Helvetica&family=Georgia&display=swap" rel="stylesheet">
+    <title>Temperature Analysis</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
-        /* General Styles */
-        body {
-            background-color: #1e1e1e;
-            color: #ecf6eb;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
+        #map { height: 600px; }
+        #infoBox {
+            display: none;
+            position: absolute;
+            background: #fff;
+            color: #000;
+            border: 1px solid #000;
+            padding: 10px;
+            z-index: 1000;
+            max-width: 200px;
         }
-
-        header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            height: auto;
-            padding: 20px 0;
-        }
-
-        h1 {
-            color: #dd67cb;
-            margin: 20px 0;
-            font-size: 2em;
-            text-align: center;
-            font-family: 'Helvetica', serif;
-        }
-
-        header p {
-            color: #e4b05c;
-            font-size: 1.2em;
-            margin-top: 20px;
-            font-family: 'Helvetica', serif;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: left;
-            background-color: #292929;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-        }
-
-        .chart-container {
-            position: relative;
-            width: 100%;
-            height: 70vh;
-            overflow-x: auto;
-            padding: 20px 0;
-        }
-
-        .loading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 200px;
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        .error {
-            color: #d32f2f;
-            padding: 20px;
-            text-align: center;
-            background-color: #ffebee;
-            border-radius: 4px;
-            margin: 20px 0;
-        }
-
-        .plotly-graph-div {
-            background-color: #292929 !important;
-        }
-
-        /* Scrollable Chart */
-        .chart-container {
-            overflow-x: auto;
-            max-width: 100%;
-        }
-
-        nav a {
-            background-color: #1cbd54;
-            padding: 10px 20px;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.1em;
-            margin-top: 20px;
-        }
-
-        nav a:hover {
-            background-color: #54b1c6;
+        #infoBox .close-btn {
+            float: right;
+            cursor: pointer;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <p>Visualizing Distribution of Temperatures per Station</p>
-    </header>
-
-    <div class="container">
-        <div id="loadingIndicator" class="loading">Loading data...</div>
-        <div id="errorContainer" class="error" style="display: none;"></div>
-        <div class="chart-container">
-            <div id="temperatureChart"></div>
+        <div class="container">
+            <h1>Interactive Temperature Dashboard</h1>
         </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section class="content">
+                <h2>Interactive Temperature Dashboard</h2>
+                <p>Take a look at temperature trends in different locations. Click the white stars for more info! </p>
+                
+                <!-- Single combined container for both visualizations -->
+                <div id="visualization-wrapper">
+                    <div id="worldMap" style="height: 600px;"></div>
+                    <div id="temperatureChart"></div>
+                </div>
+                
+                <!-- Loading indicator and error container -->
+                <div id="loadingIndicator">Loading...</div>
+                <div id="errorContainer" style="display:none; color:red;"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Check out my GitHub: <a href="https://github.com/armelleduston/">GitHub</a></p>
+        </div>
+    </footer>
+    <!-- Add infobox for station details -->
+    <div id="infoBox">
+        <span class="close-btn" onclick="document.getElementById('infoBox').style.display='none'">&times;</span>
+        <div id="infoContent"></div>
     </div>
-
     <!-- Plotly.js library -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
+        // Define continent colors (unchanged)
+        const continentColors = {
+            'Africa': '#1f77b4',
+            'Asia': '#ff7f0e',
+            'Europe': '#2ca02c',
+            'North America': '#d62728',
+            'Oceania': '#9467bd',
+            'South America': '#8c564b',
+            'Antarctica': '#e377c2'
+        };
+
+        // Update mapping: add missing keys for "Ivory Coast" and "United States"
+        const countryContinentMap = {
+            'Afghanistan': 'Asia', 'Albania': 'Europe', 'Algeria': 'Africa', 'Andorra': 'Europe', 'Angola': 'Africa', 
+            'Antigua and Barbuda': 'North America', 'Argentina': 'South America', 'Armenia': 'Asia', 'Australia': 'Oceania', 'Austria': 'Europe', 
+            'Azerbaijan': 'Asia', 'Bahamas': 'North America', 'Bahrain': 'Asia', 'Bangladesh': 'Asia', 'Barbados': 'North America', 
+            'Belarus': 'Europe', 'Belgium': 'Europe', 'Belize': 'North America', 'Benin': 'Africa', 'Bhutan': 'Asia', 
+            'Bolivia': 'South America', 'Bosnia and Herzegovina': 'Europe', 'Botswana': 'Africa', 'Brazil': 'South America', 'Brunei': 'Asia', 
+            'Bulgaria': 'Europe', 'Burkina Faso': 'Africa', 'Burundi': 'Africa', 'Cabo Verde': 'Africa', 'Cambodia': 'Asia', 
+            'Cameroon': 'Africa', 'Canada': 'North America', 'Central African Republic': 'Africa', 'Chad': 'Africa', 'Chile': 'South America', 
+            'China': 'Asia', 'Colombia': 'South America', 'Comoros': 'Africa', 'Congo (Congo-Brazzaville)': 'Africa', 'Costa Rica': 'North America', 
+            'Croatia': 'Europe', 'Cuba': 'North America', 'Cyprus': 'Asia', 'Czech Republic': 'Europe', 'Republic of the Congo': 'Africa', 
+            'Denmark': 'Europe', 'Djibouti': 'Africa', 'Dominica': 'North America', 'Dominican Republic': 'North America', 'Ecuador': 'South America', 
+            'Egypt': 'Africa', 'El Salvador': 'North America', 'Equatorial Guinea': 'Africa', 'Eritrea': 'Africa', 'Estonia': 'Europe', 
+            'Eswatini (fmr. "Swaziland")': 'Africa', 'Ethiopia': 'Africa', 'Fiji': 'Oceania', 'Finland': 'Europe', 'France': 'Europe', 
+            'Gabon': 'Africa', 'Gambia': 'Africa', 'Georgia': 'Asia', 'Germany': 'Europe', 'Ghana': 'Africa', 
+            'Greece': 'Europe', 'Grenada': 'North America', 'Guatemala': 'North America', 'Guinea': 'Africa', 'Guinea-Bissau': 'Africa', 
+            'Guyana': 'South America', 'Haiti': 'North America', 'Honduras': 'North America', 'Hungary': 'Europe', 'Iceland': 'Europe', 
+            'India': 'Asia', 'Indonesia': 'Asia', 'Iran': 'Asia', 'Iraq': 'Asia', 'Ireland': 'Europe', 
+            'Israel': 'Asia', 'Italy': 'Europe', 'Jamaica': 'North America', 'Japan': 'Asia', 'Jordan': 'Asia', 
+            'Kazakhstan': 'Asia', 'Kenya': 'Africa', 'Kiribati': 'Oceania', 'Kuwait': 'Asia', 'Kyrgyzstan': 'Asia', 
+            'Laos': 'Asia', 'Latvia': 'Europe', 'Lebanon': 'Asia', 'Lesotho': 'Africa', 'Liberia': 'Africa', 
+            'Libya': 'Africa', 'Liechtenstein': 'Europe', 'Lithuania': 'Europe', 'Luxembourg': 'Europe', 'Madagascar': 'Africa', 
+            'Malawi': 'Africa', 'Malaysia': 'Asia', 'Maldives': 'Asia', 'Mali': 'Africa', 'Malta': 'Europe', 
+            'Marshall Islands': 'Oceania', 'Mauritania': 'Africa', 'Mauritius': 'Africa', 'Mexico': 'North America', 'Micronesia': 'Oceania', 
+            'Moldova': 'Europe', 'Monaco': 'Europe', 'Mongolia': 'Asia', 'Montenegro': 'Europe', 'Morocco': 'Africa', 
+            'Mozambique': 'Africa', 'Myanmar': 'Asia', 'Namibia': 'Africa', 'Nauru': 'Oceania', 'Nepal': 'Asia', 
+            'Netherlands': 'Europe', 'New Zealand': 'Oceania', 'Nicaragua': 'North America', 'Niger': 'Africa', 'Nigeria': 'Africa', 
+            'North Korea': 'Asia', 'North Macedonia': 'Europe', 'Norway': 'Europe', 'Oman': 'Asia', 'Pakistan': 'Asia', 
+            'Palau': 'Oceania', 'Palestine State': 'Asia', 'Panama': 'North America', 'Papua New Guinea': 'Oceania', 'Paraguay': 'South America', 
+            'Peru': 'South America', 'Philippines': 'Asia', 'Poland': 'Europe', 'Portugal': 'Europe', 'Qatar': 'Asia', 
+            'Romania': 'Europe', 'Russia': 'Asia', 'Rwanda': 'Africa', 'Saint Kitts and Nevis': 'North America', 'Saint Lucia': 'North America', 
+            'Saint Vincent and the Grenadines': 'North America', 'Samoa': 'Oceania', 'San Marino': 'Europe', 'Sao Tome and Principe': 'Africa', 'Saudi Arabia': 'Asia', 
+            'Senegal': 'Africa', 'Serbia': 'Europe', 'Seychelles': 'Africa', 'Sierra Leone': 'Africa', 'Singapore': 'Asia', 
+            'Slovakia': 'Europe', 'Slovenia': 'Europe', 'Solomon Islands': 'Oceania', 'Somalia': 'Africa', 'South Africa': 'Africa', 
+            'South Korea': 'Asia', 'South Sudan': 'Africa', 'Spain': 'Europe', 'Sri Lanka': 'Asia', 'Sudan': 'Africa', 
+            'Suriname': 'South America', 'Sweden': 'Europe', 'Switzerland': 'Europe', 'Syria': 'Asia', 'Tajikistan': 'Asia', 
+            'Tanzania': 'Africa', 'Thailand': 'Asia', 'Timor-Leste': 'Asia', 'Togo': 'Africa', 'Tonga': 'Oceania', 
+            'Trinidad and Tobago': 'North America', 'Tunisia': 'Africa', 'Turkey': 'Asia', 'Turkmenistan': 'Asia', 'Tuvalu': 'Oceania', 
+            'Uganda': 'Africa', 'Ukraine': 'Europe', 'United Arab Emirates': 'Asia', 'United Kingdom': 'Europe', 'United States of America': 'North America', 
+            'United States': 'North America', 'Uruguay': 'South America', 'Uzbekistan': 'Asia', 'Vanuatu': 'Oceania', 'Vatican City': 'Europe', 'Venezuela': 'South America', 
+            'Vietnam': 'Asia', 'Yemen': 'Asia', 'Zambia': 'Africa', 'Zimbabwe': 'Africa', 'Greenland': 'North America', 'Antarctica': 'Antarctica', 
+            'Ivory Coast': 'Africa', 'Cape Verde': 'Africa', 'Cayman Islands': 'North America', 'Aruba': 'South America', 'Curaçao': 'South America',
+            'Saint Pierre and Miquelon': 'Europe', 'East Timor': 'Asia', 'Taiwan': 'Asia', 'Democratic Republic of the Congo': 'Africa',
+            'Puerto Rico': 'North America'
+        };
+
+        // Create the interactive world map
+        var mapData = [{
+            type: 'choropleth',
+            locationmode: 'country names',
+            locations: Object.keys(countryContinentMap),
+            z: Object.values(countryContinentMap).map(continent => Object.keys(continentColors).indexOf(continent)),
+            colorscale: Object.keys(continentColors).map((continent, index) => [index / (Object.keys(continentColors).length - 1), continentColors[continent]]),
+            autocolorscale: false,
+            marker: {
+                line: {
+                    color: 'rgb(180,180,180)',
+                    width: 0.5
+                }
+            },
+            hoverinfo: 'location',
+            showscale: false  // This removes the colorbar
+        }];
+        
+        var mapLayout = {
+            title: {
+                text: 'Interactive World Map',
+                font: {
+                    size: 24,  // Increased from default
+                    color: '#ecf6eb',
+                    family: 'Arial, sans-serif'
+                }
+            },
+            geo: {
+                showframe: false,
+                showcoastlines: true,
+                projection: { type: 'miller' }, // Change to Miller projection
+                bgcolor: '#292929'
+            },
+            paper_bgcolor: '#292929',
+            font: {
+                color: '#ecf6eb',
+                family: 'Arial, sans-serif'
+            },
+            margin: {
+                b: 30,  // Add some bottom margin to the map
+                t: 50,
+                l: 50,
+                r: 50
+            }
+        };
+        
+        Plotly.newPlot('worldMap', mapData, mapLayout);
+        
+        // Add white star markers for each station on the worldMap with customdata for extra info
+        fetch('temperature_data.json')
+          .then(response => response.json())
+          .then(data => {
+              const lats = data.map(station => parseFloat(station.lat));
+              const lons = data.map(station => parseFloat(station.lon));
+              const texts = data.map(station => station.station);
+              const customData = data.map(station => ({
+                  station: station.station,
+                  min_temp: station.min_temp,
+                  median: station.median,
+                  max_temp: station.max_temp
+              }));
+              
+              const starTrace = {
+                  type: 'scattergeo',
+                  mode: 'markers',
+                  lat: lats,
+                  lon: lons,
+                  text: texts.map((station, i) => `${station}, ${data[i].country}<br>coords: (${lats[i]}, ${lons[i]})`),
+                  customdata: customData,
+                  marker: {
+                      symbol: 'star',
+                      color: 'white',
+                      size: 8,
+                      line: { color: 'black', width: 1 }
+                  },
+                  showlegend: false,
+                  hoverinfo: 'text',
+                  hoverlabel: {
+                      align: 'left'
+                  }
+              };
+              Plotly.addTraces('worldMap', starTrace);
+              
+              // Replace alert with an infobox connected to the cursor
+              var mapDiv = document.getElementById('worldMap');
+              mapDiv.on('plotly_click', function(eventData) {
+                  const info = eventData.points[0].customdata;
+                  const infoBox = document.getElementById('infoBox');
+                  const infoContent = document.getElementById('infoContent');
+                  infoContent.innerHTML = `<strong>${info.station}</strong><br>Min: ${info.min_temp}°C<br>Median: ${info.median}°C<br>Max: ${info.max_temp}°C`;
+                  
+                  // Position the infoBox exactly at cursor position
+                  infoBox.style.left = eventData.event.pageX + 'px';
+                  infoBox.style.top = eventData.event.pageY + 'px';
+                  infoBox.style.display = 'block';
+              });
+          })
+          .catch(console.error);
+
+        // Create the temperature chart
         const loadingIndicator = document.getElementById('loadingIndicator');
         const errorContainer = document.getElementById('errorContainer');
 
-        // Fetch the data from the JSON file
         fetch('temperature_data.json')
             .then(response => {
                 if (!response.ok) {
@@ -133,49 +245,72 @@
                 return response.json();
             })
             .then(data => {
-                loadingIndicator.style.display = 'none';  // Hide loading message as data is now loaded
+                // Hide loading indicator once data is loaded
+                loadingIndicator.style.display = 'none';
 
-                // Prepare the data for Plotly box plot (one boxplot per station)
-                const stations = data.map(station => station.station);  // Get station names
-                const minTemps = data.map(station => parseFloat(station.min_temp)); // Min temperature values
-                const medians = data.map(station => parseFloat(station.median)); // Median temperature values
-                const maxTemps = data.map(station => parseFloat(station.max_temp)); // Max temperature values
-                const stdDevs = data.map(station => parseFloat(station.std)); // Standard deviation values
+                // Define the order of continents
+                const continentOrder = ['Asia', 'Africa', 'North America', 'South America', 'Antarctica', 'Europe', 'Oceania'];
 
-                // Data for boxplots, grouping min_temp, median, max_temp for each station
-                const plotData = stations.map((station, i) => ({
+                // Sort data: first by continent order, then by median temperature (ascending) within each group
+                const sortedData = data.sort((a, b) => {
+                    const continentDiff = continentOrder.indexOf(countryContinentMap[a.country]) - continentOrder.indexOf(countryContinentMap[b.country]);
+                    return continentDiff !== 0 ? continentDiff : parseFloat(a.median) - parseFloat(b.median);
+                });
+
+                // Create box plots for each station
+                const plotData = sortedData.map((station, i) => ({
                     type: 'box',
-                    y: [minTemps[i], medians[i], maxTemps[i]],
-                    name: station,
-                    boxmean: 'sd',  // Optionally add the standard deviation as a marker
-                    marker: { color: 'rgb(54, 162, 235)' },  // Color the boxes
+                    y: [parseFloat(station.min_temp), parseFloat(station.median), parseFloat(station.max_temp)],
+                    name: station.station,
+                    boxmean: 'sd',
+                    marker: { color: continentColors[countryContinentMap[station.country]] },
                     jitter: 0.05,
-                    whiskerwidth: 2,  // Make whiskers more visible
-                    line: {
-                        width: 2
-                    },
-                    boxpoints: 'all',  // Show individual points inside the boxplot
-                    pointpos: 0  // Position of points relative to box (0 places them inside)
+                    whiskerwidth: 2,
+                    line: { width: 2 },
+                    boxpoints: 'all',
+                    pointpos: 0,
+                    hovertext: `${station.station}, ${station.country} (median = ${station.median})`, // Updated hover text format
+                    hoverinfo: 'text',
+                    showlegend: false
                 }));
 
-                // Create the layout for the plot
+                // Add dummy traces for the legend
+                continentOrder.forEach(continent => {
+                    plotData.push({
+                        type: 'box',
+                        y: [],
+                        name: continent,
+                        marker: { color: continentColors[continent] },
+                        showlegend: true
+                    });
+                });
+
+                // Set x-axis category order explicitly based on sortedData
+                const stationOrder = sortedData.map(station => station.station);
+
                 const layout = {
-                    title: 'Temperature Distribution per Station',
+                    title: {
+                        text: 'Temperature Distribution per Station (°C)',
+                        font: {
+                            size: 24,  // Increased from default
+                            color: '#ecf6eb',
+                            family: 'Arial, sans-serif'
+                        }
+                    },
                     xaxis: {
                         title: 'Station',
-                        tickvals: stations,  // Use station names as x-axis values
-                        ticktext: stations,  // Display station names on x-axis
+                        showticklabels: false,
+                        categoryorder: 'array',
+                        categoryarray: stationOrder,
+                        tickvals: stationOrder,
+                        ticktext: [],
                         tickangle: 45,
-                        tickmode: 'array', // This ensures we control tick placement
-                        ticklen: 10, // Length of ticks (can be adjusted)
                         showgrid: false,
                         showline: true,
                         zeroline: false,
-                        tickangle: 45, // Rotate x-axis labels
-                        tickspacing: 1, // Ensure spacing between ticks
                         tickfont: {
-                            size: 12,  // Adjust font size for station names
-                            color: '#ecf6eb'  // Font color for station names
+                            size: 12,
+                            color: '#ecf6eb'
                         }
                     },
                     yaxis: {
@@ -190,39 +325,44 @@
                             color: '#ecf6eb'
                         }
                     },
-                    showlegend: false,  // No legend needed as it's a single trace per station
-                    boxmode: 'group',  // Group box plots by station
-                    height: 600,  // Set a fixed height for the plot
-                    margin: {
-                        b: 150, // Add space at the bottom for x-axis labels
-                        t: 50,  // Adjust the top margin
-                        l: 50,  // Adjust left margin
-                        r: 50   // Adjust right margin
+                    showlegend: true,
+                    legend: {
+                        orientation: 'h',
+                        y: -0.2,
+                        x: 0.5,
+                        xanchor: 'center',
+                        font: {
+                            size: 12,
+                            color: '#ecf6eb'
+                        }
                     },
-                    hovermode: 'closest',  // Ensure that hover works well
-                    plot_bgcolor: '#292929',  // Set background color for the plot area
-                    paper_bgcolor: '#292929', // Set background color for the whole chart
+                    boxmode: 'group',
+                    height: 600,
+                    margin: {
+                        b: 100,
+                        t: 50,  // Add some top margin to the chart
+                        l: 50,
+                        r: 50
+                    },
+                    hovermode: 'closest',
+                    plot_bgcolor: '#292929',
+                    paper_bgcolor: '#292929',
                     font: {
-                        color: '#ecf6eb',  // Text color for axis labels and title
+                        color: '#ecf6eb',
                         family: 'Arial, sans-serif'
                     },
-                    bargap: 0.3,  // Adjust the gap between the boxplots
-                    bargroupgap: 0.1  // Ensure a gap between the groups
+                    bargap: 0.3,
+                    bargroupgap: 0.1
                 };
 
-                // Create the box plot
                 Plotly.newPlot('temperatureChart', plotData, layout);
             })
             .catch(error => {
-                loadingIndicator.style.display = 'none';  // Hide loading indicator
+                loadingIndicator.style.display = 'none';
                 errorContainer.textContent = 'Error loading the data: ' + error.message;
                 errorContainer.style.display = 'block';
             });
     </script>
-
-    <nav>
-        <a href="index.html">Back to Homepage</a>
-    </nav>
 </body>
 
 </html>

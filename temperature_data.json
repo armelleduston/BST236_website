@@ -1,3306 +1,4545 @@
 [
   {
     "station": "Abha",
+    "country": "Saudi Arabia",
     "median": "18.0",
     "std": 10.0,
     "sample_size": 2420371,
     "min_temp": "-40.5",
-    "max_temp": "65.9"
+    "max_temp": "65.9",
+    "lat": "18.2164",
+    "lon": "42.5053"
   },
   {
     "station": "Abidjan",
+    "country": "Ivory Coast",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2421026,
     "min_temp": "-22.4",
-    "max_temp": "78.9"
+    "max_temp": "78.9",
+    "lat": "5.3599",
+    "lon": "-4.0083"
   },
   {
-    "station": "Ab\u00e9ch\u00e9",
+    "station": "Abéché",
+    "country": "Chad",
     "median": "29.4",
     "std": 10.0,
     "sample_size": 2420776,
     "min_temp": "-24.0",
-    "max_temp": "82.2"
+    "max_temp": "82.2",
+    "lat": "13.0674",
+    "lon": "20.8322"
   },
   {
     "station": "Accra",
+    "country": "Ghana",
     "median": "26.4",
     "std": 10.0,
     "sample_size": 2422260,
     "min_temp": "-23.9",
-    "max_temp": "72.6"
+    "max_temp": "72.6",
+    "lat": "5.6037",
+    "lon": "-0.1870"
   },
   {
     "station": "Addis Ababa",
+    "country": "Ethiopia",
     "median": "16.0",
     "std": 10.0,
     "sample_size": 2422372,
     "min_temp": "-32.9",
-    "max_temp": "66.0"
+    "max_temp": "66.0",
+    "lat": "8.9806",
+    "lon": "38.7578"
   },
   {
     "station": "Adelaide",
+    "country": "Australia",
     "median": "17.3",
     "std": 10.0,
     "sample_size": 2422545,
     "min_temp": "-31.3",
-    "max_temp": "68.4"
+    "max_temp": "68.4",
+    "lat": "-34.9285",
+    "lon": "138.6007"
   },
   {
     "station": "Aden",
+    "country": "Yemen",
     "median": "29.1",
     "std": 10.0,
     "sample_size": 2424214,
     "min_temp": "-22.8",
-    "max_temp": "79.1"
+    "max_temp": "79.1",
+    "lat": "12.7850",
+    "lon": "45.0187"
   },
   {
     "station": "Ahvaz",
+    "country": "Iran",
     "median": "25.4",
     "std": 10.0,
     "sample_size": 2419384,
     "min_temp": "-25.5",
-    "max_temp": "74.3"
+    "max_temp": "74.3",
+    "lat": "31.3203",
+    "lon": "48.6692"
   },
   {
     "station": "Albuquerque",
+    "country": "United States",
     "median": "14.0",
     "std": 10.0,
     "sample_size": 2424832,
     "min_temp": "-38.2",
-    "max_temp": "61.6"
+    "max_temp": "61.6",
+    "lat": "35.0844",
+    "lon": "-106.6504"
   },
   {
     "station": "Alexandra",
+    "country": "New Zealand",
     "median": "11.0",
     "std": 10.0,
     "sample_size": 2421279,
     "min_temp": "-37.6",
-    "max_temp": "62.2"
+    "max_temp": "62.2",
+    "lat": "-45.2456",
+    "lon": "169.3780"
   },
   {
     "station": "Alexandria",
+    "country": "Egypt",
     "median": "20.0",
     "std": 10.0,
     "sample_size": 2419453,
     "min_temp": "-30.6",
-    "max_temp": "68.6"
+    "max_temp": "68.6",
+    "lat": "31.2001",
+    "lon": "29.9187"
   },
   {
     "station": "Algiers",
+    "country": "Algeria",
     "median": "18.2",
     "std": 10.0,
     "sample_size": 2422038,
     "min_temp": "-31.6",
-    "max_temp": "66.9"
+    "max_temp": "66.9",
+    "lat": "36.7372",
+    "lon": "3.0865"
   },
   {
     "station": "Alice Springs",
+    "country": "Australia",
     "median": "21.0",
     "std": 10.0,
     "sample_size": 2422068,
     "min_temp": "-30.0",
-    "max_temp": "74.3"
+    "max_temp": "74.3",
+    "lat": "-23.6980",
+    "lon": "133.8807"
   },
   {
     "station": "Almaty",
+    "country": "Kazakhstan",
     "median": "10.0",
     "std": 10.0,
     "sample_size": 2422139,
     "min_temp": "-36.6",
-    "max_temp": "59.9"
+    "max_temp": "59.9",
+    "lat": "43.2389",
+    "lon": "76.8897"
   },
   {
     "station": "Amsterdam",
+    "country": "Netherlands",
     "median": "10.2",
     "std": 10.0,
     "sample_size": 2422256,
     "min_temp": "-38.3",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "52.3676",
+    "lon": "4.9041"
   },
   {
     "station": "Anadyr",
+    "country": "Russia",
     "median": "-6.9",
     "std": 10.0,
     "sample_size": 2421360,
     "min_temp": "-54.3",
-    "max_temp": "43.1"
+    "max_temp": "43.1",
+    "lat": "64.7337",
+    "lon": "177.5089"
   },
   {
     "station": "Anchorage",
+    "country": "United States",
     "median": "2.8",
     "std": 10.0,
     "sample_size": 2421878,
     "min_temp": "-46.8",
-    "max_temp": "49.8"
+    "max_temp": "49.8",
+    "lat": "61.2181",
+    "lon": "-149.9003"
   },
   {
     "station": "Andorra la Vella",
+    "country": "Andorra",
     "median": "9.8",
     "std": 10.0,
     "sample_size": 2417354,
     "min_temp": "-43.0",
-    "max_temp": "60.8"
+    "max_temp": "60.8",
+    "lat": "42.5078",
+    "lon": "1.5211"
   },
   {
     "station": "Ankara",
+    "country": "Turkey",
     "median": "12.0",
     "std": 10.0,
     "sample_size": 2424473,
     "min_temp": "-40.2",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "39.9334",
+    "lon": "32.8597"
   },
   {
     "station": "Antananarivo",
+    "country": "Madagascar",
     "median": "17.9",
     "std": 10.0,
     "sample_size": 2420787,
     "min_temp": "-30.5",
-    "max_temp": "69.8"
+    "max_temp": "69.8",
+    "lat": "-18.8792",
+    "lon": "47.5079"
   },
   {
     "station": "Antsiranana",
+    "country": "Madagascar",
     "median": "25.2",
     "std": 10.0,
     "sample_size": 2421034,
     "min_temp": "-24.1",
-    "max_temp": "73.7"
+    "max_temp": "73.7",
+    "lat": "-12.2765",
+    "lon": "49.3115"
   },
   {
     "station": "Arkhangelsk",
+    "country": "Russia",
     "median": "1.3",
     "std": 10.0,
     "sample_size": 2419434,
     "min_temp": "-50.5",
-    "max_temp": "52.7"
+    "max_temp": "52.7",
+    "lat": "64.5399",
+    "lon": "40.5152"
   },
   {
     "station": "Ashgabat",
+    "country": "Turkmenistan",
     "median": "17.1",
     "std": 10.0,
     "sample_size": 2421085,
     "min_temp": "-30.5",
-    "max_temp": "68.5"
+    "max_temp": "68.5",
+    "lat": "37.9601",
+    "lon": "58.3261"
   },
   {
     "station": "Asmara",
+    "country": "Eritrea",
     "median": "15.6",
     "std": 10.0,
     "sample_size": 2420892,
     "min_temp": "-34.0",
-    "max_temp": "63.0"
+    "max_temp": "63.0",
+    "lat": "15.3229",
+    "lon": "38.9251"
   },
   {
     "station": "Assab",
+    "country": "Eritrea",
     "median": "30.5",
     "std": 10.0,
     "sample_size": 2421007,
     "min_temp": "-20.7",
-    "max_temp": "80.4"
+    "max_temp": "80.4",
+    "lat": "13.0092",
+    "lon": "42.7390"
   },
   {
     "station": "Astana",
+    "country": "Kazakhstan",
     "median": "3.5",
     "std": 10.0,
     "sample_size": 2422565,
     "min_temp": "-44.9",
-    "max_temp": "56.8"
+    "max_temp": "56.8",
+    "lat": "51.1694",
+    "lon": "71.4491"
   },
   {
     "station": "Athens",
+    "country": "Greece",
     "median": "19.2",
     "std": 10.0,
     "sample_size": 2420643,
     "min_temp": "-31.1",
-    "max_temp": "75.9"
+    "max_temp": "75.9",
+    "lat": "37.9838",
+    "lon": "23.7275"
   },
   {
     "station": "Atlanta",
+    "country": "United States",
     "median": "17.0",
     "std": 10.0,
     "sample_size": 2419997,
     "min_temp": "-35.4",
-    "max_temp": "74.0"
+    "max_temp": "74.0",
+    "lat": "33.7490",
+    "lon": "-84.3880"
   },
   {
     "station": "Auckland",
+    "country": "New Zealand",
     "median": "15.2",
     "std": 10.0,
     "sample_size": 2421810,
     "min_temp": "-35.6",
-    "max_temp": "65.2"
+    "max_temp": "65.2",
+    "lat": "-36.8485",
+    "lon": "174.7633"
   },
   {
     "station": "Austin",
+    "country": "United States",
     "median": "20.7",
     "std": 10.0,
     "sample_size": 2422589,
     "min_temp": "-28.2",
-    "max_temp": "69.5"
+    "max_temp": "69.5",
+    "lat": "30.2672",
+    "lon": "-97.7431"
   },
   {
     "station": "Baghdad",
+    "country": "Iraq",
     "median": "22.8",
     "std": 10.0,
     "sample_size": 2419910,
     "min_temp": "-27.9",
-    "max_temp": "72.8"
+    "max_temp": "72.8",
+    "lat": "33.3152",
+    "lon": "44.3661"
   },
   {
     "station": "Baguio",
+    "country": "Philippines",
     "median": "19.5",
     "std": 10.0,
     "sample_size": 2419347,
     "min_temp": "-28.7",
-    "max_temp": "68.6"
+    "max_temp": "68.6",
+    "lat": "16.4023",
+    "lon": "120.5960"
   },
   {
     "station": "Baku",
+    "country": "Azerbaijan",
     "median": "15.1",
     "std": 10.0,
     "sample_size": 2420981,
     "min_temp": "-33.1",
-    "max_temp": "64.9"
+    "max_temp": "64.9",
+    "lat": "40.4093",
+    "lon": "49.8671"
   },
   {
     "station": "Baltimore",
+    "country": "United States",
     "median": "13.1",
     "std": 10.0,
     "sample_size": 2421904,
     "min_temp": "-40.4",
-    "max_temp": "65.4"
+    "max_temp": "65.4",
+    "lat": "39.2904",
+    "lon": "-76.6122"
   },
   {
     "station": "Bamako",
+    "country": "Mali",
     "median": "27.8",
     "std": 10.0,
     "sample_size": 2421298,
     "min_temp": "-29.4",
-    "max_temp": "80.9"
+    "max_temp": "80.9",
+    "lat": "12.6392",
+    "lon": "-8.0029"
   },
   {
     "station": "Bangkok",
+    "country": "Thailand",
     "median": "28.6",
     "std": 10.0,
     "sample_size": 2423387,
     "min_temp": "-19.9",
-    "max_temp": "82.3"
+    "max_temp": "82.3",
+    "lat": "13.7563",
+    "lon": "100.5018"
   },
   {
     "station": "Bangui",
+    "country": "Central African Republic",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2419261,
     "min_temp": "-24.2",
-    "max_temp": "72.9"
+    "max_temp": "72.9",
+    "lat": "4.3947",
+    "lon": "18.5582"
   },
   {
     "station": "Banjul",
+    "country": "Gambia",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2422346,
     "min_temp": "-23.4",
-    "max_temp": "74.9"
+    "max_temp": "74.9",
+    "lat": "13.4549",
+    "lon": "-16.5790"
   },
   {
     "station": "Barcelona",
+    "country": "Spain",
     "median": "18.2",
     "std": 10.0,
     "sample_size": 2418763,
     "min_temp": "-35.3",
-    "max_temp": "65.2"
+    "max_temp": "65.2",
+    "lat": "41.3851",
+    "lon": "2.1734"
   },
   {
     "station": "Bata",
+    "country": "Equatorial Guinea",
     "median": "25.1",
     "std": 10.0,
     "sample_size": 2422801,
     "min_temp": "-23.5",
-    "max_temp": "76.6"
+    "max_temp": "76.6",
+    "lat": "1.8639",
+    "lon": "9.7658"
   },
   {
     "station": "Batumi",
+    "country": "Georgia",
     "median": "14.0",
     "std": 10.0,
     "sample_size": 2423829,
     "min_temp": "-42.4",
-    "max_temp": "65.9"
+    "max_temp": "65.9",
+    "lat": "41.6168",
+    "lon": "41.6367"
   },
   {
     "station": "Beijing",
+    "country": "China",
     "median": "12.9",
     "std": 10.0,
     "sample_size": 2421441,
     "min_temp": "-35.4",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "39.9042",
+    "lon": "116.4074"
   },
   {
     "station": "Beirut",
+    "country": "Lebanon",
     "median": "20.9",
     "std": 10.0,
     "sample_size": 2422621,
     "min_temp": "-28.5",
-    "max_temp": "73.1"
+    "max_temp": "73.1",
+    "lat": "33.8938",
+    "lon": "35.5018"
   },
   {
     "station": "Belgrade",
+    "country": "Serbia",
     "median": "12.5",
     "std": 10.0,
     "sample_size": 2421407,
     "min_temp": "-40.0",
-    "max_temp": "61.5"
+    "max_temp": "61.5",
+    "lat": "44.7866",
+    "lon": "20.4489"
   },
   {
     "station": "Belize City",
+    "country": "Belize",
     "median": "26.7",
     "std": 10.0,
     "sample_size": 2422006,
     "min_temp": "-23.9",
-    "max_temp": "77.7"
+    "max_temp": "77.7",
+    "lat": "17.5046",
+    "lon": "-88.1962"
   },
   {
     "station": "Benghazi",
+    "country": "Libya",
     "median": "19.9",
     "std": 10.0,
     "sample_size": 2423366,
     "min_temp": "-32.2",
-    "max_temp": "67.7"
+    "max_temp": "67.7",
+    "lat": "32.1167",
+    "lon": "20.0667"
   },
   {
     "station": "Bergen",
+    "country": "Norway",
     "median": "7.7",
     "std": 10.0,
     "sample_size": 2419977,
     "min_temp": "-44.6",
-    "max_temp": "56.7"
+    "max_temp": "56.7",
+    "lat": "60.3913",
+    "lon": "5.3221"
   },
   {
     "station": "Berlin",
+    "country": "Germany",
     "median": "10.3",
     "std": 10.0,
     "sample_size": 2422175,
     "min_temp": "-39.9",
-    "max_temp": "65.0"
+    "max_temp": "65.0",
+    "lat": "52.5200",
+    "lon": "13.4050"
   },
   {
     "station": "Bilbao",
+    "country": "Spain",
     "median": "14.7",
     "std": 10.0,
     "sample_size": 2423626,
     "min_temp": "-36.5",
-    "max_temp": "64.5"
+    "max_temp": "64.5",
+    "lat": "43.2630",
+    "lon": "-2.9350"
   },
   {
     "station": "Birao",
+    "country": "Central African Republic",
     "median": "26.5",
     "std": 10.0,
     "sample_size": 2420097,
     "min_temp": "-22.1",
-    "max_temp": "73.4"
+    "max_temp": "73.4",
+    "lat": "10.2833",
+    "lon": "22.7833"
   },
   {
     "station": "Bishkek",
+    "country": "Kyrgyzstan",
     "median": "11.3",
     "std": 10.0,
     "sample_size": 2421464,
     "min_temp": "-40.0",
-    "max_temp": "61.9"
+    "max_temp": "61.9",
+    "lat": "42.8746",
+    "lon": "74.5698"
   },
   {
     "station": "Bissau",
+    "country": "Guinea-Bissau",
     "median": "27.0",
     "std": 10.0,
     "sample_size": 2419335,
     "min_temp": "-23.4",
-    "max_temp": "78.6"
+    "max_temp": "78.6",
+    "lat": "11.8817",
+    "lon": "-15.6170"
   },
   {
     "station": "Blantyre",
+    "country": "Malawi",
     "median": "22.2",
     "std": 10.0,
     "sample_size": 2421761,
     "min_temp": "-28.4",
-    "max_temp": "72.1"
+    "max_temp": "72.1",
+    "lat": "-15.7861",
+    "lon": "35.0058"
   },
   {
     "station": "Bloemfontein",
+    "country": "South Africa",
     "median": "15.6",
     "std": 10.0,
     "sample_size": 2421558,
     "min_temp": "-32.3",
-    "max_temp": "67.2"
+    "max_temp": "67.2",
+    "lat": "-29.0852",
+    "lon": "26.1596"
   },
   {
     "station": "Boise",
+    "country": "United States",
     "median": "11.4",
     "std": 10.0,
     "sample_size": 2420403,
     "min_temp": "-39.2",
-    "max_temp": "63.3"
+    "max_temp": "63.3",
+    "lat": "43.6150",
+    "lon": "-116.2023"
   },
   {
     "station": "Bordeaux",
+    "country": "France",
     "median": "14.2",
     "std": 10.0,
     "sample_size": 2424703,
     "min_temp": "-36.2",
-    "max_temp": "65.4"
+    "max_temp": "65.4",
+    "lat": "44.8378",
+    "lon": "-0.5792"
   },
   {
     "station": "Bosaso",
+    "country": "Somalia",
     "median": "30.0",
     "std": 10.0,
     "sample_size": 2418985,
     "min_temp": "-20.2",
-    "max_temp": "80.4"
+    "max_temp": "80.4",
+    "lat": "11.2826",
+    "lon": "49.1816"
   },
   {
     "station": "Boston",
+    "country": "United States",
     "median": "10.9",
     "std": 10.0,
     "sample_size": 2422026,
     "min_temp": "-39.9",
-    "max_temp": "63.8"
+    "max_temp": "63.8",
+    "lat": "42.3601",
+    "lon": "-71.0589"
   },
   {
-    "station": "Bouak\u00e9",
+    "station": "Bouaké",
+    "country": "Ivory Coast",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2418136,
     "min_temp": "-24.4",
-    "max_temp": "73.1"
+    "max_temp": "73.1",
+    "lat": "7.6939",
+    "lon": "-5.0303"
   },
   {
     "station": "Bratislava",
+    "country": "Slovakia",
     "median": "10.5",
     "std": 10.0,
     "sample_size": 2421730,
     "min_temp": "-37.0",
-    "max_temp": "61.3"
+    "max_temp": "61.3",
+    "lat": "48.1486",
+    "lon": "17.1077"
   },
   {
     "station": "Brazzaville",
+    "country": "Republic of the Congo",
     "median": "25.0",
     "std": 10.0,
     "sample_size": 2421469,
     "min_temp": "-24.9",
-    "max_temp": "78.7"
+    "max_temp": "78.7",
+    "lat": "-4.2634",
+    "lon": "15.2429"
   },
   {
     "station": "Bridgetown",
+    "country": "Barbados",
     "median": "27.0",
     "std": 10.0,
     "sample_size": 2419153,
     "min_temp": "-24.4",
-    "max_temp": "75.8"
+    "max_temp": "75.8",
+    "lat": "13.0975",
+    "lon": "-59.6167"
   },
   {
     "station": "Brisbane",
+    "country": "Australia",
     "median": "21.4",
     "std": 10.0,
     "sample_size": 2422509,
     "min_temp": "-27.5",
-    "max_temp": "73.6"
+    "max_temp": "73.6",
+    "lat": "-27.4698",
+    "lon": "153.0251"
   },
   {
     "station": "Brussels",
+    "country": "Belgium",
     "median": "10.5",
     "std": 10.0,
     "sample_size": 2421283,
     "min_temp": "-40.3",
-    "max_temp": "57.8"
+    "max_temp": "57.8",
+    "lat": "50.8503",
+    "lon": "4.3517"
   },
   {
     "station": "Bucharest",
+    "country": "Romania",
     "median": "10.8",
     "std": 10.0,
     "sample_size": 2421667,
     "min_temp": "-41.7",
-    "max_temp": "60.2"
+    "max_temp": "60.2",
+    "lat": "44.4268",
+    "lon": "26.1025"
   },
   {
     "station": "Budapest",
+    "country": "Hungary",
     "median": "11.3",
     "std": 10.0,
     "sample_size": 2421670,
     "min_temp": "-36.6",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "47.4979",
+    "lon": "19.0402"
   },
   {
     "station": "Bujumbura",
+    "country": "Burundi",
     "median": "23.8",
     "std": 10.0,
     "sample_size": 2419847,
     "min_temp": "-26.7",
-    "max_temp": "76.3"
+    "max_temp": "76.3",
+    "lat": "-3.3731",
+    "lon": "29.9189"
   },
   {
     "station": "Bulawayo",
+    "country": "Zimbabwe",
     "median": "18.9",
     "std": 10.0,
     "sample_size": 2418983,
     "min_temp": "-31.9",
-    "max_temp": "70.7"
+    "max_temp": "70.7",
+    "lat": "-20.1325",
+    "lon": "28.6265"
   },
   {
     "station": "Burnie",
+    "country": "Australia",
     "median": "13.1",
     "std": 10.0,
     "sample_size": 2420532,
     "min_temp": "-39.7",
-    "max_temp": "62.1"
+    "max_temp": "62.1",
+    "lat": "-41.0525",
+    "lon": "145.9041"
   },
   {
     "station": "Busan",
+    "country": "South Korea",
     "median": "15.0",
     "std": 10.0,
     "sample_size": 2423201,
     "min_temp": "-37.0",
-    "max_temp": "68.2"
+    "max_temp": "68.2",
+    "lat": "35.1796",
+    "lon": "129.0756"
   },
   {
     "station": "Cabo San Lucas",
+    "country": "Mexico",
     "median": "23.9",
     "std": 10.0,
     "sample_size": 2422415,
     "min_temp": "-25.2",
-    "max_temp": "74.4"
+    "max_temp": "74.4",
+    "lat": "22.8905",
+    "lon": "-109.9167"
   },
   {
     "station": "Cairns",
+    "country": "Australia",
     "median": "25.0",
     "std": 10.0,
     "sample_size": 2419343,
     "min_temp": "-29.8",
-    "max_temp": "74.9"
+    "max_temp": "74.9",
+    "lat": "-16.9186",
+    "lon": "145.7781"
   },
   {
     "station": "Cairo",
+    "country": "Egypt",
     "median": "21.4",
     "std": 10.0,
     "sample_size": 2423851,
     "min_temp": "-28.5",
-    "max_temp": "71.5"
+    "max_temp": "71.5",
+    "lat": "30.0444",
+    "lon": "31.2357"
   },
   {
     "station": "Calgary",
+    "country": "Canada",
     "median": "4.4",
     "std": 10.0,
     "sample_size": 2420331,
     "min_temp": "-45.5",
-    "max_temp": "52.2"
+    "max_temp": "52.2",
+    "lat": "51.0447",
+    "lon": "-114.0719"
   },
   {
     "station": "Canberra",
+    "country": "Australia",
     "median": "13.1",
     "std": 10.0,
     "sample_size": 2421449,
     "min_temp": "-36.6",
-    "max_temp": "66.1"
+    "max_temp": "66.1",
+    "lat": "-35.2809",
+    "lon": "149.1300"
   },
   {
     "station": "Cape Town",
+    "country": "South Africa",
     "median": "16.2",
     "std": 10.0,
     "sample_size": 2421604,
     "min_temp": "-33.4",
-    "max_temp": "68.4"
+    "max_temp": "68.4",
+    "lat": "-33.9249",
+    "lon": "18.4241"
   },
   {
     "station": "Changsha",
+    "country": "China",
     "median": "17.4",
     "std": 10.0,
     "sample_size": 2421716,
     "min_temp": "-30.3",
-    "max_temp": "65.4"
+    "max_temp": "65.4",
+    "lat": "28.2282",
+    "lon": "112.9388"
   },
   {
     "station": "Charlotte",
+    "country": "United States",
     "median": "16.1",
     "std": 10.0,
     "sample_size": 2420332,
     "min_temp": "-33.8",
-    "max_temp": "66.1"
+    "max_temp": "66.1",
+    "lat": "35.2271",
+    "lon": "-80.8431"
   },
   {
     "station": "Chiang Mai",
+    "country": "Thailand",
     "median": "25.8",
     "std": 10.0,
     "sample_size": 2422715,
     "min_temp": "-23.4",
-    "max_temp": "76.9"
+    "max_temp": "76.9",
+    "lat": "18.7883",
+    "lon": "98.9853"
   },
   {
     "station": "Chicago",
+    "country": "United States",
     "median": "9.8",
     "std": 10.0,
     "sample_size": 2423624,
     "min_temp": "-42.1",
-    "max_temp": "65.8"
+    "max_temp": "65.8",
+    "lat": "41.8781",
+    "lon": "-87.6298"
   },
   {
     "station": "Chihuahua",
+    "country": "Mexico",
     "median": "18.6",
     "std": 10.0,
     "sample_size": 2421527,
     "min_temp": "-31.0",
-    "max_temp": "67.2"
+    "max_temp": "67.2",
+    "lat": "28.6320",
+    "lon": "-106.0691"
   },
   {
     "station": "Chittagong",
+    "country": "Bangladesh",
     "median": "25.9",
     "std": 10.0,
     "sample_size": 2419331,
     "min_temp": "-22.6",
-    "max_temp": "73.8"
+    "max_temp": "73.8",
+    "lat": "22.3475",
+    "lon": "91.8123"
   },
   {
-    "station": "Chi\u0219in\u0103u",
+    "station": "Chișinău",
+    "country": "Moldova",
     "median": "10.2",
     "std": 10.0,
     "sample_size": 2420598,
     "min_temp": "-42.7",
-    "max_temp": "61.0"
+    "max_temp": "61.0",
+    "lat": "47.0105",
+    "lon": "28.8638"
   },
   {
     "station": "Chongqing",
+    "country": "China",
     "median": "18.6",
     "std": 10.0,
     "sample_size": 2421131,
     "min_temp": "-35.4",
-    "max_temp": "66.8"
+    "max_temp": "66.8",
+    "lat": "29.5630",
+    "lon": "106.5516"
   },
   {
     "station": "Christchurch",
+    "country": "New Zealand",
     "median": "12.2",
     "std": 10.0,
     "sample_size": 2421107,
     "min_temp": "-35.3",
-    "max_temp": "59.6"
+    "max_temp": "59.6",
+    "lat": "-43.5321",
+    "lon": "172.6362"
   },
   {
     "station": "City of San Marino",
+    "country": "San Marino",
     "median": "11.8",
     "std": 10.0,
     "sample_size": 2423491,
     "min_temp": "-35.3",
-    "max_temp": "58.8"
+    "max_temp": "58.8",
+    "lat": "43.9333",
+    "lon": "12.4500"
   },
   {
     "station": "Colombo",
+    "country": "Sri Lanka",
     "median": "27.4",
     "std": 10.0,
     "sample_size": 2420752,
     "min_temp": "-22.5",
-    "max_temp": "81.4"
+    "max_temp": "81.4",
+    "lat": "6.9271",
+    "lon": "79.8612"
   },
   {
     "station": "Columbus",
+    "country": "United States",
     "median": "11.7",
     "std": 10.0,
     "sample_size": 2421129,
     "min_temp": "-38.9",
-    "max_temp": "63.0"
+    "max_temp": "63.0",
+    "lat": "39.9612",
+    "lon": "-82.9988"
   },
   {
     "station": "Conakry",
+    "country": "Guinea",
     "median": "26.4",
     "std": 10.0,
     "sample_size": 2423649,
     "min_temp": "-23.9",
-    "max_temp": "78.0"
+    "max_temp": "78.0",
+    "lat": "9.6412",
+    "lon": "-13.5784"
   },
   {
     "station": "Copenhagen",
+    "country": "Denmark",
     "median": "9.1",
     "std": 10.0,
     "sample_size": 2421841,
     "min_temp": "-39.6",
-    "max_temp": "57.2"
+    "max_temp": "57.2",
+    "lat": "55.6761",
+    "lon": "12.5683"
   },
   {
     "station": "Cotonou",
+    "country": "Benin",
     "median": "27.2",
     "std": 10.0,
     "sample_size": 2420800,
     "min_temp": "-22.8",
-    "max_temp": "79.6"
+    "max_temp": "79.6",
+    "lat": "6.3703",
+    "lon": "2.3912"
   },
   {
     "station": "Cracow",
+    "country": "Poland",
     "median": "9.3",
     "std": 10.0,
     "sample_size": 2420872,
     "min_temp": "-46.8",
-    "max_temp": "60.5"
+    "max_temp": "60.5",
+    "lat": "50.0647",
+    "lon": "19.9450"
   },
   {
     "station": "Da Lat",
+    "country": "Vietnam",
     "median": "17.9",
     "std": 10.0,
     "sample_size": 2420313,
     "min_temp": "-34.9",
-    "max_temp": "73.0"
+    "max_temp": "73.0",
+    "lat": "11.9404",
+    "lon": "108.4583"
   },
   {
     "station": "Da Nang",
+    "country": "Vietnam",
     "median": "25.8",
     "std": 10.0,
     "sample_size": 2420632,
     "min_temp": "-23.0",
-    "max_temp": "73.9"
+    "max_temp": "73.9",
+    "lat": "16.0544",
+    "lon": "108.2022"
   },
   {
     "station": "Dakar",
+    "country": "Senegal",
     "median": "24.0",
     "std": 10.0,
     "sample_size": 2421667,
     "min_temp": "-24.3",
-    "max_temp": "77.7"
+    "max_temp": "77.7",
+    "lat": "14.7167",
+    "lon": "-17.4677"
   },
   {
     "station": "Dallas",
+    "country": "United States",
     "median": "19.0",
     "std": 10.0,
     "sample_size": 2420584,
     "min_temp": "-31.0",
-    "max_temp": "68.4"
+    "max_temp": "68.4",
+    "lat": "32.7767",
+    "lon": "-96.7970"
   },
   {
     "station": "Damascus",
+    "country": "Syria",
     "median": "17.0",
     "std": 10.0,
     "sample_size": 2423147,
     "min_temp": "-33.9",
-    "max_temp": "71.4"
+    "max_temp": "71.4",
+    "lat": "33.5138",
+    "lon": "36.2765"
   },
   {
     "station": "Dampier",
+    "country": "Australia",
     "median": "26.4",
     "std": 10.0,
     "sample_size": 2421640,
     "min_temp": "-22.9",
-    "max_temp": "74.5"
+    "max_temp": "74.5",
+    "lat": "-20.6626",
+    "lon": "116.8460"
   },
   {
     "station": "Dar es Salaam",
+    "country": "Tanzania",
     "median": "25.8",
     "std": 10.0,
     "sample_size": 2421331,
     "min_temp": "-23.9",
-    "max_temp": "78.5"
+    "max_temp": "78.5",
+    "lat": "-6.7924",
+    "lon": "39.2083"
   },
   {
     "station": "Darwin",
+    "country": "Australia",
     "median": "27.6",
     "std": 10.0,
     "sample_size": 2424216,
     "min_temp": "-26.1",
-    "max_temp": "77.6"
+    "max_temp": "77.6",
+    "lat": "-12.4634",
+    "lon": "130.8456"
   },
   {
     "station": "Denpasar",
+    "country": "Indonesia",
     "median": "23.7",
     "std": 10.0,
     "sample_size": 2424292,
     "min_temp": "-24.1",
-    "max_temp": "76.7"
+    "max_temp": "76.7",
+    "lat": "-8.6705",
+    "lon": "115.2126"
   },
   {
     "station": "Denver",
+    "country": "United States",
     "median": "10.4",
     "std": 10.0,
     "sample_size": 2419714,
     "min_temp": "-39.9",
-    "max_temp": "61.6"
+    "max_temp": "61.6",
+    "lat": "39.7392",
+    "lon": "-104.9903"
   },
   {
     "station": "Detroit",
+    "country": "United States",
     "median": "10.0",
     "std": 10.0,
     "sample_size": 2419210,
     "min_temp": "-42.6",
-    "max_temp": "63.3"
+    "max_temp": "63.3",
+    "lat": "42.3314",
+    "lon": "-83.0458"
   },
   {
     "station": "Dhaka",
+    "country": "Bangladesh",
     "median": "25.9",
     "std": 10.0,
     "sample_size": 2420238,
     "min_temp": "-25.3",
-    "max_temp": "74.2"
+    "max_temp": "74.2",
+    "lat": "23.8103",
+    "lon": "90.4125"
   },
   {
     "station": "Dikson",
+    "country": "Russia",
     "median": "-11.1",
     "std": 10.0,
     "sample_size": 2418684,
     "min_temp": "-61.1",
-    "max_temp": "37.1"
+    "max_temp": "37.1",
+    "lat": "73.5069",
+    "lon": "80.5451"
   },
   {
     "station": "Dili",
+    "country": "East Timor",
     "median": "26.6",
     "std": 10.0,
     "sample_size": 2420107,
     "min_temp": "-21.9",
-    "max_temp": "73.3"
+    "max_temp": "73.3",
+    "lat": "-8.5569",
+    "lon": "125.5603"
   },
   {
     "station": "Djibouti",
+    "country": "Djibouti",
     "median": "29.9",
     "std": 10.0,
     "sample_size": 2421617,
     "min_temp": "-23.6",
-    "max_temp": "81.5"
+    "max_temp": "81.5",
+    "lat": "11.8251",
+    "lon": "42.5903"
   },
   {
     "station": "Dodoma",
+    "country": "Tanzania",
     "median": "22.7",
     "std": 10.0,
     "sample_size": 2422349,
     "min_temp": "-28.2",
-    "max_temp": "72.1"
+    "max_temp": "72.1",
+    "lat": "-6.1630",
+    "lon": "35.7516"
   },
   {
     "station": "Dolisie",
+    "country": "Republic of the Congo",
     "median": "24.0",
     "std": 10.0,
     "sample_size": 2421735,
     "min_temp": "-32.2",
-    "max_temp": "74.0"
+    "max_temp": "74.0",
+    "lat": "-4.1984",
+    "lon": "12.6666"
   },
   {
     "station": "Douala",
+    "country": "Cameroon",
     "median": "26.7",
     "std": 10.0,
     "sample_size": 2419429,
     "min_temp": "-21.0",
-    "max_temp": "75.8"
+    "max_temp": "75.8",
+    "lat": "4.0511",
+    "lon": "9.7679"
   },
   {
     "station": "Dubai",
+    "country": "United Arab Emirates",
     "median": "26.9",
     "std": 10.0,
     "sample_size": 2418144,
     "min_temp": "-28.2",
-    "max_temp": "82.0"
+    "max_temp": "82.0",
+    "lat": "25.276987",
+    "lon": "55.296249"
   },
   {
     "station": "Dublin",
+    "country": "Ireland",
     "median": "9.8",
     "std": 10.0,
     "sample_size": 2419791,
     "min_temp": "-43.4",
-    "max_temp": "59.7"
+    "max_temp": "59.7",
+    "lat": "53.3498",
+    "lon": "-6.2603"
   },
   {
     "station": "Dunedin",
+    "country": "New Zealand",
     "median": "11.1",
     "std": 10.0,
     "sample_size": 2420885,
     "min_temp": "-36.1",
-    "max_temp": "59.3"
+    "max_temp": "59.3",
+    "lat": "-45.8788",
+    "lon": "170.5028"
   },
   {
     "station": "Durban",
+    "country": "South Africa",
     "median": "20.6",
     "std": 10.0,
     "sample_size": 2423308,
     "min_temp": "-28.3",
-    "max_temp": "72.3"
+    "max_temp": "72.3",
+    "lat": "-29.8587",
+    "lon": "31.0218"
   },
   {
     "station": "Dushanbe",
+    "country": "Tajikistan",
     "median": "14.7",
     "std": 10.0,
     "sample_size": 2422370,
     "min_temp": "-32.7",
-    "max_temp": "62.6"
+    "max_temp": "62.6",
+    "lat": "38.5598",
+    "lon": "68.7870"
   },
   {
     "station": "Edinburgh",
+    "country": "United Kingdom",
     "median": "9.3",
     "std": 10.0,
     "sample_size": 2421950,
     "min_temp": "-37.6",
-    "max_temp": "59.3"
+    "max_temp": "59.3",
+    "lat": "55.9533",
+    "lon": "-3.1883"
   },
   {
     "station": "Edmonton",
+    "country": "Canada",
     "median": "4.2",
     "std": 10.0,
     "sample_size": 2421985,
     "min_temp": "-48.6",
-    "max_temp": "54.4"
+    "max_temp": "54.4",
+    "lat": "53.5461",
+    "lon": "-113.4938"
   },
   {
     "station": "El Paso",
+    "country": "United States",
     "median": "18.1",
     "std": 10.0,
     "sample_size": 2420387,
     "min_temp": "-31.2",
-    "max_temp": "67.7"
+    "max_temp": "67.7",
+    "lat": "31.7619",
+    "lon": "-106.4850"
   },
   {
     "station": "Entebbe",
+    "country": "Uganda",
     "median": "21.0",
     "std": 10.0,
     "sample_size": 2420088,
     "min_temp": "-27.8",
-    "max_temp": "68.2"
+    "max_temp": "68.2",
+    "lat": "0.0500",
+    "lon": "32.4600"
   },
   {
     "station": "Erbil",
+    "country": "Iraq",
     "median": "19.5",
     "std": 10.0,
     "sample_size": 2421322,
     "min_temp": "-33.1",
-    "max_temp": "69.5"
+    "max_temp": "69.5",
+    "lat": "36.1911",
+    "lon": "44.0092"
   },
   {
     "station": "Erzurum",
+    "country": "Turkey",
     "median": "5.1",
     "std": 10.0,
     "sample_size": 2423338,
     "min_temp": "-45.7",
-    "max_temp": "55.3"
+    "max_temp": "55.3",
+    "lat": "39.9043",
+    "lon": "41.2679"
   },
   {
     "station": "Fairbanks",
+    "country": "United States",
     "median": "-2.3",
     "std": 10.0,
     "sample_size": 2418651,
     "min_temp": "-50.9",
-    "max_temp": "51.3"
+    "max_temp": "51.3",
+    "lat": "64.8378",
+    "lon": "-147.7164"
   },
   {
     "station": "Fianarantsoa",
+    "country": "Madagascar",
     "median": "17.9",
     "std": 10.0,
     "sample_size": 2421292,
     "min_temp": "-32.5",
-    "max_temp": "67.0"
+    "max_temp": "67.0",
+    "lat": "-21.4527",
+    "lon": "47.0857"
   },
   {
-    "station": "Flores,  Pet\u00e9n",
+    "station": "Flores,  Petén",
+    "country": "Guatemala",
     "median": "26.4",
     "std": 10.0,
     "sample_size": 2421393,
     "min_temp": "-28.3",
-    "max_temp": "75.0"
+    "max_temp": "75.0",
+    "lat": "16.9290",
+    "lon": "-89.8901"
   },
   {
     "station": "Frankfurt",
+    "country": "Germany",
     "median": "10.6",
     "std": 10.0,
     "sample_size": 2419005,
     "min_temp": "-37.2",
-    "max_temp": "61.1"
+    "max_temp": "61.1",
+    "lat": "50.1109",
+    "lon": "8.6821"
   },
   {
     "station": "Fresno",
+    "country": "United States",
     "median": "17.9",
     "std": 10.0,
     "sample_size": 2421744,
     "min_temp": "-32.9",
-    "max_temp": "68.3"
+    "max_temp": "68.3",
+    "lat": "36.7378",
+    "lon": "-119.7871"
   },
   {
     "station": "Fukuoka",
+    "country": "Japan",
     "median": "17.0",
     "std": 10.0,
     "sample_size": 2422775,
     "min_temp": "-31.4",
-    "max_temp": "66.6"
+    "max_temp": "66.6",
+    "lat": "33.5904",
+    "lon": "130.4017"
   },
   {
     "station": "Gaborone",
+    "country": "Botswana",
     "median": "21.0",
     "std": 10.0,
     "sample_size": 2420435,
     "min_temp": "-27.7",
-    "max_temp": "75.9"
+    "max_temp": "75.9",
+    "lat": "-24.6282",
+    "lon": "25.9231"
   },
   {
-    "station": "Gab\u00e8s",
+    "station": "Gabès",
+    "country": "Tunisia",
     "median": "19.5",
     "std": 10.0,
     "sample_size": 2423122,
     "min_temp": "-31.1",
-    "max_temp": "70.5"
+    "max_temp": "70.5",
+    "lat": "33.8815",
+    "lon": "10.0982"
   },
   {
     "station": "Gagnoa",
+    "country": "Ivory Coast",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2420915,
     "min_temp": "-25.7",
-    "max_temp": "75.2"
+    "max_temp": "75.2",
+    "lat": "6.1319",
+    "lon": "-5.9506"
   },
   {
     "station": "Gangtok",
+    "country": "India",
     "median": "15.2",
     "std": 10.0,
     "sample_size": 2420107,
     "min_temp": "-37.6",
-    "max_temp": "63.9"
+    "max_temp": "63.9",
+    "lat": "27.3389",
+    "lon": "88.6065"
   },
   {
     "station": "Garissa",
+    "country": "Kenya",
     "median": "29.3",
     "std": 10.0,
     "sample_size": 2419564,
     "min_temp": "-20.8",
-    "max_temp": "79.2"
+    "max_temp": "79.2",
+    "lat": "-0.4561",
+    "lon": "39.6583"
   },
   {
     "station": "Garoua",
+    "country": "Cameroon",
     "median": "28.3",
     "std": 10.0,
     "sample_size": 2421755,
     "min_temp": "-22.7",
-    "max_temp": "78.2"
+    "max_temp": "78.2",
+    "lat": "9.3265",
+    "lon": "13.3977"
   },
   {
     "station": "George Town",
+    "country": "Cayman Islands",
     "median": "27.9",
     "std": 10.0,
     "sample_size": 2421305,
     "min_temp": "-20.8",
-    "max_temp": "77.9"
+    "max_temp": "77.9",
+    "lat": "19.2866",
+    "lon": "-81.3744"
   },
   {
     "station": "Ghanzi",
+    "country": "Botswana",
     "median": "21.4",
     "std": 10.0,
     "sample_size": 2421477,
     "min_temp": "-26.7",
-    "max_temp": "70.5"
+    "max_temp": "70.5",
+    "lat": "-21.6970",
+    "lon": "21.6450"
   },
   {
     "station": "Gjoa Haven",
+    "country": "Canada",
     "median": "-14.4",
     "std": 10.0,
     "sample_size": 2425166,
     "min_temp": "-64.0",
-    "max_temp": "36.5"
+    "max_temp": "36.5",
+    "lat": "68.6356",
+    "lon": "-95.8497"
   },
   {
     "station": "Guadalajara",
+    "country": "Mexico",
     "median": "20.9",
     "std": 10.0,
     "sample_size": 2420177,
     "min_temp": "-27.3",
-    "max_temp": "73.5"
+    "max_temp": "73.5",
+    "lat": "20.6597",
+    "lon": "-103.3496"
   },
   {
     "station": "Guangzhou",
+    "country": "China",
     "median": "22.4",
     "std": 10.0,
     "sample_size": 2421740,
     "min_temp": "-28.8",
-    "max_temp": "72.0"
+    "max_temp": "72.0",
+    "lat": "23.1291",
+    "lon": "113.2644"
   },
   {
     "station": "Guatemala City",
+    "country": "Guatemala",
     "median": "20.4",
     "std": 10.0,
     "sample_size": 2422606,
     "min_temp": "-30.5",
-    "max_temp": "70.3"
+    "max_temp": "70.3",
+    "lat": "14.6349",
+    "lon": "-90.5069"
   },
   {
     "station": "Halifax",
+    "country": "Canada",
     "median": "7.5",
     "std": 10.0,
     "sample_size": 2420917,
     "min_temp": "-42.7",
-    "max_temp": "63.2"
+    "max_temp": "63.2",
+    "lat": "44.6488",
+    "lon": "-63.5752"
   },
   {
     "station": "Hamburg",
+    "country": "Germany",
     "median": "9.7",
     "std": 10.0,
     "sample_size": 2421024,
     "min_temp": "-42.8",
-    "max_temp": "59.8"
+    "max_temp": "59.8",
+    "lat": "53.5511",
+    "lon": "9.9937"
   },
   {
     "station": "Hamilton",
+    "country": "New Zealand",
     "median": "13.8",
     "std": 10.0,
     "sample_size": 2425096,
     "min_temp": "-39.4",
-    "max_temp": "62.7"
+    "max_temp": "62.7",
+    "lat": "-37.7870",
+    "lon": "175.2793"
   },
   {
     "station": "Hanga Roa",
+    "country": "Chile",
     "median": "20.5",
     "std": 10.0,
     "sample_size": 2423671,
     "min_temp": "-30.3",
-    "max_temp": "71.0"
+    "max_temp": "71.0",
+    "lat": "-27.1500",
+    "lon": "-109.4333"
   },
   {
     "station": "Hanoi",
+    "country": "Vietnam",
     "median": "23.6",
     "std": 10.0,
     "sample_size": 2421520,
     "min_temp": "-25.1",
-    "max_temp": "72.6"
+    "max_temp": "72.6",
+    "lat": "21.0285",
+    "lon": "105.8542"
   },
   {
     "station": "Harare",
+    "country": "Zimbabwe",
     "median": "18.4",
     "std": 10.0,
     "sample_size": 2419593,
     "min_temp": "-33.0",
-    "max_temp": "67.8"
+    "max_temp": "67.8",
+    "lat": "-17.8252",
+    "lon": "31.0335"
   },
   {
     "station": "Harbin",
+    "country": "China",
     "median": "5.0",
     "std": 10.0,
     "sample_size": 2421675,
     "min_temp": "-45.6",
-    "max_temp": "57.6"
+    "max_temp": "57.6",
+    "lat": "45.8038",
+    "lon": "126.5349"
   },
   {
     "station": "Hargeisa",
+    "country": "Somalia",
     "median": "21.7",
     "std": 10.0,
     "sample_size": 2424094,
     "min_temp": "-23.8",
-    "max_temp": "68.3"
+    "max_temp": "68.3",
+    "lat": "9.5624",
+    "lon": "44.0770"
   },
   {
     "station": "Hat Yai",
+    "country": "Thailand",
     "median": "27.0",
     "std": 10.0,
     "sample_size": 2423244,
     "min_temp": "-19.6",
-    "max_temp": "79.4"
+    "max_temp": "79.4",
+    "lat": "7.0086",
+    "lon": "100.4747"
   },
   {
     "station": "Havana",
+    "country": "Cuba",
     "median": "25.2",
     "std": 10.0,
     "sample_size": 2422419,
     "min_temp": "-24.2",
-    "max_temp": "75.0"
+    "max_temp": "75.0",
+    "lat": "23.1136",
+    "lon": "-82.3666"
   },
   {
     "station": "Helsinki",
+    "country": "Finland",
     "median": "5.9",
     "std": 10.0,
     "sample_size": 2418203,
     "min_temp": "-44.3",
-    "max_temp": "55.3"
+    "max_temp": "55.3",
+    "lat": "60.1695",
+    "lon": "24.9354"
   },
   {
     "station": "Heraklion",
+    "country": "Greece",
     "median": "18.9",
     "std": 10.0,
     "sample_size": 2422447,
     "min_temp": "-31.9",
-    "max_temp": "65.8"
+    "max_temp": "65.8",
+    "lat": "35.3387",
+    "lon": "25.1442"
   },
   {
     "station": "Hiroshima",
+    "country": "Japan",
     "median": "16.3",
     "std": 10.0,
     "sample_size": 2424358,
     "min_temp": "-34.4",
-    "max_temp": "63.8"
+    "max_temp": "63.8",
+    "lat": "34.3853",
+    "lon": "132.4553"
   },
   {
     "station": "Ho Chi Minh City",
+    "country": "Vietnam",
     "median": "27.4",
     "std": 10.0,
     "sample_size": 2422047,
     "min_temp": "-28.2",
-    "max_temp": "78.5"
+    "max_temp": "78.5",
+    "lat": "10.8231",
+    "lon": "106.6297"
   },
   {
     "station": "Hobart",
+    "country": "Australia",
     "median": "12.7",
     "std": 10.0,
     "sample_size": 2422456,
     "min_temp": "-35.4",
-    "max_temp": "61.1"
+    "max_temp": "61.1",
+    "lat": "-42.8821",
+    "lon": "147.3272"
   },
   {
     "station": "Hong Kong",
+    "country": "China",
     "median": "23.3",
     "std": 10.0,
     "sample_size": 2422430,
     "min_temp": "-26.7",
-    "max_temp": "75.9"
+    "max_temp": "75.9",
+    "lat": "22.3193",
+    "lon": "114.1694"
   },
   {
     "station": "Honiara",
+    "country": "Solomon Islands",
     "median": "26.5",
     "std": 10.0,
     "sample_size": 2418974,
     "min_temp": "-27.1",
-    "max_temp": "77.1"
+    "max_temp": "77.1",
+    "lat": "-9.4456",
+    "lon": "159.9729"
   },
   {
     "station": "Honolulu",
+    "country": "United States",
     "median": "25.4",
     "std": 10.0,
     "sample_size": 2418657,
     "min_temp": "-24.3",
-    "max_temp": "72.1"
+    "max_temp": "72.1",
+    "lat": "21.3069",
+    "lon": "-157.8583"
   },
   {
     "station": "Houston",
+    "country": "United States",
     "median": "20.8",
     "std": 10.0,
     "sample_size": 2420401,
     "min_temp": "-28.5",
-    "max_temp": "72.8"
+    "max_temp": "72.8",
+    "lat": "29.7604",
+    "lon": "-95.3698"
   },
   {
     "station": "Ifrane",
+    "country": "Morocco",
     "median": "11.4",
     "std": 10.0,
     "sample_size": 2417253,
     "min_temp": "-40.8",
-    "max_temp": "62.7"
+    "max_temp": "62.7",
+    "lat": "33.5333",
+    "lon": "-5.1167"
   },
   {
     "station": "Indianapolis",
+    "country": "United States",
     "median": "11.8",
     "std": 10.0,
     "sample_size": 2422276,
     "min_temp": "-38.4",
-    "max_temp": "64.6"
+    "max_temp": "64.6",
+    "lat": "39.7684",
+    "lon": "-86.1581"
   },
   {
     "station": "Iqaluit",
+    "country": "Canada",
     "median": "-9.3",
     "std": 10.0,
     "sample_size": 2421189,
     "min_temp": "-58.0",
-    "max_temp": "37.7"
+    "max_temp": "37.7",
+    "lat": "63.7467",
+    "lon": "-68.5170"
   },
   {
     "station": "Irkutsk",
+    "country": "Russia",
     "median": "1.0",
     "std": 10.0,
     "sample_size": 2421800,
     "min_temp": "-47.1",
-    "max_temp": "51.7"
+    "max_temp": "51.7",
+    "lat": "52.2869",
+    "lon": "104.3050"
   },
   {
     "station": "Istanbul",
+    "country": "Turkey",
     "median": "13.9",
     "std": 10.0,
     "sample_size": 2421093,
     "min_temp": "-34.3",
-    "max_temp": "62.8"
+    "max_temp": "62.8",
+    "lat": "41.0082",
+    "lon": "28.9784"
   },
   {
     "station": "Jacksonville",
+    "country": "United States",
     "median": "20.3",
     "std": 10.0,
     "sample_size": 2421144,
     "min_temp": "-29.5",
-    "max_temp": "72.0"
+    "max_temp": "72.0",
+    "lat": "30.3322",
+    "lon": "-81.6557"
   },
   {
     "station": "Jakarta",
+    "country": "Indonesia",
     "median": "26.7",
     "std": 10.0,
     "sample_size": 2424012,
     "min_temp": "-23.5",
-    "max_temp": "78.8"
+    "max_temp": "78.8",
+    "lat": "-6.2088",
+    "lon": "106.8456"
   },
   {
     "station": "Jayapura",
+    "country": "Indonesia",
     "median": "27.0",
     "std": 10.0,
     "sample_size": 2420240,
     "min_temp": "-21.1",
-    "max_temp": "79.1"
+    "max_temp": "79.1",
+    "lat": "-2.5916",
+    "lon": "140.6690"
   },
   {
     "station": "Jerusalem",
+    "country": "Israel",
     "median": "18.3",
     "std": 10.0,
     "sample_size": 2421598,
     "min_temp": "-28.6",
-    "max_temp": "66.1"
+    "max_temp": "66.1",
+    "lat": "31.7683",
+    "lon": "35.2137"
   },
   {
     "station": "Johannesburg",
+    "country": "South Africa",
     "median": "15.5",
     "std": 10.0,
     "sample_size": 2419922,
     "min_temp": "-34.3",
-    "max_temp": "64.0"
+    "max_temp": "64.0",
+    "lat": "-26.2041",
+    "lon": "28.0473"
   },
   {
     "station": "Jos",
+    "country": "Nigeria",
     "median": "22.8",
     "std": 10.0,
     "sample_size": 2420444,
     "min_temp": "-25.7",
-    "max_temp": "70.9"
+    "max_temp": "70.9",
+    "lat": "9.8965",
+    "lon": "8.8583"
   },
   {
     "station": "Juba",
+    "country": "South Sudan",
     "median": "27.8",
     "std": 10.0,
     "sample_size": 2420979,
     "min_temp": "-19.3",
-    "max_temp": "75.6"
+    "max_temp": "75.6",
+    "lat": "4.8594",
+    "lon": "31.5713"
   },
   {
     "station": "Kabul",
+    "country": "Afghanistan",
     "median": "12.1",
     "std": 10.0,
     "sample_size": 2423018,
     "min_temp": "-39.4",
-    "max_temp": "62.8"
+    "max_temp": "62.8",
+    "lat": "34.5553",
+    "lon": "69.2075"
   },
   {
     "station": "Kampala",
+    "country": "Uganda",
     "median": "20.0",
     "std": 10.0,
     "sample_size": 2421189,
     "min_temp": "-30.8",
-    "max_temp": "67.7"
+    "max_temp": "67.7",
+    "lat": "0.3476",
+    "lon": "32.5825"
   },
   {
     "station": "Kandi",
+    "country": "Benin",
     "median": "27.7",
     "std": 10.0,
     "sample_size": 2420267,
     "min_temp": "-25.9",
-    "max_temp": "76.2"
+    "max_temp": "76.2",
+    "lat": "11.1342",
+    "lon": "2.9382"
   },
   {
     "station": "Kankan",
+    "country": "Guinea",
     "median": "26.5",
     "std": 10.0,
     "sample_size": 2422879,
     "min_temp": "-28.0",
-    "max_temp": "76.6"
+    "max_temp": "76.6",
+    "lat": "10.3854",
+    "lon": "-9.3057"
   },
   {
     "station": "Kano",
+    "country": "Nigeria",
     "median": "26.4",
     "std": 10.0,
     "sample_size": 2422541,
     "min_temp": "-32.5",
-    "max_temp": "75.3"
+    "max_temp": "75.3",
+    "lat": "12.0022",
+    "lon": "8.5919"
   },
   {
     "station": "Kansas City",
+    "country": "United States",
     "median": "12.5",
     "std": 10.0,
     "sample_size": 2420156,
     "min_temp": "-38.7",
-    "max_temp": "63.8"
+    "max_temp": "63.8",
+    "lat": "39.0997",
+    "lon": "-94.5786"
   },
   {
     "station": "Karachi",
+    "country": "Pakistan",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2423731,
     "min_temp": "-22.8",
-    "max_temp": "78.6"
+    "max_temp": "78.6",
+    "lat": "24.8607",
+    "lon": "67.0011"
   },
   {
     "station": "Karonga",
+    "country": "Malawi",
     "median": "24.4",
     "std": 10.0,
     "sample_size": 2420461,
     "min_temp": "-24.4",
-    "max_temp": "72.6"
+    "max_temp": "72.6",
+    "lat": "-9.9333",
+    "lon": "33.9333"
   },
   {
     "station": "Kathmandu",
+    "country": "Nepal",
     "median": "18.3",
     "std": 10.0,
     "sample_size": 2422700,
     "min_temp": "-30.6",
-    "max_temp": "65.6"
+    "max_temp": "65.6",
+    "lat": "27.7172",
+    "lon": "85.3240"
   },
   {
     "station": "Khartoum",
+    "country": "Sudan",
     "median": "29.9",
     "std": 10.0,
     "sample_size": 2421347,
     "min_temp": "-21.2",
-    "max_temp": "80.1"
+    "max_temp": "80.1",
+    "lat": "15.5007",
+    "lon": "32.5599"
   },
   {
     "station": "Kingston",
+    "country": "Jamaica",
     "median": "27.4",
     "std": 10.0,
     "sample_size": 2422446,
     "min_temp": "-23.3",
-    "max_temp": "77.9"
+    "max_temp": "77.9",
+    "lat": "17.9712",
+    "lon": "-76.7936"
   },
   {
     "station": "Kinshasa",
+    "country": "Democratic Republic of the Congo",
     "median": "25.3",
     "std": 10.0,
     "sample_size": 2420604,
     "min_temp": "-27.5",
-    "max_temp": "72.6"
+    "max_temp": "72.6",
+    "lat": "-4.4419",
+    "lon": "15.2663"
   },
   {
     "station": "Kolkata",
+    "country": "India",
     "median": "26.7",
     "std": 10.0,
     "sample_size": 2423630,
     "min_temp": "-20.9",
-    "max_temp": "77.5"
+    "max_temp": "77.5",
+    "lat": "22.5726",
+    "lon": "88.3639"
   },
   {
     "station": "Kuala Lumpur",
+    "country": "Malaysia",
     "median": "27.3",
     "std": 10.0,
     "sample_size": 2420752,
     "min_temp": "-22.9",
-    "max_temp": "77.4"
+    "max_temp": "77.4",
+    "lat": "3.1390",
+    "lon": "101.6869"
   },
   {
     "station": "Kumasi",
+    "country": "Ghana",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2421619,
     "min_temp": "-25.3",
-    "max_temp": "77.5"
+    "max_temp": "77.5",
+    "lat": "6.6666",
+    "lon": "-1.6163"
   },
   {
     "station": "Kunming",
+    "country": "China",
     "median": "15.7",
     "std": 10.0,
     "sample_size": 2420745,
     "min_temp": "-32.2",
-    "max_temp": "65.3"
+    "max_temp": "65.3",
+    "lat": "24.8801",
+    "lon": "102.8329"
   },
   {
     "station": "Kuopio",
+    "country": "Finland",
     "median": "3.4",
     "std": 10.0,
     "sample_size": 2420629,
     "min_temp": "-45.0",
-    "max_temp": "60.5"
+    "max_temp": "60.5",
+    "lat": "62.8924",
+    "lon": "27.6770"
   },
   {
     "station": "Kuwait City",
+    "country": "Kuwait",
     "median": "25.7",
     "std": 10.0,
     "sample_size": 2421760,
     "min_temp": "-26.7",
-    "max_temp": "73.5"
+    "max_temp": "73.5",
+    "lat": "29.3759",
+    "lon": "47.9774"
   },
   {
     "station": "Kyiv",
+    "country": "Ukraine",
     "median": "8.4",
     "std": 10.0,
     "sample_size": 2422326,
     "min_temp": "-41.8",
-    "max_temp": "57.0"
+    "max_temp": "57.0",
+    "lat": "50.4501",
+    "lon": "30.5234"
   },
   {
     "station": "Kyoto",
+    "country": "Japan",
     "median": "15.8",
     "std": 10.0,
     "sample_size": 2420926,
     "min_temp": "-37.4",
-    "max_temp": "64.7"
+    "max_temp": "64.7",
+    "lat": "35.0116",
+    "lon": "135.7681"
   },
   {
     "station": "La Ceiba",
+    "country": "Honduras",
     "median": "26.2",
     "std": 10.0,
     "sample_size": 2421703,
     "min_temp": "-23.4",
-    "max_temp": "78.1"
+    "max_temp": "78.1",
+    "lat": "15.7835",
+    "lon": "-86.8456"
   },
   {
     "station": "La Paz",
+    "country": "Bolivia",
     "median": "23.7",
     "std": 10.0,
     "sample_size": 2419479,
     "min_temp": "-27.2",
-    "max_temp": "75.4"
+    "max_temp": "75.4",
+    "lat": "-16.5000",
+    "lon": "-68.1500"
   },
   {
     "station": "Lagos",
+    "country": "Nigeria",
     "median": "26.8",
     "std": 10.0,
     "sample_size": 2419546,
     "min_temp": "-25.8",
-    "max_temp": "77.9"
+    "max_temp": "77.9",
+    "lat": "6.5244",
+    "lon": "3.3792"
   },
   {
     "station": "Lahore",
+    "country": "Pakistan",
     "median": "24.3",
     "std": 10.0,
     "sample_size": 2419141,
     "min_temp": "-24.9",
-    "max_temp": "72.4"
+    "max_temp": "72.4",
+    "lat": "31.5497",
+    "lon": "74.3436"
   },
   {
     "station": "Lake Havasu City",
+    "country": "United States",
     "median": "23.7",
     "std": 10.0,
     "sample_size": 2423256,
     "min_temp": "-31.5",
-    "max_temp": "75.1"
+    "max_temp": "75.1",
+    "lat": "34.4839",
+    "lon": "-114.3225"
   },
   {
     "station": "Lake Tekapo",
+    "country": "New Zealand",
     "median": "8.7",
     "std": 10.0,
     "sample_size": 2419571,
     "min_temp": "-39.5",
-    "max_temp": "56.6"
+    "max_temp": "56.6",
+    "lat": "-44.0071",
+    "lon": "170.4803"
   },
   {
     "station": "Las Palmas de Gran Canaria",
+    "country": "Spain",
     "median": "21.2",
     "std": 10.0,
     "sample_size": 2420599,
     "min_temp": "-27.0",
-    "max_temp": "73.0"
+    "max_temp": "73.0",
+    "lat": "28.1235",
+    "lon": "-15.4363"
   },
   {
     "station": "Las Vegas",
+    "country": "United States",
     "median": "20.3",
     "std": 10.0,
     "sample_size": 2422847,
     "min_temp": "-28.7",
-    "max_temp": "69.7"
+    "max_temp": "69.7",
+    "lat": "36.1699",
+    "lon": "-115.1398"
   },
   {
     "station": "Launceston",
+    "country": "Australia",
     "median": "13.1",
     "std": 10.0,
     "sample_size": 2419481,
     "min_temp": "-36.8",
-    "max_temp": "61.9"
+    "max_temp": "61.9",
+    "lat": "-41.4332",
+    "lon": "147.1441"
   },
   {
     "station": "Lhasa",
+    "country": "China",
     "median": "7.6",
     "std": 10.0,
     "sample_size": 2421707,
     "min_temp": "-42.1",
-    "max_temp": "61.6"
+    "max_temp": "61.6",
+    "lat": "29.6520",
+    "lon": "91.1721"
   },
   {
     "station": "Libreville",
+    "country": "Gabon",
     "median": "25.9",
     "std": 10.0,
     "sample_size": 2422825,
     "min_temp": "-28.2",
-    "max_temp": "75.0"
+    "max_temp": "75.0",
+    "lat": "0.4162",
+    "lon": "9.4673"
   },
   {
     "station": "Lisbon",
+    "country": "Portugal",
     "median": "17.5",
     "std": 10.0,
     "sample_size": 2420963,
     "min_temp": "-29.6",
-    "max_temp": "70.6"
+    "max_temp": "70.6",
+    "lat": "38.7223",
+    "lon": "-9.1393"
   },
   {
     "station": "Livingstone",
+    "country": "Zambia",
     "median": "21.8",
     "std": 10.0,
     "sample_size": 2421864,
     "min_temp": "-32.9",
-    "max_temp": "70.0"
+    "max_temp": "70.0",
+    "lat": "-17.8419",
+    "lon": "25.8543"
   },
   {
     "station": "Ljubljana",
+    "country": "Slovenia",
     "median": "10.9",
     "std": 10.0,
     "sample_size": 2421967,
     "min_temp": "-38.5",
-    "max_temp": "62.4"
+    "max_temp": "62.4",
+    "lat": "46.0569",
+    "lon": "14.5058"
   },
   {
     "station": "Lodwar",
+    "country": "Kenya",
     "median": "29.3",
     "std": 10.0,
     "sample_size": 2420105,
     "min_temp": "-18.4",
-    "max_temp": "83.7"
+    "max_temp": "83.7",
+    "lat": "3.1190",
+    "lon": "35.5973"
   },
   {
-    "station": "Lom\u00e9",
+    "station": "Lomé",
+    "country": "Togo",
     "median": "26.9",
     "std": 10.0,
     "sample_size": 2421235,
     "min_temp": "-24.3",
-    "max_temp": "75.3"
+    "max_temp": "75.3",
+    "lat": "6.1725",
+    "lon": "1.2314"
   },
   {
     "station": "London",
+    "country": "United Kingdom",
     "median": "11.3",
     "std": 10.0,
     "sample_size": 2422568,
     "min_temp": "-38.1",
-    "max_temp": "60.8"
+    "max_temp": "60.8",
+    "lat": "51.5074",
+    "lon": "-0.1278"
   },
   {
     "station": "Los Angeles",
+    "country": "United States",
     "median": "18.6",
     "std": 10.0,
     "sample_size": 2420756,
     "min_temp": "-26.7",
-    "max_temp": "66.8"
+    "max_temp": "66.8",
+    "lat": "34.0522",
+    "lon": "-118.2437"
   },
   {
     "station": "Louisville",
+    "country": "United States",
     "median": "13.9",
     "std": 10.0,
     "sample_size": 2422077,
     "min_temp": "-34.2",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "38.2527",
+    "lon": "-85.7585"
   },
   {
     "station": "Luanda",
+    "country": "Angola",
     "median": "25.8",
     "std": 10.0,
     "sample_size": 2420767,
     "min_temp": "-25.9",
-    "max_temp": "81.4"
+    "max_temp": "81.4",
+    "lat": "-8.8390",
+    "lon": "13.2894"
   },
   {
     "station": "Lubumbashi",
+    "country": "Democratic Republic of the Congo",
     "median": "20.8",
     "std": 10.0,
     "sample_size": 2421253,
     "min_temp": "-29.5",
-    "max_temp": "69.1"
+    "max_temp": "69.1",
+    "lat": "-11.6876",
+    "lon": "27.5026"
   },
   {
     "station": "Lusaka",
+    "country": "Zambia",
     "median": "19.9",
     "std": 10.0,
     "sample_size": 2421282,
     "min_temp": "-28.7",
-    "max_temp": "69.0"
+    "max_temp": "69.0",
+    "lat": "-15.3875",
+    "lon": "28.3228"
   },
   {
     "station": "Luxembourg City",
+    "country": "Luxembourg",
     "median": "9.3",
     "std": 10.0,
     "sample_size": 2422612,
     "min_temp": "-41.9",
-    "max_temp": "60.9"
+    "max_temp": "60.9",
+    "lat": "49.6117",
+    "lon": "6.1319"
   },
   {
     "station": "Lviv",
+    "country": "Ukraine",
     "median": "7.8",
     "std": 10.0,
     "sample_size": 2424266,
     "min_temp": "-44.8",
-    "max_temp": "57.1"
+    "max_temp": "57.1",
+    "lat": "49.8397",
+    "lon": "24.0297"
   },
   {
     "station": "Lyon",
+    "country": "France",
     "median": "12.5",
     "std": 10.0,
     "sample_size": 2421379,
     "min_temp": "-35.2",
-    "max_temp": "59.8"
+    "max_temp": "59.8",
+    "lat": "45.7640",
+    "lon": "4.8357"
   },
   {
     "station": "Madrid",
+    "country": "Spain",
     "median": "15.0",
     "std": 10.0,
     "sample_size": 2419963,
     "min_temp": "-33.4",
-    "max_temp": "63.6"
+    "max_temp": "63.6",
+    "lat": "40.4168",
+    "lon": "-3.7038"
   },
   {
     "station": "Mahajanga",
+    "country": "Madagascar",
     "median": "26.3",
     "std": 10.0,
     "sample_size": 2421996,
     "min_temp": "-23.1",
-    "max_temp": "76.3"
+    "max_temp": "76.3",
+    "lat": "-15.7167",
+    "lon": "46.3167"
   },
   {
     "station": "Makassar",
+    "country": "Indonesia",
     "median": "26.7",
     "std": 10.0,
     "sample_size": 2420512,
     "min_temp": "-22.0",
-    "max_temp": "85.6"
+    "max_temp": "85.6",
+    "lat": "-5.1477",
+    "lon": "119.4327"
   },
   {
     "station": "Makurdi",
+    "country": "Nigeria",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2418667,
     "min_temp": "-26.9",
-    "max_temp": "82.2"
+    "max_temp": "82.2",
+    "lat": "7.7333",
+    "lon": "8.5333"
   },
   {
     "station": "Malabo",
+    "country": "Equatorial Guinea",
     "median": "26.3",
     "std": 10.0,
     "sample_size": 2420206,
     "min_temp": "-29.5",
-    "max_temp": "74.6"
+    "max_temp": "74.6",
+    "lat": "3.7500",
+    "lon": "8.7833"
   },
   {
-    "station": "Mal\u00e9",
+    "station": "Malé",
+    "country": "Maldives",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2420568,
     "min_temp": "-26.1",
-    "max_temp": "79.9"
+    "max_temp": "79.9",
+    "lat": "4.1755",
+    "lon": "73.5093"
   },
   {
     "station": "Managua",
+    "country": "Nicaragua",
     "median": "27.3",
     "std": 10.0,
     "sample_size": 2418673,
     "min_temp": "-20.0",
-    "max_temp": "78.0"
+    "max_temp": "78.0",
+    "lat": "12.1364",
+    "lon": "-86.2514"
   },
   {
     "station": "Manama",
+    "country": "Bahrain",
     "median": "26.5",
     "std": 10.0,
     "sample_size": 2420774,
     "min_temp": "-26.5",
-    "max_temp": "73.6"
+    "max_temp": "73.6",
+    "lat": "26.2235",
+    "lon": "50.5876"
   },
   {
     "station": "Mandalay",
+    "country": "Myanmar",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2421325,
     "min_temp": "-22.4",
-    "max_temp": "74.6"
+    "max_temp": "74.6",
+    "lat": "21.9588",
+    "lon": "96.0891"
   },
   {
     "station": "Mango",
+    "country": "Togo",
     "median": "28.1",
     "std": 10.0,
     "sample_size": 2419816,
     "min_temp": "-21.8",
-    "max_temp": "77.7"
+    "max_temp": "77.7",
+    "lat": "10.3592",
+    "lon": "0.4708"
   },
   {
     "station": "Manila",
+    "country": "Philippines",
     "median": "28.4",
     "std": 10.0,
     "sample_size": 2420920,
     "min_temp": "-23.4",
-    "max_temp": "80.4"
+    "max_temp": "80.4",
+    "lat": "14.5995",
+    "lon": "120.9842"
   },
   {
     "station": "Maputo",
+    "country": "Mozambique",
     "median": "22.8",
     "std": 10.0,
     "sample_size": 2420456,
     "min_temp": "-33.5",
-    "max_temp": "72.9"
+    "max_temp": "72.9",
+    "lat": "-25.9692",
+    "lon": "32.5732"
   },
   {
     "station": "Marrakesh",
+    "country": "Morocco",
     "median": "19.6",
     "std": 10.0,
     "sample_size": 2419522,
     "min_temp": "-28.7",
-    "max_temp": "68.9"
+    "max_temp": "68.9",
+    "lat": "31.6295",
+    "lon": "-7.9811"
   },
   {
     "station": "Marseille",
+    "country": "France",
     "median": "15.8",
     "std": 10.0,
     "sample_size": 2420044,
     "min_temp": "-35.5",
-    "max_temp": "62.9"
+    "max_temp": "62.9",
+    "lat": "43.2965",
+    "lon": "5.3698"
   },
   {
     "station": "Maun",
+    "country": "Botswana",
     "median": "22.4",
     "std": 10.0,
     "sample_size": 2420793,
     "min_temp": "-27.2",
-    "max_temp": "75.0"
+    "max_temp": "75.0",
+    "lat": "-19.9833",
+    "lon": "23.4167"
   },
   {
     "station": "Medan",
+    "country": "Indonesia",
     "median": "26.5",
     "std": 10.0,
     "sample_size": 2418195,
     "min_temp": "-23.3",
-    "max_temp": "76.7"
+    "max_temp": "76.7",
+    "lat": "3.5952",
+    "lon": "98.6722"
   },
   {
     "station": "Mek'ele",
+    "country": "Ethiopia",
     "median": "22.7",
     "std": 10.0,
     "sample_size": 2420893,
     "min_temp": "-28.2",
-    "max_temp": "72.8"
+    "max_temp": "72.8",
+    "lat": "13.4967",
+    "lon": "39.4753"
   },
   {
     "station": "Melbourne",
+    "country": "Australia",
     "median": "15.1",
     "std": 10.0,
     "sample_size": 2424812,
     "min_temp": "-35.0",
-    "max_temp": "65.8"
+    "max_temp": "65.8",
+    "lat": "-37.8136",
+    "lon": "144.9631"
   },
   {
     "station": "Memphis",
+    "country": "United States",
     "median": "17.2",
     "std": 10.0,
     "sample_size": 2423967,
     "min_temp": "-35.5",
-    "max_temp": "64.7"
+    "max_temp": "64.7",
+    "lat": "35.1495",
+    "lon": "-90.0490"
   },
   {
     "station": "Mexicali",
+    "country": "Mexico",
     "median": "23.1",
     "std": 10.0,
     "sample_size": 2418218,
     "min_temp": "-24.7",
-    "max_temp": "78.7"
+    "max_temp": "78.7",
+    "lat": "32.6245",
+    "lon": "-115.4523"
   },
   {
     "station": "Mexico City",
+    "country": "Mexico",
     "median": "17.5",
     "std": 10.0,
     "sample_size": 2418276,
     "min_temp": "-33.1",
-    "max_temp": "68.6"
+    "max_temp": "68.6",
+    "lat": "19.4326",
+    "lon": "-99.1332"
   },
   {
     "station": "Miami",
+    "country": "United States",
     "median": "24.9",
     "std": 10.0,
     "sample_size": 2420210,
     "min_temp": "-27.3",
-    "max_temp": "72.8"
+    "max_temp": "72.8",
+    "lat": "25.7617",
+    "lon": "-80.1918"
   },
   {
     "station": "Milan",
+    "country": "Italy",
     "median": "13.0",
     "std": 10.0,
     "sample_size": 2418620,
     "min_temp": "-36.6",
-    "max_temp": "62.4"
+    "max_temp": "62.4",
+    "lat": "45.4642",
+    "lon": "9.1900"
   },
   {
     "station": "Milwaukee",
+    "country": "United States",
     "median": "8.9",
     "std": 10.0,
     "sample_size": 2421472,
     "min_temp": "-41.8",
-    "max_temp": "58.9"
+    "max_temp": "58.9",
+    "lat": "43.0389",
+    "lon": "-87.9065"
   },
   {
     "station": "Minneapolis",
+    "country": "United States",
     "median": "7.8",
     "std": 10.0,
     "sample_size": 2417210,
     "min_temp": "-39.0",
-    "max_temp": "55.7"
+    "max_temp": "55.7",
+    "lat": "44.9778",
+    "lon": "-93.2650"
   },
   {
     "station": "Minsk",
+    "country": "Belarus",
     "median": "6.7",
     "std": 10.0,
     "sample_size": 2423817,
     "min_temp": "-43.9",
-    "max_temp": "54.0"
+    "max_temp": "54.0",
+    "lat": "53.9045",
+    "lon": "27.5615"
   },
   {
     "station": "Mogadishu",
+    "country": "Somalia",
     "median": "27.1",
     "std": 10.0,
     "sample_size": 2421831,
     "min_temp": "-24.8",
-    "max_temp": "77.8"
+    "max_temp": "77.8",
+    "lat": "2.0469",
+    "lon": "45.3182"
   },
   {
     "station": "Mombasa",
+    "country": "Kenya",
     "median": "26.3",
     "std": 10.0,
     "sample_size": 2420872,
     "min_temp": "-22.3",
-    "max_temp": "75.1"
+    "max_temp": "75.1",
+    "lat": "-4.0435",
+    "lon": "39.6682"
   },
   {
     "station": "Monaco",
+    "country": "Monaco",
     "median": "16.4",
     "std": 10.0,
     "sample_size": 2420453,
     "min_temp": "-32.3",
-    "max_temp": "65.2"
+    "max_temp": "65.2",
+    "lat": "43.7384",
+    "lon": "7.4246"
   },
   {
     "station": "Moncton",
+    "country": "Canada",
     "median": "6.1",
     "std": 10.0,
     "sample_size": 2419765,
     "min_temp": "-48.5",
-    "max_temp": "53.7"
+    "max_temp": "53.7",
+    "lat": "46.0878",
+    "lon": "-64.7782"
   },
   {
     "station": "Monterrey",
+    "country": "Mexico",
     "median": "22.3",
     "std": 10.0,
     "sample_size": 2419558,
     "min_temp": "-32.8",
-    "max_temp": "75.2"
+    "max_temp": "75.2",
+    "lat": "25.6866",
+    "lon": "-100.3161"
   },
   {
     "station": "Montreal",
+    "country": "Canada",
     "median": "6.8",
     "std": 10.0,
     "sample_size": 2421423,
     "min_temp": "-42.8",
-    "max_temp": "56.0"
+    "max_temp": "56.0",
+    "lat": "45.5017",
+    "lon": "-73.5673"
   },
   {
     "station": "Moscow",
+    "country": "Russia",
     "median": "5.8",
     "std": 10.0,
     "sample_size": 2421166,
     "min_temp": "-43.6",
-    "max_temp": "54.6"
+    "max_temp": "54.6",
+    "lat": "55.7558",
+    "lon": "37.6173"
   },
   {
     "station": "Mumbai",
+    "country": "India",
     "median": "27.1",
     "std": 10.0,
     "sample_size": 2422561,
     "min_temp": "-24.0",
-    "max_temp": "79.3"
+    "max_temp": "79.3",
+    "lat": "19.0760",
+    "lon": "72.8777"
   },
   {
     "station": "Murmansk",
+    "country": "Russia",
     "median": "0.6",
     "std": 10.0,
     "sample_size": 2421382,
     "min_temp": "-48.4",
-    "max_temp": "48.0"
+    "max_temp": "48.0",
+    "lat": "68.9585",
+    "lon": "33.0827"
   },
   {
     "station": "Muscat",
+    "country": "Oman",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2419799,
     "min_temp": "-22.8",
-    "max_temp": "77.9"
+    "max_temp": "77.9",
+    "lat": "23.5880",
+    "lon": "58.3829"
   },
   {
     "station": "Mzuzu",
+    "country": "Malawi",
     "median": "17.7",
     "std": 10.0,
     "sample_size": 2423085,
     "min_temp": "-32.1",
-    "max_temp": "66.6"
+    "max_temp": "66.6",
+    "lat": "-11.4580",
+    "lon": "34.0207"
   },
   {
     "station": "N'Djamena",
+    "country": "Chad",
     "median": "28.3",
     "std": 10.0,
     "sample_size": 2420755,
     "min_temp": "-20.3",
-    "max_temp": "78.9"
+    "max_temp": "78.9",
+    "lat": "12.1348",
+    "lon": "15.0557"
   },
   {
     "station": "Naha",
+    "country": "Japan",
     "median": "23.1",
     "std": 10.0,
     "sample_size": 2421519,
     "min_temp": "-25.6",
-    "max_temp": "73.9"
+    "max_temp": "73.9",
+    "lat": "26.2124",
+    "lon": "127.6809"
   },
   {
     "station": "Nairobi",
+    "country": "Kenya",
     "median": "17.8",
     "std": 10.0,
     "sample_size": 2420567,
     "min_temp": "-33.6",
-    "max_temp": "68.6"
+    "max_temp": "68.6",
+    "lat": "-1.2921",
+    "lon": "36.8219"
   },
   {
     "station": "Nakhon Ratchasima",
+    "country": "Thailand",
     "median": "27.3",
     "std": 10.0,
     "sample_size": 2420244,
     "min_temp": "-23.3",
-    "max_temp": "77.4"
+    "max_temp": "77.4",
+    "lat": "14.9799",
+    "lon": "102.0977"
   },
   {
     "station": "Napier",
+    "country": "New Zealand",
     "median": "14.6",
     "std": 10.0,
     "sample_size": 2424117,
     "min_temp": "-34.7",
-    "max_temp": "63.7"
+    "max_temp": "63.7",
+    "lat": "-39.4928",
+    "lon": "176.9120"
   },
   {
     "station": "Napoli",
+    "country": "Italy",
     "median": "15.9",
     "std": 10.0,
     "sample_size": 2421327,
     "min_temp": "-34.3",
-    "max_temp": "71.0"
+    "max_temp": "71.0",
+    "lat": "40.8518",
+    "lon": "14.2681"
   },
   {
     "station": "Nashville",
+    "country": "United States",
     "median": "15.4",
     "std": 10.0,
     "sample_size": 2421089,
     "min_temp": "-31.3",
-    "max_temp": "65.9"
+    "max_temp": "65.9",
+    "lat": "36.1627",
+    "lon": "-86.7816"
   },
   {
     "station": "Nassau",
+    "country": "Bahamas",
     "median": "24.6",
     "std": 10.0,
     "sample_size": 2418713,
     "min_temp": "-23.5",
-    "max_temp": "72.5"
+    "max_temp": "72.5",
+    "lat": "25.0343",
+    "lon": "-77.3963"
   },
   {
     "station": "Ndola",
+    "country": "Zambia",
     "median": "20.3",
     "std": 10.0,
     "sample_size": 2420829,
     "min_temp": "-27.8",
-    "max_temp": "70.5"
+    "max_temp": "70.5",
+    "lat": "-12.9587",
+    "lon": "28.6366"
   },
   {
     "station": "New Delhi",
+    "country": "India",
     "median": "25.0",
     "std": 10.0,
     "sample_size": 2422739,
     "min_temp": "-22.2",
-    "max_temp": "75.3"
+    "max_temp": "75.3",
+    "lat": "28.6139",
+    "lon": "77.2090"
   },
   {
     "station": "New Orleans",
+    "country": "United States",
     "median": "20.7",
     "std": 10.0,
     "sample_size": 2420450,
     "min_temp": "-30.6",
-    "max_temp": "71.0"
+    "max_temp": "71.0",
+    "lat": "29.9511",
+    "lon": "-90.0715"
   },
   {
     "station": "New York City",
+    "country": "United States",
     "median": "12.9",
     "std": 10.0,
     "sample_size": 2421430,
     "min_temp": "-35.0",
-    "max_temp": "62.2"
+    "max_temp": "62.2",
+    "lat": "40.7128",
+    "lon": "-74.0060"
   },
   {
-    "station": "Ngaound\u00e9r\u00e9",
+    "station": "Ngaoundéré",
+    "country": "Cameroon",
     "median": "22.0",
     "std": 10.0,
     "sample_size": 2419955,
     "min_temp": "-26.4",
-    "max_temp": "73.0"
+    "max_temp": "73.0",
+    "lat": "7.3276",
+    "lon": "13.5833"
   },
   {
     "station": "Niamey",
+    "country": "Niger",
     "median": "29.3",
     "std": 10.0,
     "sample_size": 2419910,
     "min_temp": "-19.6",
-    "max_temp": "78.8"
+    "max_temp": "78.8",
+    "lat": "13.5126",
+    "lon": "2.1128"
   },
   {
     "station": "Nicosia",
+    "country": "Cyprus",
     "median": "19.7",
     "std": 10.0,
     "sample_size": 2424170,
     "min_temp": "-30.3",
-    "max_temp": "67.8"
+    "max_temp": "67.8",
+    "lat": "35.1856",
+    "lon": "33.3823"
   },
   {
     "station": "Niigata",
+    "country": "Japan",
     "median": "13.9",
     "std": 10.0,
     "sample_size": 2420577,
     "min_temp": "-35.3",
-    "max_temp": "63.5"
+    "max_temp": "63.5",
+    "lat": "37.9162",
+    "lon": "139.0364"
   },
   {
     "station": "Nouadhibou",
+    "country": "Mauritania",
     "median": "21.3",
     "std": 10.0,
     "sample_size": 2421489,
     "min_temp": "-29.6",
-    "max_temp": "68.3"
+    "max_temp": "68.3",
+    "lat": "20.9420",
+    "lon": "-17.0347"
   },
   {
     "station": "Nouakchott",
+    "country": "Mauritania",
     "median": "25.7",
     "std": 10.0,
     "sample_size": 2420473,
     "min_temp": "-25.8",
-    "max_temp": "74.4"
+    "max_temp": "74.4",
+    "lat": "18.0735",
+    "lon": "-15.9582"
   },
   {
     "station": "Novosibirsk",
+    "country": "Russia",
     "median": "1.7",
     "std": 10.0,
     "sample_size": 2420244,
     "min_temp": "-50.7",
-    "max_temp": "50.5"
+    "max_temp": "50.5",
+    "lat": "55.0084",
+    "lon": "82.9357"
   },
   {
     "station": "Nuuk",
+    "country": "Greenland",
     "median": "-1.4",
     "std": 10.0,
     "sample_size": 2422573,
     "min_temp": "-51.3",
-    "max_temp": "46.5"
+    "max_temp": "46.5",
+    "lat": "64.1835",
+    "lon": "-51.7216"
   },
   {
     "station": "Odesa",
+    "country": "Ukraine",
     "median": "10.7",
     "std": 10.0,
     "sample_size": 2420915,
     "min_temp": "-40.6",
-    "max_temp": "61.7"
+    "max_temp": "61.7",
+    "lat": "46.4825",
+    "lon": "30.7233"
   },
   {
-    "station": "Odienn\u00e9",
+    "station": "Odienné",
+    "country": "Ivory Coast",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2419704,
     "min_temp": "-24.5",
-    "max_temp": "73.8"
+    "max_temp": "73.8",
+    "lat": "9.5000",
+    "lon": "-7.5667"
   },
   {
     "station": "Oklahoma City",
+    "country": "United States",
     "median": "15.9",
     "std": 10.0,
     "sample_size": 2421911,
     "min_temp": "-36.9",
-    "max_temp": "64.9"
+    "max_temp": "64.9",
+    "lat": "35.4676",
+    "lon": "-97.5164"
   },
   {
     "station": "Omaha",
+    "country": "United States",
     "median": "10.6",
     "std": 10.0,
     "sample_size": 2420887,
     "min_temp": "-37.5",
-    "max_temp": "59.0"
+    "max_temp": "59.0",
+    "lat": "41.2565",
+    "lon": "-95.9345"
   },
   {
     "station": "Oranjestad",
+    "country": "Aruba",
     "median": "28.1",
     "std": 10.0,
     "sample_size": 2422109,
     "min_temp": "-21.4",
-    "max_temp": "74.4"
+    "max_temp": "74.4",
+    "lat": "12.5092",
+    "lon": "-70.0086"
   },
   {
     "station": "Oslo",
+    "country": "Norway",
     "median": "5.7",
     "std": 10.0,
     "sample_size": 2420935,
     "min_temp": "-48.7",
-    "max_temp": "55.4"
+    "max_temp": "55.4",
+    "lat": "59.9139",
+    "lon": "10.7522"
   },
   {
     "station": "Ottawa",
+    "country": "Canada",
     "median": "6.6",
     "std": 10.0,
     "sample_size": 2421483,
     "min_temp": "-44.7",
-    "max_temp": "56.9"
+    "max_temp": "56.9",
+    "lat": "45.4215",
+    "lon": "-75.6972"
   },
   {
     "station": "Ouagadougou",
+    "country": "Burkina Faso",
     "median": "28.3",
     "std": 10.0,
     "sample_size": 2421430,
     "min_temp": "-20.0",
-    "max_temp": "80.6"
+    "max_temp": "80.6",
+    "lat": "12.3714",
+    "lon": "-1.5197"
   },
   {
     "station": "Ouahigouya",
+    "country": "Burkina Faso",
     "median": "28.6",
     "std": 10.0,
     "sample_size": 2420880,
     "min_temp": "-26.3",
-    "max_temp": "75.8"
+    "max_temp": "75.8",
+    "lat": "13.5828",
+    "lon": "-2.4216"
   },
   {
     "station": "Ouarzazate",
+    "country": "Morocco",
     "median": "18.9",
     "std": 10.0,
     "sample_size": 2419820,
     "min_temp": "-30.4",
-    "max_temp": "66.3"
+    "max_temp": "66.3",
+    "lat": "30.9335",
+    "lon": "-6.9370"
   },
   {
     "station": "Oulu",
+    "country": "Finland",
     "median": "2.7",
     "std": 10.0,
     "sample_size": 2425961,
     "min_temp": "-49.0",
-    "max_temp": "53.1"
+    "max_temp": "53.1",
+    "lat": "65.0121",
+    "lon": "25.4651"
   },
   {
     "station": "Palembang",
+    "country": "Indonesia",
     "median": "27.3",
     "std": 10.0,
     "sample_size": 2421311,
     "min_temp": "-21.4",
-    "max_temp": "75.9"
+    "max_temp": "75.9",
+    "lat": "-2.9909",
+    "lon": "104.7566"
   },
   {
     "station": "Palermo",
+    "country": "Italy",
     "median": "18.5",
     "std": 10.0,
     "sample_size": 2422127,
     "min_temp": "-29.7",
-    "max_temp": "68.7"
+    "max_temp": "68.7",
+    "lat": "38.1157",
+    "lon": "13.3615"
   },
   {
     "station": "Palm Springs",
+    "country": "United States",
     "median": "24.5",
     "std": 10.0,
     "sample_size": 2417664,
     "min_temp": "-29.6",
-    "max_temp": "75.4"
+    "max_temp": "75.4",
+    "lat": "33.8303",
+    "lon": "-116.5453"
   },
   {
     "station": "Palmerston North",
+    "country": "New Zealand",
     "median": "13.2",
     "std": 10.0,
     "sample_size": 2422290,
     "min_temp": "-35.4",
-    "max_temp": "61.7"
+    "max_temp": "61.7",
+    "lat": "-40.3523",
+    "lon": "175.6082"
   },
   {
     "station": "Panama City",
+    "country": "Panama",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2421842,
     "min_temp": "-20.9",
-    "max_temp": "82.5"
+    "max_temp": "82.5",
+    "lat": "8.9824",
+    "lon": "-79.5199"
   },
   {
     "station": "Parakou",
+    "country": "Benin",
     "median": "26.8",
     "std": 10.0,
     "sample_size": 2420497,
     "min_temp": "-20.4",
-    "max_temp": "79.0"
+    "max_temp": "79.0",
+    "lat": "9.3373",
+    "lon": "2.6303"
   },
   {
     "station": "Paris",
+    "country": "France",
     "median": "12.3",
     "std": 10.0,
     "sample_size": 2418192,
     "min_temp": "-37.6",
-    "max_temp": "63.7"
+    "max_temp": "63.7",
+    "lat": "48.8566",
+    "lon": "2.3522"
   },
   {
     "station": "Perth",
+    "country": "Australia",
     "median": "18.7",
     "std": 10.0,
     "sample_size": 2423523,
     "min_temp": "-33.5",
-    "max_temp": "68.6"
+    "max_temp": "68.6",
+    "lat": "-31.9505",
+    "lon": "115.8605"
   },
   {
     "station": "Petropavlovsk-Kamchatsky",
+    "country": "Russia",
     "median": "1.9",
     "std": 10.0,
     "sample_size": 2422648,
     "min_temp": "-47.6",
-    "max_temp": "53.5"
+    "max_temp": "53.5",
+    "lat": "53.0452",
+    "lon": "158.6483"
   },
   {
     "station": "Philadelphia",
+    "country": "United States",
     "median": "13.2",
     "std": 10.0,
     "sample_size": 2419963,
     "min_temp": "-38.0",
-    "max_temp": "68.1"
+    "max_temp": "68.1",
+    "lat": "39.9526",
+    "lon": "-75.1652"
   },
   {
     "station": "Phnom Penh",
+    "country": "Cambodia",
     "median": "28.3",
     "std": 10.0,
     "sample_size": 2422240,
     "min_temp": "-23.4",
-    "max_temp": "76.4"
+    "max_temp": "76.4",
+    "lat": "11.5564",
+    "lon": "104.9282"
   },
   {
     "station": "Phoenix",
+    "country": "United States",
     "median": "23.9",
     "std": 10.0,
     "sample_size": 2419499,
     "min_temp": "-26.5",
-    "max_temp": "73.1"
+    "max_temp": "73.1",
+    "lat": "33.4484",
+    "lon": "-112.0740"
   },
   {
     "station": "Pittsburgh",
+    "country": "United States",
     "median": "10.8",
     "std": 10.0,
     "sample_size": 2419671,
     "min_temp": "-40.9",
-    "max_temp": "58.8"
+    "max_temp": "58.8",
+    "lat": "40.4406",
+    "lon": "-79.9959"
   },
   {
     "station": "Podgorica",
+    "country": "Montenegro",
     "median": "15.3",
     "std": 10.0,
     "sample_size": 2419292,
     "min_temp": "-36.0",
-    "max_temp": "66.6"
+    "max_temp": "66.6",
+    "lat": "42.4416",
+    "lon": "19.2662"
   },
   {
     "station": "Pointe-Noire",
+    "country": "Republic of the Congo",
     "median": "26.1",
     "std": 10.0,
     "sample_size": 2424548,
     "min_temp": "-25.2",
-    "max_temp": "75.4"
+    "max_temp": "75.4",
+    "lat": "-4.7692",
+    "lon": "11.8667"
   },
   {
     "station": "Pontianak",
+    "country": "Indonesia",
     "median": "27.7",
     "std": 10.0,
     "sample_size": 2421805,
     "min_temp": "-23.3",
-    "max_temp": "76.0"
+    "max_temp": "76.0",
+    "lat": "-0.0263",
+    "lon": "109.3425"
   },
   {
     "station": "Port Moresby",
+    "country": "Papua New Guinea",
     "median": "26.9",
     "std": 10.0,
     "sample_size": 2421385,
     "min_temp": "-20.6",
-    "max_temp": "76.4"
+    "max_temp": "76.4",
+    "lat": "-9.4438",
+    "lon": "147.1803"
   },
   {
     "station": "Port Sudan",
+    "country": "Sudan",
     "median": "28.4",
     "std": 10.0,
     "sample_size": 2416883,
     "min_temp": "-20.0",
-    "max_temp": "79.0"
+    "max_temp": "79.0",
+    "lat": "19.6175",
+    "lon": "37.2164"
   },
   {
     "station": "Port Vila",
+    "country": "Vanuatu",
     "median": "24.3",
     "std": 10.0,
     "sample_size": 2422708,
     "min_temp": "-25.4",
-    "max_temp": "73.8"
+    "max_temp": "73.8",
+    "lat": "-17.7333",
+    "lon": "168.3167"
   },
   {
     "station": "Port-Gentil",
+    "country": "Gabon",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2421234,
     "min_temp": "-24.8",
-    "max_temp": "77.1"
+    "max_temp": "77.1",
+    "lat": "-0.7193",
+    "lon": "8.7815"
   },
   {
     "station": "Portland (OR)",
+    "country": "United States",
     "median": "12.4",
     "std": 10.0,
     "sample_size": 2422992,
     "min_temp": "-36.9",
-    "max_temp": "61.4"
+    "max_temp": "61.4",
+    "lat": "45.5152",
+    "lon": "-122.6784"
   },
   {
     "station": "Porto",
+    "country": "Portugal",
     "median": "15.7",
     "std": 10.0,
     "sample_size": 2417405,
     "min_temp": "-32.1",
-    "max_temp": "67.9"
+    "max_temp": "67.9",
+    "lat": "41.1579",
+    "lon": "-8.6291"
   },
   {
     "station": "Prague",
+    "country": "Czech Republic",
     "median": "8.4",
     "std": 10.0,
     "sample_size": 2422708,
     "min_temp": "-44.0",
-    "max_temp": "59.5"
+    "max_temp": "59.5",
+    "lat": "50.0755",
+    "lon": "14.4378"
   },
   {
     "station": "Praia",
+    "country": "Cape Verde",
     "median": "24.4",
     "std": 10.0,
     "sample_size": 2421205,
     "min_temp": "-26.1",
-    "max_temp": "72.9"
+    "max_temp": "72.9",
+    "lat": "14.9330",
+    "lon": "-23.5133"
   },
   {
     "station": "Pretoria",
+    "country": "South Africa",
     "median": "18.2",
     "std": 10.0,
     "sample_size": 2421262,
     "min_temp": "-30.0",
-    "max_temp": "69.2"
+    "max_temp": "69.2",
+    "lat": "-25.7479",
+    "lon": "28.2293"
   },
   {
     "station": "Pyongyang",
+    "country": "North Korea",
     "median": "10.8",
     "std": 10.0,
     "sample_size": 2420838,
     "min_temp": "-39.4",
-    "max_temp": "59.4"
+    "max_temp": "59.4",
+    "lat": "39.0392",
+    "lon": "125.7625"
   },
   {
     "station": "Rabat",
+    "country": "Morocco",
     "median": "17.2",
     "std": 10.0,
     "sample_size": 2419705,
     "min_temp": "-32.2",
-    "max_temp": "71.9"
+    "max_temp": "71.9",
+    "lat": "34.0209",
+    "lon": "-6.8416"
   },
   {
     "station": "Rangpur",
+    "country": "Bangladesh",
     "median": "24.4",
     "std": 10.0,
     "sample_size": 2422898,
     "min_temp": "-30.2",
-    "max_temp": "73.5"
+    "max_temp": "73.5",
+    "lat": "25.7439",
+    "lon": "89.2752"
   },
   {
     "station": "Reggane",
+    "country": "Algeria",
     "median": "28.3",
     "std": 10.0,
     "sample_size": 2423661,
     "min_temp": "-20.0",
-    "max_temp": "81.7"
+    "max_temp": "81.7",
+    "lat": "26.7158",
+    "lon": "0.1714"
   },
   {
-    "station": "Reykjav\u00edk",
+    "station": "Reykjavík",
+    "country": "Iceland",
     "median": "4.3",
     "std": 10.0,
     "sample_size": 2420010,
     "min_temp": "-47.7",
-    "max_temp": "54.0"
+    "max_temp": "54.0",
+    "lat": "64.1355",
+    "lon": "-21.8954"
   },
   {
     "station": "Riga",
+    "country": "Latvia",
     "median": "6.2",
     "std": 10.0,
     "sample_size": 2418649,
     "min_temp": "-42.8",
-    "max_temp": "55.3"
+    "max_temp": "55.3",
+    "lat": "56.9496",
+    "lon": "24.1052"
   },
   {
     "station": "Riyadh",
+    "country": "Saudi Arabia",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2425326,
     "min_temp": "-21.0",
-    "max_temp": "80.4"
+    "max_temp": "80.4",
+    "lat": "24.7136",
+    "lon": "46.6753"
   },
   {
     "station": "Rome",
+    "country": "Italy",
     "median": "15.2",
     "std": 10.0,
     "sample_size": 2421446,
     "min_temp": "-33.1",
-    "max_temp": "64.6"
+    "max_temp": "64.6",
+    "lat": "41.9028",
+    "lon": "12.4964"
   },
   {
     "station": "Roseau",
+    "country": "Dominica",
     "median": "26.2",
     "std": 10.0,
     "sample_size": 2420126,
     "min_temp": "-20.8",
-    "max_temp": "75.4"
+    "max_temp": "75.4",
+    "lat": "15.3010",
+    "lon": "-61.3881"
   },
   {
     "station": "Rostov-on-Don",
+    "country": "Russia",
     "median": "9.9",
     "std": 10.0,
     "sample_size": 2422922,
     "min_temp": "-36.5",
-    "max_temp": "64.2"
+    "max_temp": "64.2",
+    "lat": "47.2357",
+    "lon": "39.7015"
   },
   {
     "station": "Sacramento",
+    "country": "United States",
     "median": "16.3",
     "std": 10.0,
     "sample_size": 2420267,
     "min_temp": "-34.3",
-    "max_temp": "65.5"
+    "max_temp": "65.5",
+    "lat": "38.5816",
+    "lon": "-121.4944"
   },
   {
     "station": "Saint Petersburg",
+    "country": "Russia",
     "median": "5.8",
     "std": 10.0,
     "sample_size": 2422168,
     "min_temp": "-46.0",
-    "max_temp": "58.3"
+    "max_temp": "58.3",
+    "lat": "59.9343",
+    "lon": "30.3351"
   },
   {
     "station": "Saint-Pierre",
+    "country": "Saint Pierre and Miquelon",
     "median": "5.7",
     "std": 10.0,
     "sample_size": 2421889,
     "min_temp": "-47.3",
-    "max_temp": "54.5"
+    "max_temp": "54.5",
+    "lat": "46.7794",
+    "lon": "-56.1772"
   },
   {
     "station": "Salt Lake City",
+    "country": "United States",
     "median": "11.6",
     "std": 10.0,
     "sample_size": 2421262,
     "min_temp": "-37.1",
-    "max_temp": "61.5"
+    "max_temp": "61.5",
+    "lat": "40.7608",
+    "lon": "-111.8910"
   },
   {
     "station": "San Antonio",
+    "country": "United States",
     "median": "20.8",
     "std": 10.0,
     "sample_size": 2421455,
     "min_temp": "-28.3",
-    "max_temp": "71.3"
+    "max_temp": "71.3",
+    "lat": "29.4241",
+    "lon": "-98.4936"
   },
   {
     "station": "San Diego",
+    "country": "United States",
     "median": "17.8",
     "std": 10.0,
     "sample_size": 2422887,
     "min_temp": "-34.3",
-    "max_temp": "67.8"
+    "max_temp": "67.8",
+    "lat": "32.7157",
+    "lon": "-117.1611"
   },
   {
     "station": "San Francisco",
+    "country": "United States",
     "median": "14.6",
     "std": 10.0,
     "sample_size": 2421294,
     "min_temp": "-38.6",
-    "max_temp": "63.2"
+    "max_temp": "63.2",
+    "lat": "37.7749",
+    "lon": "-122.4194"
   },
   {
     "station": "San Jose",
+    "country": "United States",
     "median": "16.4",
     "std": 10.0,
     "sample_size": 2422898,
     "min_temp": "-34.1",
-    "max_temp": "68.5"
+    "max_temp": "68.5",
+    "lat": "37.3382",
+    "lon": "-121.8863"
   },
   {
-    "station": "San Jos\u00e9",
+    "station": "San José",
+    "country": "Costa Rica",
     "median": "22.6",
     "std": 10.0,
     "sample_size": 2420075,
     "min_temp": "-31.1",
-    "max_temp": "71.8"
+    "max_temp": "71.8",
+    "lat": "9.9281",
+    "lon": "-84.0907"
   },
   {
     "station": "San Juan",
+    "country": "Puerto Rico",
     "median": "27.2",
     "std": 10.0,
     "sample_size": 2425026,
     "min_temp": "-24.8",
-    "max_temp": "73.2"
+    "max_temp": "73.2",
+    "lat": "18.4655",
+    "lon": "-66.1057"
   },
   {
     "station": "San Salvador",
+    "country": "El Salvador",
     "median": "23.1",
     "std": 10.0,
     "sample_size": 2423796,
     "min_temp": "-24.7",
-    "max_temp": "71.3"
+    "max_temp": "71.3",
+    "lat": "13.6929",
+    "lon": "-89.2182"
   },
   {
     "station": "Sana'a",
+    "country": "Yemen",
     "median": "20.0",
     "std": 10.0,
     "sample_size": 2421892,
     "min_temp": "-29.4",
-    "max_temp": "70.6"
+    "max_temp": "70.6",
+    "lat": "15.3694",
+    "lon": "44.1910"
   },
   {
     "station": "Santo Domingo",
+    "country": "Dominican Republic",
     "median": "25.9",
     "std": 10.0,
     "sample_size": 2422126,
     "min_temp": "-24.5",
-    "max_temp": "72.0"
+    "max_temp": "72.0",
+    "lat": "18.4861",
+    "lon": "-69.9312"
   },
   {
     "station": "Sapporo",
+    "country": "Japan",
     "median": "8.9",
     "std": 10.0,
     "sample_size": 2421952,
     "min_temp": "-42.3",
-    "max_temp": "58.0"
+    "max_temp": "58.0",
+    "lat": "43.0618",
+    "lon": "141.3545"
   },
   {
     "station": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
     "median": "10.1",
     "std": 10.0,
     "sample_size": 2423276,
     "min_temp": "-38.8",
-    "max_temp": "59.8"
+    "max_temp": "59.8",
+    "lat": "43.8563",
+    "lon": "18.4131"
   },
   {
     "station": "Saskatoon",
+    "country": "Canada",
     "median": "3.3",
     "std": 10.0,
     "sample_size": 2419266,
     "min_temp": "-50.0",
-    "max_temp": "54.2"
+    "max_temp": "54.2",
+    "lat": "52.1579",
+    "lon": "-106.6702"
   },
   {
     "station": "Seattle",
+    "country": "United States",
     "median": "11.3",
     "std": 10.0,
     "sample_size": 2419834,
     "min_temp": "-38.6",
-    "max_temp": "60.2"
+    "max_temp": "60.2",
+    "lat": "47.6062",
+    "lon": "-122.3321"
   },
   {
     "station": "Seoul",
+    "country": "South Korea",
     "median": "12.5",
     "std": 10.0,
     "sample_size": 2421650,
     "min_temp": "-37.1",
-    "max_temp": "61.0"
+    "max_temp": "61.0",
+    "lat": "37.5665",
+    "lon": "126.9780"
   },
   {
     "station": "Seville",
+    "country": "Spain",
     "median": "19.2",
     "std": 10.0,
     "sample_size": 2420055,
     "min_temp": "-32.5",
-    "max_temp": "72.9"
+    "max_temp": "72.9",
+    "lat": "37.3891",
+    "lon": "-5.9845"
   },
   {
     "station": "Shanghai",
+    "country": "China",
     "median": "16.7",
     "std": 10.0,
     "sample_size": 2418925,
     "min_temp": "-35.3",
-    "max_temp": "68.1"
+    "max_temp": "68.1",
+    "lat": "31.2304",
+    "lon": "121.4737"
   },
   {
     "station": "Singapore",
+    "country": "Singapore",
     "median": "27.0",
     "std": 10.0,
     "sample_size": 2422859,
     "min_temp": "-23.6",
-    "max_temp": "73.8"
+    "max_temp": "73.8",
+    "lat": "1.3521",
+    "lon": "103.8198"
   },
   {
     "station": "Skopje",
+    "country": "North Macedonia",
     "median": "12.4",
     "std": 10.0,
     "sample_size": 2421269,
     "min_temp": "-35.2",
-    "max_temp": "64.4"
+    "max_temp": "64.4",
+    "lat": "41.9973",
+    "lon": "21.4280"
   },
   {
     "station": "Sochi",
+    "country": "Russia",
     "median": "14.2",
     "std": 10.0,
     "sample_size": 2420825,
     "min_temp": "-38.8",
-    "max_temp": "62.3"
+    "max_temp": "62.3",
+    "lat": "43.6028",
+    "lon": "39.7342"
   },
   {
     "station": "Sofia",
+    "country": "Bulgaria",
     "median": "10.6",
     "std": 10.0,
     "sample_size": 2421839,
     "min_temp": "-38.5",
-    "max_temp": "58.9"
+    "max_temp": "58.9",
+    "lat": "42.6977",
+    "lon": "23.3219"
   },
   {
     "station": "Sokoto",
+    "country": "Nigeria",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2418062,
     "min_temp": "-26.3",
-    "max_temp": "81.6"
+    "max_temp": "81.6",
+    "lat": "13.0059",
+    "lon": "5.2476"
   },
   {
     "station": "Split",
+    "country": "Croatia",
     "median": "16.1",
     "std": 10.0,
     "sample_size": 2419729,
     "min_temp": "-31.6",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "43.5081",
+    "lon": "16.4402"
   },
   {
     "station": "St. John's",
+    "country": "Canada",
     "median": "5.0",
     "std": 10.0,
     "sample_size": 2420758,
     "min_temp": "-46.0",
-    "max_temp": "54.5"
+    "max_temp": "54.5",
+    "lat": "47.5615",
+    "lon": "-52.7126"
   },
   {
     "station": "St. Louis",
+    "country": "United States",
     "median": "13.9",
     "std": 10.0,
     "sample_size": 2420647,
     "min_temp": "-33.5",
-    "max_temp": "62.3"
+    "max_temp": "62.3",
+    "lat": "38.6270",
+    "lon": "-90.1994"
   },
   {
     "station": "Stockholm",
+    "country": "Sweden",
     "median": "6.6",
     "std": 10.0,
     "sample_size": 2420224,
     "min_temp": "-43.6",
-    "max_temp": "57.5"
+    "max_temp": "57.5",
+    "lat": "59.3293",
+    "lon": "18.0686"
   },
   {
     "station": "Surabaya",
+    "country": "Indonesia",
     "median": "27.1",
     "std": 10.0,
     "sample_size": 2422716,
     "min_temp": "-22.0",
-    "max_temp": "73.6"
+    "max_temp": "73.6",
+    "lat": "-7.2575",
+    "lon": "112.7521"
   },
   {
     "station": "Suva",
+    "country": "Fiji",
     "median": "25.6",
     "std": 10.0,
     "sample_size": 2416854,
     "min_temp": "-25.5",
-    "max_temp": "74.3"
+    "max_temp": "74.3",
+    "lat": "-18.1248",
+    "lon": "178.4501"
   },
   {
-    "station": "Suwa\u0142ki",
+    "station": "Suwałki",
+    "country": "Poland",
     "median": "7.2",
     "std": 10.0,
     "sample_size": 2420714,
     "min_temp": "-41.3",
-    "max_temp": "55.9"
+    "max_temp": "55.9",
+    "lat": "54.0994",
+    "lon": "22.9332"
   },
   {
     "station": "Sydney",
+    "country": "Australia",
     "median": "17.7",
     "std": 10.0,
     "sample_size": 2419813,
     "min_temp": "-31.2",
-    "max_temp": "67.8"
+    "max_temp": "67.8",
+    "lat": "-33.8688",
+    "lon": "151.2093"
   },
   {
-    "station": "S\u00e9gou",
+    "station": "Ségou",
+    "country": "Mali",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2418070,
     "min_temp": "-22.6",
-    "max_temp": "77.0"
+    "max_temp": "77.0",
+    "lat": "13.4317",
+    "lon": "-6.2157"
   },
   {
     "station": "Tabora",
+    "country": "Tanzania",
     "median": "23.0",
     "std": 10.0,
     "sample_size": 2421198,
     "min_temp": "-28.3",
-    "max_temp": "73.2"
+    "max_temp": "73.2",
+    "lat": "-5.0667",
+    "lon": "32.8000"
   },
   {
     "station": "Tabriz",
+    "country": "Iran",
     "median": "12.6",
     "std": 10.0,
     "sample_size": 2421245,
     "min_temp": "-36.4",
-    "max_temp": "61.6"
+    "max_temp": "61.6",
+    "lat": "38.0962",
+    "lon": "46.2738"
   },
   {
     "station": "Taipei",
+    "country": "Taiwan",
     "median": "23.0",
     "std": 10.0,
     "sample_size": 2422613,
     "min_temp": "-27.5",
-    "max_temp": "75.8"
+    "max_temp": "75.8",
+    "lat": "25.0330",
+    "lon": "121.5654"
   },
   {
     "station": "Tallinn",
+    "country": "Estonia",
     "median": "6.4",
     "std": 10.0,
     "sample_size": 2422569,
     "min_temp": "-46.6",
-    "max_temp": "54.8"
+    "max_temp": "54.8",
+    "lat": "59.4370",
+    "lon": "24.7535"
   },
   {
     "station": "Tamale",
+    "country": "Ghana",
     "median": "27.9",
     "std": 10.0,
     "sample_size": 2420204,
     "min_temp": "-26.1",
-    "max_temp": "78.7"
+    "max_temp": "78.7",
+    "lat": "9.4071",
+    "lon": "-0.8539"
   },
   {
     "station": "Tamanrasset",
+    "country": "Algeria",
     "median": "21.7",
     "std": 10.0,
     "sample_size": 2418604,
     "min_temp": "-27.4",
-    "max_temp": "69.6"
+    "max_temp": "69.6",
+    "lat": "22.7850",
+    "lon": "5.5228"
   },
   {
     "station": "Tampa",
+    "country": "United States",
     "median": "22.9",
     "std": 10.0,
     "sample_size": 2419991,
     "min_temp": "-28.1",
-    "max_temp": "72.6"
+    "max_temp": "72.6",
+    "lat": "27.9506",
+    "lon": "-82.4572"
   },
   {
     "station": "Tashkent",
+    "country": "Uzbekistan",
     "median": "14.8",
     "std": 10.0,
     "sample_size": 2423198,
     "min_temp": "-36.1",
-    "max_temp": "61.8"
+    "max_temp": "61.8",
+    "lat": "41.2995",
+    "lon": "69.2401"
   },
   {
     "station": "Tauranga",
+    "country": "New Zealand",
     "median": "14.8",
     "std": 10.0,
     "sample_size": 2422823,
     "min_temp": "-35.4",
-    "max_temp": "63.4"
+    "max_temp": "63.4",
+    "lat": "-37.6878",
+    "lon": "176.1651"
   },
   {
     "station": "Tbilisi",
+    "country": "Georgia",
     "median": "12.9",
     "std": 10.0,
     "sample_size": 2422449,
     "min_temp": "-39.7",
-    "max_temp": "59.7"
+    "max_temp": "59.7",
+    "lat": "41.7151",
+    "lon": "44.8271"
   },
   {
     "station": "Tegucigalpa",
+    "country": "Honduras",
     "median": "21.7",
     "std": 10.0,
     "sample_size": 2421533,
     "min_temp": "-27.2",
-    "max_temp": "70.6"
+    "max_temp": "70.6",
+    "lat": "14.0723",
+    "lon": "-87.1921"
   },
   {
     "station": "Tehran",
+    "country": "Iran",
     "median": "17.0",
     "std": 10.0,
     "sample_size": 2421346,
     "min_temp": "-36.9",
-    "max_temp": "64.9"
+    "max_temp": "64.9",
+    "lat": "35.6892",
+    "lon": "51.3890"
   },
   {
     "station": "Tel Aviv",
+    "country": "Israel",
     "median": "20.0",
     "std": 10.0,
     "sample_size": 2422468,
     "min_temp": "-30.9",
-    "max_temp": "68.1"
+    "max_temp": "68.1",
+    "lat": "32.0853",
+    "lon": "34.7818"
   },
   {
     "station": "Thessaloniki",
+    "country": "Greece",
     "median": "16.0",
     "std": 10.0,
     "sample_size": 2419097,
     "min_temp": "-34.4",
-    "max_temp": "65.3"
+    "max_temp": "65.3",
+    "lat": "40.6401",
+    "lon": "22.9444"
   },
   {
-    "station": "Thi\u00e8s",
+    "station": "Thiès",
+    "country": "Senegal",
     "median": "24.0",
     "std": 10.0,
     "sample_size": 2422506,
     "min_temp": "-25.0",
-    "max_temp": "76.4"
+    "max_temp": "76.4",
+    "lat": "14.7911",
+    "lon": "-16.9250"
   },
   {
     "station": "Tijuana",
+    "country": "Mexico",
     "median": "17.8",
     "std": 10.0,
     "sample_size": 2422744,
     "min_temp": "-31.0",
-    "max_temp": "70.4"
+    "max_temp": "70.4",
+    "lat": "32.5149",
+    "lon": "-117.0382"
   },
   {
     "station": "Timbuktu",
+    "country": "Mali",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2424145,
     "min_temp": "-21.7",
-    "max_temp": "77.3"
+    "max_temp": "77.3",
+    "lat": "16.7666",
+    "lon": "-3.0026"
   },
   {
     "station": "Tirana",
+    "country": "Albania",
     "median": "15.2",
     "std": 10.0,
     "sample_size": 2421661,
     "min_temp": "-32.4",
-    "max_temp": "69.3"
+    "max_temp": "69.3",
+    "lat": "41.3275",
+    "lon": "19.8187"
   },
   {
     "station": "Toamasina",
+    "country": "Madagascar",
     "median": "23.4",
     "std": 10.0,
     "sample_size": 2420537,
     "min_temp": "-29.7",
-    "max_temp": "71.5"
+    "max_temp": "71.5",
+    "lat": "-18.1492",
+    "lon": "49.4023"
   },
   {
     "station": "Tokyo",
+    "country": "Japan",
     "median": "15.4",
     "std": 10.0,
     "sample_size": 2422816,
     "min_temp": "-40.4",
-    "max_temp": "63.1"
+    "max_temp": "63.1",
+    "lat": "35.6895",
+    "lon": "139.6917"
   },
   {
     "station": "Toliara",
+    "country": "Madagascar",
     "median": "24.1",
     "std": 10.0,
     "sample_size": 2418353,
     "min_temp": "-25.8",
-    "max_temp": "79.3"
+    "max_temp": "79.3",
+    "lat": "-23.3500",
+    "lon": "43.6667"
   },
   {
     "station": "Toluca",
+    "country": "Mexico",
     "median": "12.4",
     "std": 10.0,
     "sample_size": 2419993,
     "min_temp": "-37.9",
-    "max_temp": "64.8"
+    "max_temp": "64.8",
+    "lat": "19.2826",
+    "lon": "-99.6557"
   },
   {
     "station": "Toronto",
+    "country": "Canada",
     "median": "9.4",
     "std": 10.0,
     "sample_size": 2422483,
     "min_temp": "-40.7",
-    "max_temp": "60.5"
+    "max_temp": "60.5",
+    "lat": "43.6511",
+    "lon": "-79.3832"
   },
   {
     "station": "Tripoli",
+    "country": "Libya",
     "median": "20.0",
     "std": 10.0,
     "sample_size": 2422051,
     "min_temp": "-30.8",
-    "max_temp": "68.9"
+    "max_temp": "68.9",
+    "lat": "32.8872",
+    "lon": "13.1913"
   },
   {
-    "station": "Troms\u00f8",
+    "station": "Tromsø",
+    "country": "Norway",
     "median": "2.9",
     "std": 10.0,
     "sample_size": 2422231,
     "min_temp": "-45.6",
-    "max_temp": "49.9"
+    "max_temp": "49.9",
+    "lat": "69.6492",
+    "lon": "18.9553"
   },
   {
     "station": "Tucson",
+    "country": "United States",
     "median": "20.9",
     "std": 10.0,
     "sample_size": 2420128,
     "min_temp": "-26.9",
-    "max_temp": "69.9"
+    "max_temp": "69.9",
+    "lat": "32.2226",
+    "lon": "-110.9747"
   },
   {
     "station": "Tunis",
+    "country": "Tunisia",
     "median": "18.4",
     "std": 10.0,
     "sample_size": 2418672,
     "min_temp": "-31.7",
-    "max_temp": "71.1"
+    "max_temp": "71.1",
+    "lat": "36.8065",
+    "lon": "10.1815"
   },
   {
     "station": "Ulaanbaatar",
+    "country": "Mongolia",
     "median": "-0.4",
     "std": 10.0,
     "sample_size": 2423476,
     "min_temp": "-52.9",
-    "max_temp": "54.1"
+    "max_temp": "54.1",
+    "lat": "47.8864",
+    "lon": "106.9057"
   },
   {
     "station": "Upington",
+    "country": "South Africa",
     "median": "20.4",
     "std": 10.0,
     "sample_size": 2423203,
     "min_temp": "-28.2",
-    "max_temp": "69.3"
+    "max_temp": "69.3",
+    "lat": "-28.4563",
+    "lon": "21.2561"
   },
   {
     "station": "Vaduz",
+    "country": "Liechtenstein",
     "median": "10.1",
     "std": 10.0,
     "sample_size": 2423928,
     "min_temp": "-39.5",
-    "max_temp": "62.5"
+    "max_temp": "62.5",
+    "lat": "47.1410",
+    "lon": "9.5209"
   },
   {
     "station": "Valencia",
+    "country": "Spain",
     "median": "18.3",
     "std": 10.0,
     "sample_size": 2421517,
     "min_temp": "-33.7",
-    "max_temp": "68.5"
+    "max_temp": "68.5",
+    "lat": "39.4699",
+    "lon": "-0.3763"
   },
   {
     "station": "Valletta",
+    "country": "Malta",
     "median": "18.8",
     "std": 10.0,
     "sample_size": 2416624,
     "min_temp": "-31.6",
-    "max_temp": "67.7"
+    "max_temp": "67.7",
+    "lat": "35.8997",
+    "lon": "14.5147"
   },
   {
     "station": "Vancouver",
+    "country": "Canada",
     "median": "10.4",
     "std": 10.0,
     "sample_size": 2422543,
     "min_temp": "-41.8",
-    "max_temp": "61.4"
+    "max_temp": "61.4",
+    "lat": "49.2827",
+    "lon": "-123.1207"
   },
   {
     "station": "Veracruz",
+    "country": "Mexico",
     "median": "25.4",
     "std": 10.0,
     "sample_size": 2419374,
     "min_temp": "-23.1",
-    "max_temp": "73.1"
+    "max_temp": "73.1",
+    "lat": "19.1738",
+    "lon": "-96.1342"
   },
   {
     "station": "Vienna",
+    "country": "Austria",
     "median": "10.4",
     "std": 10.0,
     "sample_size": 2420916,
     "min_temp": "-37.5",
-    "max_temp": "64.1"
+    "max_temp": "64.1",
+    "lat": "48.2082",
+    "lon": "16.3738"
   },
   {
     "station": "Vientiane",
+    "country": "Laos",
     "median": "25.9",
     "std": 10.0,
     "sample_size": 2422424,
     "min_temp": "-28.2",
-    "max_temp": "73.4"
+    "max_temp": "73.4",
+    "lat": "17.9757",
+    "lon": "102.6331"
   },
   {
     "station": "Villahermosa",
+    "country": "Mexico",
     "median": "27.1",
     "std": 10.0,
     "sample_size": 2422433,
     "min_temp": "-21.7",
-    "max_temp": "77.6"
+    "max_temp": "77.6",
+    "lat": "17.9895",
+    "lon": "-92.9475"
   },
   {
     "station": "Vilnius",
+    "country": "Lithuania",
     "median": "6.0",
     "std": 10.0,
     "sample_size": 2423644,
     "min_temp": "-43.1",
-    "max_temp": "55.5"
+    "max_temp": "55.5",
+    "lat": "54.6872",
+    "lon": "25.2797"
   },
   {
     "station": "Virginia Beach",
+    "country": "United States",
     "median": "15.8",
     "std": 10.0,
     "sample_size": 2421286,
     "min_temp": "-37.8",
-    "max_temp": "66.1"
+    "max_temp": "66.1",
+    "lat": "36.8529",
+    "lon": "-75.9780"
   },
   {
     "station": "Vladivostok",
+    "country": "Russia",
     "median": "4.9",
     "std": 10.0,
     "sample_size": 2420890,
     "min_temp": "-46.8",
-    "max_temp": "52.4"
+    "max_temp": "52.4",
+    "lat": "43.1155",
+    "lon": "131.8855"
   },
   {
     "station": "Warsaw",
+    "country": "Poland",
     "median": "8.5",
     "std": 10.0,
     "sample_size": 2421940,
     "min_temp": "-40.4",
-    "max_temp": "56.6"
+    "max_temp": "56.6",
+    "lat": "52.2297",
+    "lon": "21.0122"
   },
   {
     "station": "Washington, D.C.",
+    "country": "United States",
     "median": "14.6",
     "std": 10.0,
     "sample_size": 2421494,
     "min_temp": "-42.3",
-    "max_temp": "64.0"
+    "max_temp": "64.0",
+    "lat": "38.9072",
+    "lon": "-77.0369"
   },
   {
     "station": "Wau",
+    "country": "South Sudan",
     "median": "27.8",
     "std": 10.0,
     "sample_size": 2423946,
     "min_temp": "-23.6",
-    "max_temp": "84.4"
+    "max_temp": "84.4",
+    "lat": "7.7011",
+    "lon": "27.9897"
   },
   {
     "station": "Wellington",
+    "country": "New Zealand",
     "median": "12.9",
     "std": 10.0,
     "sample_size": 2424706,
     "min_temp": "-34.6",
-    "max_temp": "65.9"
+    "max_temp": "65.9",
+    "lat": "-41.2865",
+    "lon": "174.7762"
   },
   {
     "station": "Whitehorse",
+    "country": "Canada",
     "median": "-0.1",
     "std": 10.0,
     "sample_size": 2422755,
     "min_temp": "-49.7",
-    "max_temp": "50.0"
+    "max_temp": "50.0",
+    "lat": "60.7212",
+    "lon": "-135.0568"
   },
   {
     "station": "Wichita",
+    "country": "United States",
     "median": "13.9",
     "std": 10.0,
     "sample_size": 2423041,
     "min_temp": "-43.2",
-    "max_temp": "64.1"
+    "max_temp": "64.1",
+    "lat": "37.6872",
+    "lon": "-97.3301"
   },
   {
     "station": "Willemstad",
+    "country": "Curaçao",
     "median": "28.0",
     "std": 10.0,
     "sample_size": 2424207,
     "min_temp": "-22.8",
-    "max_temp": "75.2"
+    "max_temp": "75.2",
+    "lat": "12.1224",
+    "lon": "-68.8824"
   },
   {
     "station": "Winnipeg",
+    "country": "Canada",
     "median": "3.0",
     "std": 10.0,
     "sample_size": 2421152,
     "min_temp": "-45.5",
-    "max_temp": "54.0"
+    "max_temp": "54.0",
+    "lat": "49.8951",
+    "lon": "-97.1384"
   },
   {
-    "station": "Wroc\u0142aw",
+    "station": "Wrocław",
+    "country": "Poland",
     "median": "9.6",
     "std": 10.0,
     "sample_size": 2419600,
     "min_temp": "-43.2",
-    "max_temp": "61.9"
+    "max_temp": "61.9",
+    "lat": "51.1079",
+    "lon": "17.0385"
   },
   {
     "station": "Xi'an",
+    "country": "China",
     "median": "14.1",
     "std": 10.0,
     "sample_size": 2422383,
     "min_temp": "-33.9",
-    "max_temp": "62.4"
+    "max_temp": "62.4",
+    "lat": "34.3416",
+    "lon": "108.9398"
   },
   {
     "station": "Yakutsk",
+    "country": "Russia",
     "median": "-8.8",
     "std": 10.0,
     "sample_size": 2421008,
     "min_temp": "-57.2",
-    "max_temp": "40.0"
+    "max_temp": "40.0",
+    "lat": "62.0355",
+    "lon": "129.6755"
   },
   {
     "station": "Yangon",
+    "country": "Myanmar",
     "median": "27.5",
     "std": 10.0,
     "sample_size": 2420185,
     "min_temp": "-20.0",
-    "max_temp": "73.7"
+    "max_temp": "73.7",
+    "lat": "16.8409",
+    "lon": "96.1735"
   },
   {
-    "station": "Yaound\u00e9",
+    "station": "Yaoundé",
+    "country": "Cameroon",
     "median": "23.8",
     "std": 10.0,
     "sample_size": 2421163,
     "min_temp": "-23.9",
-    "max_temp": "70.3"
+    "max_temp": "70.3",
+    "lat": "3.8480",
+    "lon": "11.5021"
   },
   {
     "station": "Yellowknife",
+    "country": "Canada",
     "median": "-4.3",
     "std": 10.0,
     "sample_size": 2425988,
     "min_temp": "-53.0",
-    "max_temp": "47.4"
+    "max_temp": "47.4",
+    "lat": "62.4540",
+    "lon": "-114.3718"
   },
   {
     "station": "Yerevan",
+    "country": "Armenia",
     "median": "12.4",
     "std": 10.0,
     "sample_size": 2418713,
     "min_temp": "-35.4",
-    "max_temp": "62.0"
+    "max_temp": "62.0",
+    "lat": "40.1792",
+    "lon": "44.4991"
   },
   {
     "station": "Yinchuan",
+    "country": "China",
     "median": "9.0",
     "std": 10.0,
     "sample_size": 2421512,
     "min_temp": "-39.5",
-    "max_temp": "62.6"
+    "max_temp": "62.6",
+    "lat": "38.4872",
+    "lon": "106.2309"
   },
   {
     "station": "Zagreb",
+    "country": "Croatia",
     "median": "10.7",
     "std": 10.0,
     "sample_size": 2424421,
     "min_temp": "-42.1",
-    "max_temp": "60.1"
+    "max_temp": "60.1",
+    "lat": "45.8150",
+    "lon": "15.9819"
   },
   {
     "station": "Zanzibar City",
+    "country": "Tanzania",
     "median": "26.0",
     "std": 10.0,
     "sample_size": 2420940,
     "min_temp": "-25.1",
-    "max_temp": "73.7"
+    "max_temp": "73.7",
+    "lat": "-6.1659",
+    "lon": "39.2026"
   },
   {
-    "station": "Z\u00fcrich",
+    "station": "Zürich",
+    "country": "Switzerland",
     "median": "9.3",
     "std": 10.0,
     "sample_size": 2421324,
     "min_temp": "-39.9",
-    "max_temp": "61.9"
+    "max_temp": "61.9",
+    "lat": "47.3769",
+    "lon": "8.5417"
   },
   {
-    "station": "\u00dcr\u00fcmqi",
+    "station": "Ürümqi",
+    "country": "China",
     "median": "7.4",
     "std": 10.0,
     "sample_size": 2420159,
     "min_temp": "-42.8",
-    "max_temp": "58.7"
+    "max_temp": "58.7",
+    "lat": "43.8256",
+    "lon": "87.6168"
   },
   {
-    "station": "\u0130zmir",
+    "station": "İzmir",
+    "country": "Turkey",
     "median": "17.9",
     "std": 10.0,
     "sample_size": 2423235,
     "min_temp": "-33.5",
-    "max_temp": "69.1"
+    "max_temp": "69.1",
+    "lat": "38.4237",
+    "lon": "27.1428"
   }
 ]
